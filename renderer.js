@@ -244,11 +244,6 @@ function getCurrentVisibleEvents() {
 
 async function runGeminiAnalysis() {
   const apiKey = document.getElementById('geminiApiKey').value.trim();
-  if (!apiKey) {
-    toast("Gemini API Key를 입력하세요.");
-    return;
-  }
-  
   const model = document.getElementById('geminiModelSelect').value;
   const events = getCurrentVisibleEvents();
   if (events.length === 0) {
@@ -298,39 +293,22 @@ async function runGeminiAnalysis() {
       keywords: allKw(e).slice(0, 6)
     }));
     
-    const prompt = `You are a retail promotion expert. Analyze these ${contextEvents.length} e-commerce promotions:
-${JSON.stringify(contextEvents, null, 2)}
-
-Recommend a new promotion strategy (AI PLAN) in Korean.
-You must return only a clean HTML block matching this format (do NOT wrap it in markdown code blocks like \`\`\`html, just output raw HTML directly):
-<div class="rh">💡 AI PLAN <span class="ai">Gemini 실시간 추천</span></div>
-<div class="rsum">조회된 <b>\${events.length}개</b> 기획전 분석 요약 내용...</div>
-<div class="pickBox">🎯 <b>방향 선택</b><br>· 분석 요약 A<br>· 분석 요약 B</div>
-<div class="planGrid">
-  <div class="planCard"><div class="pt">📦 상품 구성 컨셉</div><ul><li>내용 1</li><li>내용 2</li></ul></div>
-  <div class="planCard"><div class="pt">👁️ 시인성 강화 방안</div><ul><li>내용 1</li><li>내용 2</li></ul></div>
-  <div class="planCard"><div class="pt">🎟️ 혜택·가격 전략</div><ul><li>내용 1</li><li>내용 2</li></ul></div>
-  <div class="planCard"><div class="pt">🧭 구성·동선 설계</div><ul><li>내용 1</li><li>내용 2</li></ul></div>
-</div>`;
-
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
-    const response = await fetch(url, {
+    // Vercel Serverless Function 호출
+    const response = await fetch('/api/analyze', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        contents: [{
-          parts: [{
-            text: prompt
-          }]
-        }]
+        model: model,
+        events: contextEvents,
+        customApiKey: apiKey
       })
     });
     
     if (!response.ok) {
       const errData = await response.json();
-      throw new Error(errData.error?.message || "API 요청 실패");
+      throw new Error(errData.error || "API 요청 실패");
     }
     
     const result = await response.json();
@@ -346,7 +324,7 @@ You must return only a clean HTML block matching this format (do NOT wrap it in 
       <div class="rh">💡 AI PLAN <span class="ai" style="background:var(--bad)">분석 에러</span></div>
       <div style="font-size:12px; color:var(--bad); line-height:1.6; padding:12px; border:1px solid var(--bad); border-radius:8px; background:rgba(239,68,68,.08); margin-top:8px;">
         오류가 발생했습니다:<br><b>${err.message}</b><br><br>
-        1. API 키가 유효한지 확인하세요.<br>
+        1. API 키가 유효한지 혹은 Vercel 환경변수(GEMINI_API_KEY) 설정이 되어 있는지 확인하세요.<br>
         2. 네트워크 상태 혹은 CORS 제한을 체크하세요.
       </div>
     `;
