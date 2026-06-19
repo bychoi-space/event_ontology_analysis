@@ -209,3 +209,149 @@ function renderCompare(){
     <div class="hint" style="padding:6px 4px 0">파란색=값이 서로 다른 facet · 초록색=성과지표 최댓값. 동일 접근루트 비교 권장(편향 제거).</div>`;
   body.innerHTML=html;
 }
+
+/* =========================================================
+   Gemini API 연동 비동기 분석 실행 함수
+   ========================================================= */
+function getCurrentVisibleEvents() {
+  let list = [];
+  if (mode === "related" && relBase) {
+    list = EVENTS.filter(e => e.id !== relBase.id).map(e => ({e, score: similarity(relBase, e)}));
+    list.sort((a, b) => b.score - a.score);
+    list = list.map(x => x.e);
+  } else if (mode === "nl") {
+    const q = document.getElementById('q').value.trim();
+    list = EVENTS.map(e => { const s = nlScore(e, q); return {e, score: s.score, keep: s.keep}; }).filter(r => r.keep);
+    list.sort((a, b) => b.score - a.score);
+    list = list.map(x => x.e);
+  } else if (mode === "brand" && brandCtx) {
+    list = EVENTS.map(e => ({e, score: similarity(brandCtx.profile, e)}));
+    list.sort((a, b) => b.score - a.score);
+    list = list.map(x => x.e);
+  } else {
+    list = EVENTS.filter(e => evalEvent(e, conditions, logic));
+  }
+  
+  // 정렬 순서 적용
+  const sort = document.getElementById('sort').value;
+  if (sort === "eff") list.sort((a, b) => salesEff(b) - salesEff(a));
+  else if (sort === "sales") list.sort((a, b) => b.sales - a.sales);
+  else if (sort === "disc") list.sort((a, b) => b.discMax - a.discMax);
+  else if (sort === "conv") list.sort((a, b) => b.convRate - a.convRate);
+  
+  return list;
+}
+
+async function runGeminiAnalysis() {
+  const apiKey = document.getElementById('geminiApiKey').value.trim();
+  if (!apiKey) {
+    toast("Gemini API Key를 입력하세요.");
+    return;
+  }
+  
+  const model = document.getElementById('geminiModelSelect').value;
+  const events = getCurrentVisibleEvents();
+  if (events.length === 0) {
+    toast("분석할 기획전 데이터가 없습니다.");
+    return;
+  }
+  
+  const recoBox = document.getElementById('recoBox');
+  const recoEmpty = document.getElementById('recoEmpty');
+  const runBtn = document.getElementById('runAiBtn');
+  
+  // UI 로딩 상태 표시
+  recoEmpty.style.display = 'none';
+  recoBox.className = 'recoBox show';
+  recoBox.innerHTML = `
+    <div class="rh">💡 AI PLAN <span class="ai">Gemini 분석 중...</span></div>
+    <div style="text-align: center; padding: 26px 0;">
+      <div class="spinner" style="display: inline-block; width: 26px; height: 26px; border: 3px solid rgba(255,255,255,.1); border-radius: 50%; border-top-color: var(--accent); animation: spin 0.8s linear infinite;"></div>
+      <div style="font-size: 11.5px; color: var(--sub); margin-top: 10px;">기획전 ${events.length}개 데이터를 요약 분석하고 있습니다...</div>
+    </div>
+  `;
+  runBtn.disabled = true;
+  runBtn.style.opacity = '0.6';
+  
+  // 키프레임 동적 삽입
+  if (!document.getElementById('spinner-style')) {
+    const style = document.createElement('style');
+    style.id = 'spinner-style';
+    style.innerHTML = `@keyframes spin { to { transform: rotate(360deg); } }`;
+    document.head.appendChild(style);
+  }
+  
+  try {
+    // 요약된 데이터 정보 가공 (토큰 절약 및 속도 향상)
+    const contextEvents = events.slice(0, 15).map(e => ({
+      id: e.id,
+      name: e.name,
+      curation_type: e.curation_type,
+      main_category: e.main_category,
+      discMin: e.discMin,
+      discMax: e.discMax,
+      prodCnt: e.prodCnt,
+      brand_count: e.brand_count,
+      sales: e.sales,
+      convRate: e.convRate,
+      visits: e.visits,
+      keywords: allKw(e).slice(0, 6)
+    }));
+    
+    const prompt = `You are a retail promotion expert. Analyze these ${contextEvents.length} e-commerce promotions:
+${JSON.stringify(contextEvents, null, 2)}
+
+Recommend a new promotion strategy (AI PLAN) in Korean.
+You must return only a clean HTML block matching this format (do NOT wrap it in markdown code blocks like \`\`\`html, just output raw HTML directly):
+<div class="rh">💡 AI PLAN <span class="ai">Gemini 실시간 추천</span></div>
+<div class="rsum">조회된 <b>\${events.length}개</b> 기획전 분석 요약 내용...</div>
+<div class="pickBox">🎯 <b>방향 선택</b><br>· 분석 요약 A<br>· 분석 요약 B</div>
+<div class="planGrid">
+  <div class="planCard"><div class="pt">📦 상품 구성 컨셉</div><ul><li>내용 1</li><li>내용 2</li></ul></div>
+  <div class="planCard"><div class="pt">👁️ 시인성 강화 방안</div><ul><li>내용 1</li><li>내용 2</li></ul></div>
+  <div class="planCard"><div class="pt">🎟️ 혜택·가격 전략</div><ul><li>내용 1</li><li>내용 2</li></ul></div>
+  <div class="planCard"><div class="pt">🧭 구성·동선 설계</div><ul><li>내용 1</li><li>내용 2</li></ul></div>
+</div>`;
+
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
+    const response = await fetch(url, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        contents: [{
+          parts: [{
+            text: prompt
+          }]
+        }]
+      })
+    });
+    
+    if (!response.ok) {
+      const errData = await response.json();
+      throw new Error(errData.error?.message || "API 요청 실패");
+    }
+    
+    const result = await response.json();
+    let reply = result.candidates[0].content.parts[0].text;
+    
+    // 마크업 코드 블럭 형식 백틱 제거 가드
+    reply = reply.replace(/^```html\s*/i, '').replace(/```\s*$/, '').trim();
+    
+    recoBox.innerHTML = reply;
+  } catch (err) {
+    console.error(err);
+    recoBox.innerHTML = `
+      <div class="rh">💡 AI PLAN <span class="ai" style="background:var(--bad)">분석 에러</span></div>
+      <div style="font-size:12px; color:var(--bad); line-height:1.6; padding:12px; border:1px solid var(--bad); border-radius:8px; background:rgba(239,68,68,.08); margin-top:8px;">
+        오류가 발생했습니다:<br><b>${err.message}</b><br><br>
+        1. API 키가 유효한지 확인하세요.<br>
+        2. 네트워크 상태 혹은 CORS 제한을 체크하세요.
+      </div>
+    `;
+  } finally {
+    runBtn.disabled = false;
+    runBtn.style.opacity = '1';
+  }
+}

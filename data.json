@@ -7982,6 +7982,20 @@
         "w": 0.2,
         "desc": "첫 화면 주목도·시선 유도가 충분한가"
       }
+    ],
+    "models": [
+      {
+        "id": "gemini-2.5-flash",
+        "name": "Gemini 2.5 Flash (최신)"
+      },
+      {
+        "id": "gemini-2.0-flash",
+        "name": "Gemini 2.0 Flash"
+      },
+      {
+        "id": "gemini-1.5-flash",
+        "name": "Gemini 1.5 Flash"
+      }
     ]
   }
 }
