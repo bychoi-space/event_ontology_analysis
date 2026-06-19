@@ -136,58 +136,28 @@
 <div class="toast" id="toast"></div>
 
 <script src="db_wireframes.js"></script>
+<script src="store.js"></script>
+<script src="brand_kb.js"></script>
+<script src="preset_manager.js"></script>
+<script src="ai_engine.js"></script>
 <script src="search_panel.js"></script>
 <script src="ontology_engine.js"></script>
 <script src="renderer.js"></script>
 <script>
-/* 글로벌 변수 선언 */
-let EVENTS = [];
-let REVIEWS = {};
-let CONFIG = {};
-let SYN = {};
-let AXES = [];
-let AXIS_WEIGHT = {};
-let REV_AXES = [];
-
-let _DF = {};
-let _NDOC = 0;
 
 async function init() {
   try {
     const res = await fetch("data.json?_" + Date.now(), { cache: "no-store" });
     const data = await res.json();
     
-    // 로드된 설정 글로벌 등록
-    CONFIG = data.CONFIG;
-    SYN = data.CONFIG.SYN;
-    AXES = data.CONFIG.AXES;
-    AXIS_WEIGHT = data.CONFIG.AXIS_WEIGHT;
-    REV_AXES = data.CONFIG.REV_AXES;
-    
-    EVENTS = data.EVENTS;
-    REVIEWS = data.REVIEWS;
-    
-    // size_bucket 파생 필드 생성
-    EVENTS.forEach(e => {
-      e.size_bucket = e.prodCnt < 30 ? '소량' : (e.prodCnt < 80 ? '중량' : '대량');
-    });
-
-    // IDF 키워드 빈도 계산
-    EVENTS.forEach(e => {
-      const set = new Set(allKw(e).map(k => k.toLowerCase()));
-      set.forEach(k => {
-        _DF[k] = (_DF[k] || 0) + 1;
-      });
-    });
-    _NDOC = EVENTS.length;
+    // ExhibitionStore 초기화
+    ExhibitionStore.init(data);
 
     // 모델 리스트 연동 및 API Key 자동완성
     const modelSelect = document.getElementById('geminiModelSelect');
     if (modelSelect && data.CONFIG && data.CONFIG.models) {
       modelSelect.innerHTML = data.CONFIG.models.map(m => `<option value="${m.id}">${m.name}</option>`).join('');
     }
-
-
 
     // 초기화 및 첫 렌더링
     buildAccordions();
