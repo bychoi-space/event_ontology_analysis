@@ -38,8 +38,16 @@ function render(){
   const s=summaryText();
   document.getElementById('logicPill').textContent=s.pill;
 
+  // 좌측 필터 조건이나 검색어가 변경되어 렌더링될 때 우측 AI PLAN 영역을 초기화 (옵션 A)
+  const recoBox = document.getElementById('recoBox');
+  const recoEmpty = document.getElementById('recoEmpty');
+  if (recoBox && recoEmpty) {
+    recoBox.innerHTML = '';
+    recoBox.className = 'recoBox';
+    recoEmpty.style.display = 'block';
+  }
+
   if(!rows.length){
-    document.getElementById('recoBox').className='recoBox';var _re=document.getElementById('recoEmpty');if(_re)_re.style.display='block';
     list.innerHTML=`<div class="empty">조건에 맞는 기획전이 없습니다.<br>조건을 완화해 보세요 (값 범위 확대 · 결합방식 OR 전환 · 일부 조건 삭제).
       <div class="relax"><button class="btn sec sm" onclick="setLogic('OR')">결합방식 OR로 전환</button>
       <button class="btn sec sm" onclick="clearConds()">조건 초기화</button></div></div>`;
