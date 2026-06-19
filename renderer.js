@@ -251,9 +251,10 @@ function getCurrentVisibleEvents() {
 }
 
 async function runGeminiAnalysis() {
-  const apiKey = document.getElementById('geminiApiKey').value.trim();
+  // CONFIG.gemini_api_key 로컬 설정 파일에서 읽어옴 (방법 1)
+  const apiKey = CONFIG.gemini_api_key || '';
   if (!apiKey) {
-    toast("Gemini API Key를 입력하세요.");
+    toast("CONFIG.gemini_api_key 설정이 누락되었습니다. data.json 설정을 확인하세요.");
     return;
   }
   
