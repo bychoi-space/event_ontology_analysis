@@ -153,7 +153,7 @@ let _NDOC = 0;
 
 async function init() {
   try {
-    const res = await fetch("data.json");
+    const res = await fetch("data.json?_" + Date.now(), { cache: "no-store" });
     const data = await res.json();
     
     // 로드된 설정 글로벌 등록
