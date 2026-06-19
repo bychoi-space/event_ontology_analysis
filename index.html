@@ -135,6 +135,7 @@
 
 <div class="toast" id="toast"></div>
 
+<script src="db_wireframes.js"></script>
 <script src="search_panel.js"></script>
 <script src="ontology_engine.js"></script>
 <script src="renderer.js"></script>
@@ -207,5 +208,33 @@ async function init() {
 }
 init();
 </script>
+<!-- 프로토타입 미리보기 모달 레이어 -->
+<div id="previewModal" class="modal-overlay">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2>✨ AI 추천 기획전 프로토타입 프리뷰</h2>
+      <div class="modal-tabs">
+        <button id="tabMoBtn" class="tab-btn active" onclick="switchPreviewTab('mo')">Mobile 미리보기</button>
+        <button id="tabPcBtn" class="tab-btn" onclick="switchPreviewTab('pc')">PC 미리보기</button>
+      </div>
+      <button class="modal-close" onclick="closePreviewModal()">✕</button>
+    </div>
+    <div class="modal-body">
+      <!-- 모바일 프리뷰 (디바이스 프레임) -->
+      <div id="moPreview" class="preview-frame phone-mockup show">
+        <div class="phone-screen" id="moPreviewScreen">
+          <!-- 와이어프레임 카드들이 동적으로 렌더링됨 -->
+        </div>
+      </div>
+      <!-- PC 프리뷰 (데스크톱 프레임) -->
+      <div id="pcPreview" class="preview-frame desktop-mockup">
+        <div class="browser-content" id="pcPreviewScreen">
+          <!-- 와이어프레임 카드들이 동적으로 렌더링됨 -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>

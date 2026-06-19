@@ -332,3 +332,154 @@
   [data-theme="light"] table.comp thead th{color:var(--ink)}
   [data-theme="light"] table.comp th.rl,[data-theme="light"] table.comp td.rl{background:var(--surface)}
   [data-theme="light"] aside.panel::-webkit-scrollbar-thumb,[data-theme="light"] #list::-webkit-scrollbar-thumb{background:#cbd3e0}
+
+  /* =========================================================
+     Cohere Premium Design Tokens & Preview Modal Style
+     ========================================================= */
+  :root {
+    --near-black: #17171c;
+    --canvas-white: #ffffff;
+    --coral: #ff7759;
+    --soft-stone: #eeece7;
+    --pale-green: #edfce9;
+    --enterprise-green: #003c33;
+    --slate: #93939f;
+    --hairline: #d9d9dd;
+  }
+
+  .modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 20px;
+    backdrop-filter: blur(4px);
+  }
+  .modal-overlay.show {
+    display: flex;
+  }
+  .modal-content {
+    background: var(--surface);
+    border: 1px solid var(--line2);
+    border-radius: 16px;
+    width: 100%;
+    max-width: 960px;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  }
+  .modal-header {
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--line);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--card);
+  }
+  .modal-header h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+  }
+  [data-theme="light"] .modal-header h2 {
+    color: var(--ink);
+  }
+  .modal-tabs {
+    display: flex;
+    gap: 8px;
+    margin: 0 16px;
+  }
+  .tab-btn {
+    border: 1px solid var(--line2);
+    background: var(--surface);
+    color: var(--sub);
+    padding: 6px 14px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.15s;
+  }
+  .tab-btn.active {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+  .modal-close {
+    background: none;
+    border: none;
+    color: var(--sub);
+    font-size: 20px;
+    cursor: pointer;
+    padding: 4px;
+    line-height: 1;
+  }
+  .modal-close:hover {
+    color: var(--bad);
+  }
+  .modal-body {
+    padding: 20px;
+    overflow-y: auto;
+    background: var(--pageBg);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .preview-frame {
+    display: none;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  }
+  .preview-frame.show {
+    display: block;
+  }
+
+  /* 뷰포트 격리성 및 기획 관리 통제 원칙: 1px 직각 모서리 뷰포트 프레임 규칙 */
+  .phone-mockup {
+    width: 360px;
+    border: 1px solid var(--line2);
+    border-radius: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 70vh;
+    margin: 0 auto;
+  }
+  .phone-screen {
+    width: 100%;
+    min-height: 640px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 0; /* 카드 사이 여백 배제 */
+  }
+
+  .desktop-mockup {
+    width: 100%;
+    border: 1px solid var(--line2);
+    border-radius: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 70vh;
+  }
+  .browser-content {
+    width: 100%;
+    min-height: 640px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  /* 미리보기 카드 커스텀 폰트 및 스타일 초기화 */
+  .phone-screen *, .browser-content * {
+    font-family: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+    letter-spacing: -0.5px;
+  }

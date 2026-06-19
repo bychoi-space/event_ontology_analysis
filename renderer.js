@@ -320,7 +320,19 @@ You must return only a clean HTML block matching this format (do NOT wrap it in 
   <div class="planCard"><div class="pt">👁️ 시인성 강화 방안</div><ul><li>내용 1</li><li>내용 2</li></ul></div>
   <div class="planCard"><div class="pt">🎟️ 혜택·가격 전략</div><ul><li>내용 1</li><li>내용 2</li></ul></div>
   <div class="planCard"><div class="pt">🧭 구성·동선 설계</div><ul><li>내용 1</li><li>내용 2</li></ul></div>
-</div>`;
+</div>
+
+At the very end of your response, add a hidden JSON metadata block for the prototype builder like this:
+<!-- PROTOTYPE_METADATA:
+{
+  "title": "추천 기획전 메인 타이틀 (예: 썸머 키즈 바캉스 페어)",
+  "brand": "추천 브랜드명 (예: HAZZYS KIDS)",
+  "sub": "추천 기획전 서브 문구 (예: 시원한 여름을 위한 아동복 단독 특가)",
+  "coupon": "혜택 비율 (예: 20%)",
+  "couponDesc": "쿠폰 조건 (예: 10만원 이상 구매 시)",
+  "attention": ["본 이벤트는 선착순 한도 마감 시 조기 종료됩니다.", "쿠폰은 ID당 1일 1회에 한해 지급 가능합니다."]
+}
+-->`;
 
     const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
     const response = await fetch(url, {
@@ -348,7 +360,12 @@ You must return only a clean HTML block matching this format (do NOT wrap it in 
     // 마크업 코드 블럭 형식 백틱 제거 가드
     reply = reply.replace(/^```html\s*/i, '').replace(/```\s*$/, '').trim();
     
-    recoBox.innerHTML = reply;
+    lastAiReply = reply;
+    recoBox.innerHTML = reply + `
+      <button class="btn" style="margin-top: 14px; width: 100%; display: flex; align-items: center; justify-content: center; gap: 6px;" onclick="openPrototypeModal()">
+        <span>✨ LFmall NEW 템플릿 프로토타입 프리뷰</span>
+      </button>
+    `;
   } catch (err) {
     console.error(err);
     recoBox.innerHTML = `
@@ -363,4 +380,115 @@ You must return only a clean HTML block matching this format (do NOT wrap it in 
     runBtn.disabled = false;
     runBtn.style.opacity = '1';
   }
+}
+
+/* =========================================================
+   프로토타입 미리보기 모달 제어 및 와이어프레임 렌더링
+   ========================================================= */
+let lastAiReply = '';
+
+function switchPreviewTab(tab) {
+  const moTab = document.getElementById('tabMoBtn');
+  const pcTab = document.getElementById('tabPcBtn');
+  const moPrev = document.getElementById('moPreview');
+  const pcPrev = document.getElementById('pcPreview');
+  
+  if (tab === 'mo') {
+    moTab.classList.add('active');
+    pcTab.classList.remove('active');
+    moPrev.classList.add('show');
+    pcPrev.classList.remove('show');
+  } else {
+    pcTab.classList.add('active');
+    moTab.classList.remove('active');
+    pcPrev.classList.add('show');
+    moPrev.classList.remove('show');
+  }
+}
+
+function closePreviewModal() {
+  document.getElementById('previewModal').classList.remove('show');
+}
+
+function openPrototypeModal() {
+  if (!lastAiReply) {
+    toast("분석된 AI PLAN 데이터가 없습니다.");
+    return;
+  }
+  
+  // 1. 디폴트 메타데이터 정의
+  let metadata = {
+    title: "SUMMER SPECIAL WEEK",
+    brand: "LFmall",
+    sub: "시원한 여름 시즌을 겨냥한 MD 단독 추천 특가전",
+    coupon: "15%",
+    couponDesc: "15만원 이상 결제 시 사용 가능",
+    attention: [
+      "본 이벤트는 선착순 한도 마감 시 조기 종료됩니다.",
+      "쿠폰은 ID당 1일 1회에 한해 지급 가능합니다.",
+      "일부 특가 상품 및 아울렛 브랜드는 적용 대상에서 제외됩니다."
+    ]
+  };
+  
+  // 2. AI PLAN 하단 주석의 JSON 메타데이터 파싱 시도
+  try {
+    const match = lastAiReply.match(/<!-- PROTOTYPE_METADATA:\s*([\s\S]*?)\s*-->/);
+    if (match && match[1]) {
+      const parsed = JSON.parse(match[1].trim());
+      metadata = { ...metadata, ...parsed };
+    }
+  } catch (e) {
+    console.error("Failed to parse prototype metadata:", e);
+  }
+  
+  const wf = window.ExhibitionWireframes || {};
+  
+  // 3. TOP_BANNER 렌더링 및 동적 텍스트 치환
+  let topBannerHtml = "";
+  if (wf["TOP_BANNER"]) {
+    let rawHtml = wf["TOP_BANNER"].wireframeHtml;
+    rawHtml = rawHtml.replace(/FLUKE/g, metadata.brand);
+    rawHtml = rawHtml.replace(/SPRING &<br>SUMMER/g, metadata.title);
+    rawHtml = rawHtml.replace(/SPRING&<br>SUMMER/g, metadata.title);
+    rawHtml = rawHtml.replace(/SPRING & SUMMER/g, metadata.title);
+    rawHtml = rawHtml.replace(/플루크는 스케이드보드 캠핑, 여행 등 우리 삶 속 즐겁고 행복한 순간을 함께하고자 합니다\./g, metadata.sub);
+    rawHtml = rawHtml.replace(/BUTTON/g, "기획전 바로가기 ↗");
+    topBannerHtml = rawHtml;
+  }
+  
+  // 4. B_BENEFIT (구매혜택) 렌더링 및 동적 텍스트 치환
+  let benefitHtml = "";
+  if (wf["B_BENEFIT"]) {
+    let rawHtml = wf["B_BENEFIT"].wireframeHtml;
+    rawHtml = rawHtml.replace(/Benefit\(HEADLINE\)<br>두줄까지 가능합니다/g, "AI 추천 구매 혜택");
+    rawHtml = rawHtml.replace(/짧게 한줄 혹은, 하단에 기재되는 메인<br>우대와 장바구니 쿠폰 혜택 \(Below\)/g, "단독 혜택과 특별 할인 혜택을 드립니다.");
+    rawHtml = rawHtml.replace(/20%/g, metadata.coupon);
+    rawHtml = rawHtml.replace(/20만원 이상 구매 시/g, metadata.couponDesc);
+    benefitHtml = rawHtml;
+  }
+  
+  // 5. ATTENTION (유의사항) 렌더링 및 동적 텍스트 치환
+  let attentionHtml = "";
+  if (wf["ATTENTION"]) {
+    let rawHtml = wf["ATTENTION"].wireframeHtml;
+    const liList = metadata.attention.map(item => `<li>${item}</li>`).join("");
+    rawHtml = rawHtml.replace(/<ul style='font-size:12px; color: var\(--slate\); padding-left:16px; line-height: 1\.6;'>[\s\S]*?<\/ul>/, 
+      `<ul style='font-size:12px; color: var(--slate); padding-left:16px; line-height: 1.6;'>${liList}</ul>`);
+    attentionHtml = rawHtml;
+  }
+  
+  // 6. 컴포넌트들을 합쳐서 뷰포트에 렌더링
+  const finalHtml = `
+    ${topBannerHtml}
+    <div style="height:24px; background:#fff;"></div>
+    ${benefitHtml}
+    <div style="height:24px; background:#fff;"></div>
+    ${attentionHtml}
+  `;
+  
+  document.getElementById('moPreviewScreen').innerHTML = finalHtml;
+  document.getElementById('pcPreviewScreen').innerHTML = finalHtml;
+  
+  // 7. 모달 활성화
+  document.getElementById('previewModal').classList.add('show');
 }

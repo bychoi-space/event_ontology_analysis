@@ -3,3 +3,12 @@
 ## Browser Verification Policy
 - DO NOT perform browser verification or testing (using browser subagent, opening urls in browser, etc.) under any circumstances.
 - This is to avoid slowing down operations and wasting tokens.
+
+## LFmall NEW Exhibition Template Rules (Reference: C:\event_guide)
+- Refer to `C:\event_guide` (specifically `rules.md` and `design.md`) for specifications regarding the LFmall [기획전 NEW템플릿] system.
+- When rendering mockups/previews:
+  - Adhere to the Cohere premium design tokens (`var(--near-black)`, `var(--canvas-white)`, `var(--coral)`, `var(--soft-stone)`).
+  - PC/Mobile preview headers must be consistently labeled as `"PC 미리보기"` and `"Mobile 미리보기"`.
+  - Maintain viewport isolation and layout responsiveness without using hardcoded maximum widths that break container limits.
+  - Apply standard LFmall Typography (`font-family: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;`, letter-spacing, line-height) and Siganture Colors (black `#000000`, gray `#111111`, coral `#e25822`).
+  - Keep UTF-8 with BOM (EF BB BF) encoding for files to avoid character corruption.
