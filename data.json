@@ -7986,15 +7986,11 @@
     "models": [
       {
         "id": "gemini-2.5-flash",
-        "name": "Gemini 2.5 Flash (최신)"
+        "name": "Gemini 2.5 Flash"
       },
       {
         "id": "gemini-2.0-flash",
         "name": "Gemini 2.0 Flash"
-      },
-      {
-        "id": "gemini-1.5-flash",
-        "name": "Gemini 1.5 Flash"
       }
     ],
     "gemini_api_key": "AQ.Ab8RN6Lmab-ld-16al0OjiDok-Jpp9d-pgqN74VwybUURZ9LMw"
