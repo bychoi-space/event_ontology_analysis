@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LFmall 기획전 온톨로지 분석 툴 v3.1</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="ht">
+    <h1>🧬 LFmall 기획전 온톨로지 분석 툴 <span class="v">v3.1</span></h1>
+    <p>3계층 속성(주어·방식·성과) · 조건조합 빌더(AND/OR·범위) · 프리셋 · 온톨로지 유사도 · 비교뷰 · ※ 매출/유입은 가상 데이터</p>
+  </div>
+  <div class="summaryBar" id="summaryBar">
+    <span class="pill" id="logicPill">조건 없음</span>
+    <span class="res">결과 <b id="cntTop">0</b>건</span>
+    <button id="themeBtn" class="btn sec sm" onclick="toggleTheme()" style="margin-left:6px">☀️ 라이트</button>
+  </div>
+</header>
+
+<div class="wrap">
+  <aside class="panel">
+    <h2 class="sec">🗣️ 자연어 검색 <span class="tag">동의어 매칭</span></h2>
+    <div class="searchbox">
+      <input id="q" type="text" placeholder="예: 단일브랜드 패션 신상 / 스포츠 고할인" onkeydown="if(event.key==='Enter')runNL()">
+      <button class="btn" onclick="runNL()">검색</button>
+    </div>
+    <div class="hint">예시 →
+      <span class="ex" onclick="setNL('골프 신상')">골프 신상</span>
+      <span class="ex" onclick="setNL('키즈 여름')">키즈</span>
+      <span class="ex" onclick="setNL('리빙 침구')">리빙 침구</span>
+      <span class="ex" onclick="setNL('스포츠 세일')">스포츠 세일</span>
+      <span class="ex" onclick="setNL('단일브랜드 신상')">단일브랜드 신상</span>
+    </div>
+
+    <hr class="divider">
+
+    <h2 class="sec">🧩 조건 조합 빌더 <span class="tag">3계층 facet</span></h2>
+
+    <div class="logicTop">
+      <span class="lbl">조건 결합 방식</span>
+      <span class="toggleLogic" id="logicToggle">
+        <button data-l="AND" class="on" onclick="setLogic('AND')">AND</button>
+        <button data-l="OR" onclick="setLogic('OR')">OR</button>
+      </span>
+      <button class="btn sec sm" onclick="clearConds()" style="margin-left:auto">전체 초기화</button>
+    </div>
+
+    <div id="accGroups"></div>
+
+    <div class="condArea">
+      <div style="font-size:11.5px;color:var(--sub);font-weight:700;margin:10px 0 7px">활성 조건</div>
+      <div id="condList"></div>
+    </div>
+
+    <hr class="divider">
+
+    <h2 class="sec">💾 프리셋 <span class="tag">localStorage</span></h2>
+    <div class="presetRow" id="presetRow"></div>
+    <div style="display:flex;gap:7px">
+      <input id="presetName" type="text" placeholder="현재 조건셋 이름" style="flex:1;padding:8px 10px;border:1.5px solid var(--line2);border-radius:9px;font-size:12px;background:var(--card);color:var(--ink)">
+      <button class="btn sm" onclick="savePreset()">저장</button>
+    </div>
+
+    <hr class="divider">
+
+    <h2 class="sec">🏷️ 브랜드 맞춤 추천 <span class="tag">history 기반</span></h2>
+    <div class="brandWrap">
+      <div style="display:flex;gap:7px">
+        <input id="brandInput" list="brandList" type="text" placeholder="브랜드명 입력/선택 (예: 헤지스)" style="flex:1;padding:8px 10px;border:1.5px solid var(--line2);border-radius:9px;font-size:12px;background:var(--card);color:var(--ink)" onkeydown="if(event.key==='Enter')brandRecommend()">
+        <button class="btn sm" onclick="brandRecommend()">추천</button>
+      </div>
+      <datalist id="brandList">
+        <option value="헤지스"></option><option value="DAKS"></option><option value="POTTERY"></option><option value="SPYDER"></option>
+      </datalist>
+      <div class="brandReco" id="brandReco"></div>
+    </div>
+
+    <hr class="divider">
+    <details>
+      <summary style="cursor:pointer;font-size:12px;font-weight:800;color:var(--accent2)">👁️ 시인성 평가 기준 / 지표 정의</summary>
+      <div class="hint" id="rubricBody" style="margin-top:9px"></div>
+    </details>
+  </aside>
+
+  <main>
+    <div class="panel">
+      <div class="modeNote" id="modeNote"></div>
+      <div class="toolbar">
+        <div class="count">조회 결과 <b id="cnt">0</b>건</div>
+        <select id="sort" class="sortsel" onchange="render()">
+          <option value="eff">정렬: 매출효율 높은순</option>
+          <option value="sales">매출 높은순</option>
+          <option value="disc">할인율 높은순</option>
+          <option value="conv">전환율 높은순</option>
+          <option value="sim">유사도/관련도순</option>
+        </select>
+      </div>
+      <div id="list"></div>
+    </div>
+  </main>
+
+  <aside class="panel col-right">
+    <h2 class="sec">🤖 AI PLAN <span class="tag">기획전 생성 추천</span></h2>
+    <div class="recoBox" id="recoBox"></div>
+    <div id="recoEmpty" class="hint" style="margin-top:6px;line-height:1.6">좌측에서 조건을 조합하거나 검색하면, 조회된 기획전들을 바탕으로 <b>기획전 생성 PLAN</b>(상품 구성 컨셉 · 시인성 강화 · 혜택/가격 전략 · 구성/동선)을 이 영역에 추천합니다.</div>
+  </aside>
+</div>
+
+<div class="compDock" id="compDock">
+  <div class="dhead">
+    <span class="dt">⚖️ 비교뷰 <span style="font-size:11px;color:var(--sub);font-weight:600">facet 행 정렬 · 차이값 강조</span></span>
+    <button class="btn sec sm" onclick="clearCompare()">비교 비우기</button>
+  </div>
+  <div class="dbody" id="compBody"></div>
+</div>
+
+<footer>
+  <b>설계 노트 v3</b> · 3계층 = ①주어속성(무엇에 관한 행사) ②방식속성(운영 방식) ③결과/성과.
+  매출효율 = 가상매출 ÷ 평균할인율(할인 1%p당 매출). 유사도는 온톨로지 가중 자카드 + 접근루트 동일 가중 반영.
+  할인율은 범위 명시, 최대할인율↑일수록 배지·게이지 RED. 매출·유입·전환율·점수는 가상/AI추론 추정치 — 실 운영 시 STB_ORDER_PROD/STB_PAYMENT 연동 및 현업 검증 필요.
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script src="search_panel.js"></script>
+<script src="ontology_engine.js"></script>
+<script src="renderer.js"></script>
+<script>
+/* 글로벌 변수 선언 */
+let EVENTS = [];
+let REVIEWS = {};
+let SYN = {};
+let AXES = [];
+let AXIS_WEIGHT = {};
+let REV_AXES = [];
+
+let _DF = {};
+let _NDOC = 0;
+
+async function init() {
+  try {
+    const res = await fetch("data.json");
+    const data = await res.json();
+    
+    // 로드된 설정 글로벌 등록
+    SYN = data.CONFIG.SYN;
+    AXES = data.CONFIG.AXES;
+    AXIS_WEIGHT = data.CONFIG.AXIS_WEIGHT;
+    REV_AXES = data.CONFIG.REV_AXES;
+    
+    EVENTS = data.EVENTS;
+    REVIEWS = data.REVIEWS;
+    
+    // size_bucket 파생 필드 생성
+    EVENTS.forEach(e => {
+      e.size_bucket = e.prodCnt < 30 ? '소량' : (e.prodCnt < 80 ? '중량' : '대량');
+    });
+
+    // IDF 키워드 빈도 계산
+    EVENTS.forEach(e => {
+      const set = new Set(allKw(e).map(k => k.toLowerCase()));
+      set.forEach(k => {
+        _DF[k] = (_DF[k] || 0) + 1;
+      });
+    });
+    _NDOC = EVENTS.length;
+
+    // 초기화 및 첫 렌더링
+    buildAccordions();
+    buildRubric();
+    ensureDefaultPresets();
+    renderPresets();
+    renderConditions();
+    render();
+  } catch (err) {
+    console.error("Data load failed:", err);
+    document.getElementById('list').innerHTML = `
+      <div class="empty">
+        데이터를 불러오는 중 오류가 발생했습니다.<br>
+        로컬 웹 서버가 실행 중인지 확인하세요. (예: Live Server 등)<br>
+        <span style="font-size:11px;color:var(--muted)">${err.message}</span>
+      </div>`;
+  }
+}
+init();
+</script>
+</body>
+</html>

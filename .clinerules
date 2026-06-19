@@ -1,0 +1,5 @@
+# Custom Rules
+
+## Browser Verification Policy
+- DO NOT perform browser verification or testing (using browser subagent, opening urls in browser, etc.) under any circumstances.
+- This is to avoid slowing down operations and wasting tokens.
