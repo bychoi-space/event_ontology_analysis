@@ -1,0 +1,3422 @@
+[
+  {
+    "PLAN_CTGY_PBSH_SEQ": 354808.0,
+    "PLAN_SQ": 111121.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "siyoung0133",
+    "REG_DT": "2026-05-07T10:24:11",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368204.0,
+    "PLAN_SQ": 111978.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "dltldhs731",
+    "REG_DT": "2026-06-18T17:01:22",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368264.0,
+    "PLAN_SQ": 111987.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-06-18T18:09:49",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368265.0,
+    "PLAN_SQ": 111987.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-06-18T18:09:49",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 335633.0,
+    "PLAN_SQ": 92537.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-03-05T08:25:49",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368031.0,
+    "PLAN_SQ": 108568.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-06-18T14:36:19",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368032.0,
+    "PLAN_SQ": 108568.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-06-18T14:36:19",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368029.0,
+    "PLAN_SQ": 109225.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-06-18T14:35:51",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368030.0,
+    "PLAN_SQ": 109225.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-06-18T14:35:51",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 229161.0,
+    "PLAN_SQ": 100002.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "kty",
+    "REG_DT": "2025-01-23T14:19:51",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 361950.0,
+    "PLAN_SQ": 110410.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-05-29T13:36:07",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 266659.0,
+    "PLAN_SQ": 104197.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "kxxiu",
+    "REG_DT": "2025-06-11T14:36:39",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 296653.0,
+    "PLAN_SQ": 100004.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "ssh0810",
+    "REG_DT": "2025-09-30T17:07:34",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 277415.0,
+    "PLAN_SQ": 105173.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "kxxiu",
+    "REG_DT": "2025-07-21T17:08:15",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 230140.0,
+    "PLAN_SQ": 100001.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "kylapark",
+    "REG_DT": "2025-01-24T17:03:26",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 318834.0,
+    "PLAN_SQ": 107681.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "kty",
+    "REG_DT": "2026-01-01T00:59:05",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 318839.0,
+    "PLAN_SQ": 105139.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "kty",
+    "REG_DT": "2026-01-01T01:02:18",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 318836.0,
+    "PLAN_SQ": 107183.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "kty",
+    "REG_DT": "2026-01-01T01:01:24",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 318837.0,
+    "PLAN_SQ": 106403.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "kty",
+    "REG_DT": "2026-01-01T01:01:41",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 318840.0,
+    "PLAN_SQ": 104908.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "kty",
+    "REG_DT": "2026-01-01T01:03:18",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 318841.0,
+    "PLAN_SQ": 104277.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "kty",
+    "REG_DT": "2026-01-01T01:04:16",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 318857.0,
+    "PLAN_SQ": 100007.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "kty",
+    "REG_DT": "2026-01-01T01:38:53",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 360036.0,
+    "PLAN_SQ": 112152.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "ej.kim",
+    "REG_DT": "2026-05-22T11:31:15",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366337.0,
+    "PLAN_SQ": 112336.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-06-12T14:57:45",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 359208.0,
+    "PLAN_SQ": 111812.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "ej.kim",
+    "REG_DT": "2026-05-20T15:24:46",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362270.0,
+    "PLAN_SQ": 112239.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-05-29T17:36:51",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365091.0,
+    "PLAN_SQ": 112510.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-06-10T14:11:59",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362531.0,
+    "PLAN_SQ": 112347.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "ej.kim",
+    "REG_DT": "2026-06-01T10:40:15",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367195.0,
+    "PLAN_SQ": 112038.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "parksoyeon",
+    "REG_DT": "2026-06-16T15:20:31",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365048.0,
+    "PLAN_SQ": 111142.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "dynelee",
+    "REG_DT": "2026-06-10T10:47:32",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366524.0,
+    "PLAN_SQ": 112505.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-06-12T17:59:42",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 361851.0,
+    "PLAN_SQ": 111407.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "ej.kim",
+    "REG_DT": "2026-05-29T13:14:15",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 360901.0,
+    "PLAN_SQ": 110812.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "dynelee",
+    "REG_DT": "2026-05-27T09:24:25",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 356094.0,
+    "PLAN_SQ": 110683.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-05-11T10:50:27",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365995.0,
+    "PLAN_SQ": 112046.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-06-11T17:44:11",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365996.0,
+    "PLAN_SQ": 112048.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-06-11T17:45:47",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 359982.0,
+    "PLAN_SQ": 112157.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-05-22T10:47:51",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 359986.0,
+    "PLAN_SQ": 111502.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-05-22T10:49:04",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 361803.0,
+    "PLAN_SQ": 111408.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "ej.kim",
+    "REG_DT": "2026-05-29T10:32:13",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366919.0,
+    "PLAN_SQ": 109472.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-06-16T09:25:42",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 360182.0,
+    "PLAN_SQ": 112199.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-05-22T15:08:01",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368850.0,
+    "PLAN_SQ": 100026.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-06-22T10:27:54",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368851.0,
+    "PLAN_SQ": 100027.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-06-22T10:31:58",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363386.0,
+    "PLAN_SQ": 111851.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-06-04T13:30:28",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368922.0,
+    "PLAN_SQ": 100029.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-06-22T10:35:33",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368849.0,
+    "PLAN_SQ": 100028.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-06-22T10:20:14",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366562.0,
+    "PLAN_SQ": 112256.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-06-13T01:06:08",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368928.0,
+    "PLAN_SQ": 100032.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-06-22T10:45:07",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368973.0,
+    "PLAN_SQ": 112168.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-06-22T11:20:20",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364243.0,
+    "PLAN_SQ": 112386.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "dynelee",
+    "REG_DT": "2026-06-08T09:05:22",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 354344.0,
+    "PLAN_SQ": 109480.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-04-30T18:25:14",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366559.0,
+    "PLAN_SQ": 112122.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-06-13T00:56:16",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366563.0,
+    "PLAN_SQ": 111918.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-06-13T01:06:42",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 358911.0,
+    "PLAN_SQ": 111498.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-05-19T17:57:44",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366504.0,
+    "PLAN_SQ": 111970.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "ej.kim",
+    "REG_DT": "2026-06-12T17:45:12",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365711.0,
+    "PLAN_SQ": 112058.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-06-11T14:32:38",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366206.0,
+    "PLAN_SQ": 111658.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "charincom",
+    "REG_DT": "2026-06-12T13:18:41",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 358905.0,
+    "PLAN_SQ": 111450.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "dynelee",
+    "REG_DT": "2026-05-19T17:17:18",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368092.0,
+    "PLAN_SQ": 112504.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-06-18T15:51:31",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362235.0,
+    "PLAN_SQ": 112096.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "dynelee",
+    "REG_DT": "2026-05-29T17:11:16",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366001.0,
+    "PLAN_SQ": 111902.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "ej.kim",
+    "REG_DT": "2026-06-11T18:05:42",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 354320.0,
+    "PLAN_SQ": 109470.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-04-30T18:21:42",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366012.0,
+    "PLAN_SQ": 111902.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "ej.kim",
+    "REG_DT": "2026-06-11T18:05:42",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368930.0,
+    "PLAN_SQ": 110646.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-06-22T10:51:04",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368929.0,
+    "PLAN_SQ": 100033.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-06-22T10:48:01",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362184.0,
+    "PLAN_SQ": 109481.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-05-29T16:24:53",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362187.0,
+    "PLAN_SQ": 109474.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-05-29T16:25:25",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 354103.0,
+    "PLAN_SQ": 111731.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-04-30T16:11:07",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 347648.0,
+    "PLAN_SQ": 111307.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-04-10T17:21:55",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 358645.0,
+    "PLAN_SQ": 111990.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-05-18T17:51:44",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 361685.0,
+    "PLAN_SQ": 108912.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "charincom",
+    "REG_DT": "2026-05-28T18:10:02",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 361686.0,
+    "PLAN_SQ": 109689.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "charincom",
+    "REG_DT": "2026-05-28T18:10:16",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367103.0,
+    "PLAN_SQ": 112200.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-06-16T13:27:43",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367105.0,
+    "PLAN_SQ": 111565.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-06-16T13:30:49",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 355116.0,
+    "PLAN_SQ": 111172.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "charincom",
+    "REG_DT": "2026-05-07T16:49:28",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 355118.0,
+    "PLAN_SQ": 111845.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-05-07T16:54:04",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 318825.0,
+    "PLAN_SQ": 103584.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "hrhan",
+    "REG_DT": "2026-01-01T01:00:42",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 318826.0,
+    "PLAN_SQ": 102878.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "hrhan",
+    "REG_DT": "2026-01-01T01:01:13",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 318827.0,
+    "PLAN_SQ": 102046.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "hrhan",
+    "REG_DT": "2026-01-01T01:01:32",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 318828.0,
+    "PLAN_SQ": 100731.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "hrhan",
+    "REG_DT": "2026-01-01T01:01:55",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 318829.0,
+    "PLAN_SQ": 100406.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "hrhan",
+    "REG_DT": "2026-01-01T01:02:10",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 318830.0,
+    "PLAN_SQ": 100070.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "hrhan",
+    "REG_DT": "2026-01-01T01:02:29",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 318831.0,
+    "PLAN_SQ": 98853.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "hrhan",
+    "REG_DT": "2026-01-01T01:03:03",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 318842.0,
+    "PLAN_SQ": 97637.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "hrhan",
+    "REG_DT": "2026-01-01T01:03:21",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367142.0,
+    "PLAN_SQ": 109469.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-06-16T14:00:11",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363966.0,
+    "PLAN_SQ": 112059.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-06-05T14:10:22",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366602.0,
+    "PLAN_SQ": 112275.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-06-15T08:23:35",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362131.0,
+    "PLAN_SQ": 111085.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-05-29T16:24:15",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362129.0,
+    "PLAN_SQ": 111938.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-05-29T16:23:47",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362182.0,
+    "PLAN_SQ": 111084.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-05-29T16:24:30",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362185.0,
+    "PLAN_SQ": 109476.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-05-29T16:25:06",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362186.0,
+    "PLAN_SQ": 109475.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-05-29T16:25:16",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362188.0,
+    "PLAN_SQ": 109473.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-05-29T16:25:36",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362189.0,
+    "PLAN_SQ": 109471.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-05-29T16:25:53",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 351484.0,
+    "PLAN_SQ": 111674.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-04-23T17:52:39",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368974.0,
+    "PLAN_SQ": 112170.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-06-22T11:22:16",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363383.0,
+    "PLAN_SQ": 110762.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-06-04T13:25:45",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362130.0,
+    "PLAN_SQ": 111937.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-05-29T16:24:00",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364708.0,
+    "PLAN_SQ": 112353.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-06-09T10:23:27",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366769.0,
+    "PLAN_SQ": 110508.0,
+    "CTGY_PBSH_CD": "60",
+    "REG_ID": "hjy1094",
+    "REG_DT": "2026-06-15T13:50:58",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 356923.0,
+    "PLAN_SQ": 111292.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-05-13T14:33:07",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 356924.0,
+    "PLAN_SQ": 111292.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-05-13T14:33:07",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364654.0,
+    "PLAN_SQ": 112251.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "parksoyeon",
+    "REG_DT": "2026-06-08T18:10:27",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365457.0,
+    "PLAN_SQ": 112459.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "ej.kim",
+    "REG_DT": "2026-06-11T09:32:49",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 356096.0,
+    "PLAN_SQ": 102365.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "kimbos",
+    "REG_DT": "2026-05-11T11:23:24",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 357671.0,
+    "PLAN_SQ": 111931.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-05-15T13:20:45",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 359428.0,
+    "PLAN_SQ": 102433.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "kimhyemin",
+    "REG_DT": "2026-05-21T10:53:52",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364915.0,
+    "PLAN_SQ": 111496.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-06-09T15:55:06",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367194.0,
+    "PLAN_SQ": 110282.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-06-16T14:51:04",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366202.0,
+    "PLAN_SQ": 112247.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "ej.kim",
+    "REG_DT": "2026-06-12T10:59:47",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368927.0,
+    "PLAN_SQ": 100031.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-06-22T10:42:09",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 352808.0,
+    "PLAN_SQ": 110898.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-04-28T11:20:05",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363382.0,
+    "PLAN_SQ": 112269.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-06-04T13:25:05",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 341328.0,
+    "PLAN_SQ": 94505.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "charincom",
+    "REG_DT": "2026-03-24T10:24:22",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 361688.0,
+    "PLAN_SQ": 110405.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "charincom",
+    "REG_DT": "2026-05-28T18:11:19",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 361689.0,
+    "PLAN_SQ": 108388.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "charincom",
+    "REG_DT": "2026-05-28T18:11:29",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 352810.0,
+    "PLAN_SQ": 111505.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-04-28T11:21:35",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365046.0,
+    "PLAN_SQ": 112255.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-06-10T10:15:02",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364036.0,
+    "PLAN_SQ": 112334.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "kyu3843",
+    "REG_DT": "2026-06-05T14:42:32",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368924.0,
+    "PLAN_SQ": 100030.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-06-22T10:39:09",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366216.0,
+    "PLAN_SQ": 111081.0,
+    "CTGY_PBSH_CD": "40",
+    "REG_ID": "ylkim",
+    "REG_DT": "2026-06-12T11:01:25",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362491.0,
+    "PLAN_SQ": 112108.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "hsorry",
+    "REG_DT": "2026-06-01T10:02:33",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367280.0,
+    "PLAN_SQ": 110731.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "lee-dueun",
+    "REG_DT": "2026-06-16T17:52:02",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 352145.0,
+    "PLAN_SQ": 78521.0,
+    "CTGY_PBSH_CD": "80",
+    "REG_ID": "epq",
+    "REG_DT": "2026-04-24T18:40:27",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364605.0,
+    "PLAN_SQ": 111421.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "dsmko",
+    "REG_DT": "2026-06-08T16:57:39",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364102.0,
+    "PLAN_SQ": 112502.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "mim",
+    "REG_DT": "2026-06-05T15:59:17",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366501.0,
+    "PLAN_SQ": 112290.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "jylee05",
+    "REG_DT": "2026-06-12T17:44:15",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 342399.0,
+    "PLAN_SQ": 102073.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-03-26T17:34:42",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 359319.0,
+    "PLAN_SQ": 112076.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "mim",
+    "REG_DT": "2026-05-20T17:30:28",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368797.0,
+    "PLAN_SQ": 109291.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "jiyoungchun0306",
+    "REG_DT": "2026-06-22T09:04:00",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365576.0,
+    "PLAN_SQ": 112458.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "yoodk0706",
+    "REG_DT": "2026-06-11T10:33:28",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 358808.0,
+    "PLAN_SQ": 110529.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "hsorry",
+    "REG_DT": "2026-05-19T13:43:08",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365253.0,
+    "PLAN_SQ": 111278.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-06-10T16:03:33",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363342.0,
+    "PLAN_SQ": 111196.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "sungjae.yu",
+    "REG_DT": "2026-06-04T11:25:03",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363343.0,
+    "PLAN_SQ": 111196.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "sungjae.yu",
+    "REG_DT": "2026-06-04T11:25:03",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 361640.0,
+    "PLAN_SQ": 110787.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "jisu.choi01",
+    "REG_DT": "2026-05-28T17:13:33",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364982.0,
+    "PLAN_SQ": 112060.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "thdbs",
+    "REG_DT": "2026-06-09T17:37:48",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363235.0,
+    "PLAN_SQ": 112416.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "jgom04",
+    "REG_DT": "2026-06-04T08:55:22",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 358610.0,
+    "PLAN_SQ": 109742.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "yye",
+    "REG_DT": "2026-05-18T16:12:16",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 358611.0,
+    "PLAN_SQ": 109742.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "yye",
+    "REG_DT": "2026-05-18T16:12:16",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 359858.0,
+    "PLAN_SQ": 93265.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "nuer0124",
+    "REG_DT": "2026-05-22T08:22:36",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 355353.0,
+    "PLAN_SQ": 111406.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "siyoung0133",
+    "REG_DT": "2026-05-08T10:15:50",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367979.0,
+    "PLAN_SQ": 102598.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-06-18T14:13:35",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364497.0,
+    "PLAN_SQ": 112328.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-06-08T13:42:01",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365297.0,
+    "PLAN_SQ": 112561.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "jhchoi",
+    "REG_DT": "2026-06-10T16:45:24",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362254.0,
+    "PLAN_SQ": 111679.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "daeun.jung",
+    "REG_DT": "2026-05-29T17:30:41",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362385.0,
+    "PLAN_SQ": 112144.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "wlgus",
+    "REG_DT": "2026-06-01T07:54:58",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362611.0,
+    "PLAN_SQ": 111370.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "yr.kwon",
+    "REG_DT": "2026-06-01T13:33:06",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364131.0,
+    "PLAN_SQ": 109726.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "hsorry",
+    "REG_DT": "2026-06-05T16:30:21",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 360932.0,
+    "PLAN_SQ": 102609.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-05-26T19:07:28",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364147.0,
+    "PLAN_SQ": 112097.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "jisu.choi01",
+    "REG_DT": "2026-06-05T16:37:13",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368428.0,
+    "PLAN_SQ": 109908.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "jhchoi",
+    "REG_DT": "2026-06-19T11:29:57",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364148.0,
+    "PLAN_SQ": 112097.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "jisu.choi01",
+    "REG_DT": "2026-06-05T16:37:13",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 348087.0,
+    "PLAN_SQ": 110425.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "haehyun",
+    "REG_DT": "2026-04-13T13:22:10",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364825.0,
+    "PLAN_SQ": 109511.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-06-09T14:15:05",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366936.0,
+    "PLAN_SQ": 112249.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "siyoung0133",
+    "REG_DT": "2026-06-16T09:15:20",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365055.0,
+    "PLAN_SQ": 111927.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-06-10T10:21:24",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365057.0,
+    "PLAN_SQ": 111646.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-06-10T10:23:47",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365058.0,
+    "PLAN_SQ": 111646.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-06-10T10:23:47",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367938.0,
+    "PLAN_SQ": 103989.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-06-18T13:53:47",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367202.0,
+    "PLAN_SQ": 104086.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-06-16T14:54:59",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 353632.0,
+    "PLAN_SQ": 111034.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-04-29T18:10:33",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 340427.0,
+    "PLAN_SQ": 110897.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "mim",
+    "REG_DT": "2026-03-20T10:38:43",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365254.0,
+    "PLAN_SQ": 103441.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-06-10T16:04:05",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367959.0,
+    "PLAN_SQ": 110930.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-06-18T14:05:24",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365185.0,
+    "PLAN_SQ": 109850.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-06-10T14:59:51",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365186.0,
+    "PLAN_SQ": 109850.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-06-10T14:59:51",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367960.0,
+    "PLAN_SQ": 110930.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-06-18T14:05:24",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363340.0,
+    "PLAN_SQ": 111643.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "sungjae.yu",
+    "REG_DT": "2026-06-04T11:24:49",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363341.0,
+    "PLAN_SQ": 111643.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "sungjae.yu",
+    "REG_DT": "2026-06-04T11:24:49",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362555.0,
+    "PLAN_SQ": 105210.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "wlgus",
+    "REG_DT": "2026-06-01T10:37:20",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365098.0,
+    "PLAN_SQ": 110307.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "jhchoi",
+    "REG_DT": "2026-06-10T11:25:32",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365236.0,
+    "PLAN_SQ": 101556.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-06-10T15:42:27",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365220.0,
+    "PLAN_SQ": 101528.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-06-10T15:37:28",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368870.0,
+    "PLAN_SQ": 110823.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "wlgus",
+    "REG_DT": "2026-06-22T10:06:26",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 354099.0,
+    "PLAN_SQ": 109763.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "mim",
+    "REG_DT": "2026-04-30T16:22:00",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365221.0,
+    "PLAN_SQ": 101555.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-06-10T15:38:38",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 359476.0,
+    "PLAN_SQ": 111380.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-05-21T11:43:18",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366716.0,
+    "PLAN_SQ": 112367.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "siyoung0133",
+    "REG_DT": "2026-06-15T10:37:52",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363905.0,
+    "PLAN_SQ": 112026.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "daeun.jung",
+    "REG_DT": "2026-06-05T11:16:16",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366025.0,
+    "PLAN_SQ": 111880.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "naseulll",
+    "REG_DT": "2026-06-11T18:16:21",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367950.0,
+    "PLAN_SQ": 112125.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "lee-dueun",
+    "REG_DT": "2026-06-18T13:57:36",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 343952.0,
+    "PLAN_SQ": 78159.0,
+    "CTGY_PBSH_CD": "80",
+    "REG_ID": "epq",
+    "REG_DT": "2026-03-31T14:11:35",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 360410.0,
+    "PLAN_SQ": 111045.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-05-22T17:34:30",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 360411.0,
+    "PLAN_SQ": 110687.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-05-22T17:35:20",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363596.0,
+    "PLAN_SQ": 104876.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "dltldhs731",
+    "REG_DT": "2026-06-04T16:26:42",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 358783.0,
+    "PLAN_SQ": 111678.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "daeun.jung",
+    "REG_DT": "2026-05-19T11:24:34",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365802.0,
+    "PLAN_SQ": 112083.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "db0867",
+    "REG_DT": "2026-06-11T15:14:16",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365803.0,
+    "PLAN_SQ": 112083.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "db0867",
+    "REG_DT": "2026-06-11T15:14:16",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365810.0,
+    "PLAN_SQ": 112010.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "db0867",
+    "REG_DT": "2026-06-11T15:17:58",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 340822.0,
+    "PLAN_SQ": 110626.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "hsorry",
+    "REG_DT": "2026-03-20T16:54:35",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365782.0,
+    "PLAN_SQ": 112015.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "db0867",
+    "REG_DT": "2026-06-11T15:03:40",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362213.0,
+    "PLAN_SQ": 92975.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "siyoung0133",
+    "REG_DT": "2026-05-29T16:49:06",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 359306.0,
+    "PLAN_SQ": 111688.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "thdbs",
+    "REG_DT": "2026-05-20T17:11:44",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363716.0,
+    "PLAN_SQ": 111668.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-06-04T18:00:17",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363717.0,
+    "PLAN_SQ": 111668.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-06-04T18:00:17",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367118.0,
+    "PLAN_SQ": 110421.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "mim",
+    "REG_DT": "2026-06-16T13:52:36",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365537.0,
+    "PLAN_SQ": 112500.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "yoodk0706",
+    "REG_DT": "2026-06-11T10:03:13",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 360415.0,
+    "PLAN_SQ": 110007.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-05-22T17:37:42",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365923.0,
+    "PLAN_SQ": 111729.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "mim",
+    "REG_DT": "2026-06-11T16:48:05",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 360416.0,
+    "PLAN_SQ": 110007.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-05-22T17:37:42",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367567.0,
+    "PLAN_SQ": 112173.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "yoodk0706",
+    "REG_DT": "2026-06-17T15:17:38",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366049.0,
+    "PLAN_SQ": 111666.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "dsmko",
+    "REG_DT": "2026-06-12T08:42:13",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366120.0,
+    "PLAN_SQ": 112074.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "jylee05",
+    "REG_DT": "2026-06-12T10:08:58",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368317.0,
+    "PLAN_SQ": 109577.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "lee-dueun",
+    "REG_DT": "2026-06-19T09:49:42",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367897.0,
+    "PLAN_SQ": 102274.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-06-18T11:15:18",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 369006.0,
+    "PLAN_SQ": 111438.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-06-22T11:36:27",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 357163.0,
+    "PLAN_SQ": 111733.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "haehyun",
+    "REG_DT": "2026-05-14T10:50:10",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363191.0,
+    "PLAN_SQ": 112295.0,
+    "CTGY_PBSH_CD": "70",
+    "REG_ID": "wlgus",
+    "REG_DT": "2026-06-04T08:52:16",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 343626.0,
+    "PLAN_SQ": 111032.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-03-30T16:13:43",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 358653.0,
+    "PLAN_SQ": 111930.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "jykim15",
+    "REG_DT": "2026-05-18T17:39:49",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 358179.0,
+    "PLAN_SQ": 111687.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "thdbs",
+    "REG_DT": "2026-05-15T18:32:33",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364533.0,
+    "PLAN_SQ": 112332.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "hsorry",
+    "REG_DT": "2026-06-08T14:05:37",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362669.0,
+    "PLAN_SQ": 112182.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-06-01T14:26:38",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365585.0,
+    "PLAN_SQ": 112417.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "yblee",
+    "REG_DT": "2026-06-11T10:44:10",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368897.0,
+    "PLAN_SQ": 109279.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "wlgus",
+    "REG_DT": "2026-06-22T10:24:51",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368910.0,
+    "PLAN_SQ": 112585.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-06-22T10:29:37",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364145.0,
+    "PLAN_SQ": 112248.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "jisu.choi01",
+    "REG_DT": "2026-06-05T16:36:48",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364304.0,
+    "PLAN_SQ": 112412.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "mim",
+    "REG_DT": "2026-06-08T09:33:10",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362600.0,
+    "PLAN_SQ": 112362.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-06-01T11:46:07",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362601.0,
+    "PLAN_SQ": 112362.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-06-01T11:46:07",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366968.0,
+    "PLAN_SQ": 112326.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-06-16T09:47:10",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365332.0,
+    "PLAN_SQ": 112556.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "choiyj",
+    "REG_DT": "2026-06-10T17:38:49",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365333.0,
+    "PLAN_SQ": 112556.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "choiyj",
+    "REG_DT": "2026-06-10T17:38:49",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364150.0,
+    "PLAN_SQ": 111962.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "jisu.choi01",
+    "REG_DT": "2026-06-05T16:38:02",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364151.0,
+    "PLAN_SQ": 111962.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "jisu.choi01",
+    "REG_DT": "2026-06-05T16:38:02",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362092.0,
+    "PLAN_SQ": 111917.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "mim",
+    "REG_DT": "2026-05-29T15:16:53",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363956.0,
+    "PLAN_SQ": 104596.0,
+    "CTGY_PBSH_CD": "40",
+    "REG_ID": "ylkim",
+    "REG_DT": "2026-06-05T13:29:09",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363999.0,
+    "PLAN_SQ": 102484.0,
+    "CTGY_PBSH_CD": "40",
+    "REG_ID": "ylkim",
+    "REG_DT": "2026-06-05T14:08:16",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368862.0,
+    "PLAN_SQ": 110641.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "dltldhs731",
+    "REG_DT": "2026-06-22T10:02:18",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368984.0,
+    "PLAN_SQ": 112110.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "hsorry",
+    "REG_DT": "2026-06-22T11:26:27",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367166.0,
+    "PLAN_SQ": 112259.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "park.sh",
+    "REG_DT": "2026-06-16T14:11:15",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367167.0,
+    "PLAN_SQ": 112259.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "park.sh",
+    "REG_DT": "2026-06-16T14:11:15",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367168.0,
+    "PLAN_SQ": 111939.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "park.sh",
+    "REG_DT": "2026-06-16T14:11:20",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365274.0,
+    "PLAN_SQ": 109851.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "jason-choi",
+    "REG_DT": "2026-06-10T16:18:36",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363397.0,
+    "PLAN_SQ": 109191.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-06-04T13:30:50",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367169.0,
+    "PLAN_SQ": 111939.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "park.sh",
+    "REG_DT": "2026-06-16T14:11:20",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 361312.0,
+    "PLAN_SQ": 110870.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-05-27T20:02:41",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365275.0,
+    "PLAN_SQ": 109851.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "jason-choi",
+    "REG_DT": "2026-06-10T16:18:36",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363012.0,
+    "PLAN_SQ": 112223.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "jiyoungchun0306",
+    "REG_DT": "2026-06-02T14:32:06",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364290.0,
+    "PLAN_SQ": 111940.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-06-08T09:21:07",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364291.0,
+    "PLAN_SQ": 111940.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-06-08T09:21:07",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364127.0,
+    "PLAN_SQ": 109089.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "jgom04",
+    "REG_DT": "2026-06-05T16:16:04",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367140.0,
+    "PLAN_SQ": 112084.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "db0867",
+    "REG_DT": "2026-06-16T14:02:23",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367141.0,
+    "PLAN_SQ": 112084.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "db0867",
+    "REG_DT": "2026-06-16T14:02:23",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368911.0,
+    "PLAN_SQ": 105457.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "jiyoungchun0306",
+    "REG_DT": "2026-06-22T10:30:20",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 356454.0,
+    "PLAN_SQ": 111862.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-05-12T09:43:10",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 357353.0,
+    "PLAN_SQ": 111527.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "daeun.jung",
+    "REG_DT": "2026-05-14T15:17:23",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 361335.0,
+    "PLAN_SQ": 111365.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "siyoung0133",
+    "REG_DT": "2026-05-28T09:20:35",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 361336.0,
+    "PLAN_SQ": 111365.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "siyoung0133",
+    "REG_DT": "2026-05-28T09:20:35",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 360380.0,
+    "PLAN_SQ": 101403.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-05-22T17:05:49",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362454.0,
+    "PLAN_SQ": 112276.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "jylee05",
+    "REG_DT": "2026-06-01T09:30:16",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362455.0,
+    "PLAN_SQ": 112276.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "jylee05",
+    "REG_DT": "2026-06-01T09:30:16",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364496.0,
+    "PLAN_SQ": 112329.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-06-08T13:41:33",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366436.0,
+    "PLAN_SQ": 112605.0,
+    "CTGY_PBSH_CD": "70",
+    "REG_ID": "lily.yun",
+    "REG_DT": "2026-06-12T16:19:17",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365776.0,
+    "PLAN_SQ": 111461.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "db0867",
+    "REG_DT": "2026-06-11T14:59:04",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365777.0,
+    "PLAN_SQ": 111462.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "db0867",
+    "REG_DT": "2026-06-11T14:59:09",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366185.0,
+    "PLAN_SQ": 110456.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-06-12T10:45:55",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 361268.0,
+    "PLAN_SQ": 104307.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-05-27T16:27:45",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 360571.0,
+    "PLAN_SQ": 111806.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "ej.kim",
+    "REG_DT": "2026-05-24T19:30:08",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366186.0,
+    "PLAN_SQ": 110456.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-06-12T10:45:55",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366281.0,
+    "PLAN_SQ": 105722.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "sungjae.yu",
+    "REG_DT": "2026-06-12T13:51:05",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366282.0,
+    "PLAN_SQ": 105722.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "sungjae.yu",
+    "REG_DT": "2026-06-12T13:51:05",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366697.0,
+    "PLAN_SQ": 109321.0,
+    "CTGY_PBSH_CD": "60",
+    "REG_ID": "wlgus",
+    "REG_DT": "2026-06-15T10:23:05",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366201.0,
+    "PLAN_SQ": 112382.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "daeun.jung",
+    "REG_DT": "2026-06-12T10:59:53",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 361242.0,
+    "PLAN_SQ": 97213.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-05-27T16:03:54",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366212.0,
+    "PLAN_SQ": 110878.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "daeun.jung",
+    "REG_DT": "2026-06-12T11:00:08",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364519.0,
+    "PLAN_SQ": 112260.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-06-08T13:55:14",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368916.0,
+    "PLAN_SQ": 111996.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-06-22T10:34:36",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368917.0,
+    "PLAN_SQ": 111996.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-06-22T10:34:36",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364520.0,
+    "PLAN_SQ": 112260.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-06-08T13:55:14",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367679.0,
+    "PLAN_SQ": 111290.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "mim",
+    "REG_DT": "2026-06-17T17:29:41",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367777.0,
+    "PLAN_SQ": 109056.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-06-18T09:47:46",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367778.0,
+    "PLAN_SQ": 109056.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-06-18T09:47:46",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 359938.0,
+    "PLAN_SQ": 111426.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "siyoung0133",
+    "REG_DT": "2026-05-22T10:01:09",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365896.0,
+    "PLAN_SQ": 106275.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-06-11T16:28:46",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365897.0,
+    "PLAN_SQ": 106275.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-06-11T16:28:46",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367099.0,
+    "PLAN_SQ": 112543.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-06-16T13:44:34",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368948.0,
+    "PLAN_SQ": 112356.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-06-22T10:52:02",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 358107.0,
+    "PLAN_SQ": 111887.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-05-15T17:31:30",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 358108.0,
+    "PLAN_SQ": 111887.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-05-15T17:31:30",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367100.0,
+    "PLAN_SQ": 112543.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-06-16T13:44:34",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366191.0,
+    "PLAN_SQ": 112065.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "thdbs",
+    "REG_DT": "2026-06-12T10:48:43",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368067.0,
+    "PLAN_SQ": 109536.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "lee-dueun",
+    "REG_DT": "2026-06-18T15:25:20",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368068.0,
+    "PLAN_SQ": 101955.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "lee-dueun",
+    "REG_DT": "2026-06-18T15:28:43",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366972.0,
+    "PLAN_SQ": 111660.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-06-16T09:48:27",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 361703.0,
+    "PLAN_SQ": 105657.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-05-28T18:58:07",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 355499.0,
+    "PLAN_SQ": 111405.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "jisu.choi01",
+    "REG_DT": "2026-05-08T13:29:13",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 358255.0,
+    "PLAN_SQ": 110018.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "jhchoi",
+    "REG_DT": "2026-05-18T08:11:09",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367037.0,
+    "PLAN_SQ": 111777.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "dsmko",
+    "REG_DT": "2026-06-16T11:06:07",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368866.0,
+    "PLAN_SQ": 108084.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-06-22T10:04:43",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362360.0,
+    "PLAN_SQ": 112091.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "choiyj",
+    "REG_DT": "2026-05-29T19:59:21",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362361.0,
+    "PLAN_SQ": 112091.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "choiyj",
+    "REG_DT": "2026-05-29T19:59:21",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 360408.0,
+    "PLAN_SQ": 111164.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-05-22T17:34:15",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 360409.0,
+    "PLAN_SQ": 111164.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-05-22T17:34:15",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367954.0,
+    "PLAN_SQ": 110441.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-06-18T14:04:56",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363599.0,
+    "PLAN_SQ": 112453.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-06-04T16:33:18",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367955.0,
+    "PLAN_SQ": 110441.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-06-18T14:04:56",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367956.0,
+    "PLAN_SQ": 110593.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-06-18T14:05:11",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364255.0,
+    "PLAN_SQ": 110963.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "wlgus",
+    "REG_DT": "2026-06-08T07:55:10",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367963.0,
+    "PLAN_SQ": 111305.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-06-18T14:05:46",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367957.0,
+    "PLAN_SQ": 110593.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-06-18T14:05:11",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367961.0,
+    "PLAN_SQ": 111168.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-06-18T14:05:35",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367962.0,
+    "PLAN_SQ": 111168.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-06-18T14:05:35",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367964.0,
+    "PLAN_SQ": 111305.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-06-18T14:05:46",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364269.0,
+    "PLAN_SQ": 90830.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "wlgus",
+    "REG_DT": "2026-06-08T07:59:35",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367967.0,
+    "PLAN_SQ": 111840.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-06-18T14:06:08",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367968.0,
+    "PLAN_SQ": 111840.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-06-18T14:06:08",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367980.0,
+    "PLAN_SQ": 103964.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-06-18T14:13:50",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368778.0,
+    "PLAN_SQ": 109290.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "wlgus",
+    "REG_DT": "2026-06-22T08:00:58",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368779.0,
+    "PLAN_SQ": 106181.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "wlgus",
+    "REG_DT": "2026-06-22T08:01:15",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368781.0,
+    "PLAN_SQ": 94474.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "wlgus",
+    "REG_DT": "2026-06-22T08:01:49",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 346372.0,
+    "PLAN_SQ": 110662.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "sungjae.yu",
+    "REG_DT": "2026-04-08T08:54:06",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 346373.0,
+    "PLAN_SQ": 110662.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "sungjae.yu",
+    "REG_DT": "2026-04-08T08:54:06",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364258.0,
+    "PLAN_SQ": 110075.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "wlgus",
+    "REG_DT": "2026-06-08T07:55:57",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 340954.0,
+    "PLAN_SQ": 110625.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "hsorry",
+    "REG_DT": "2026-03-20T18:46:14",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363950.0,
+    "PLAN_SQ": 111625.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "jykim15",
+    "REG_DT": "2026-06-05T13:20:31",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363951.0,
+    "PLAN_SQ": 112309.0,
+    "CTGY_PBSH_CD": "70",
+    "REG_ID": "lily.yun",
+    "REG_DT": "2026-06-05T13:21:50",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368033.0,
+    "PLAN_SQ": 107770.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-06-18T14:36:50",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365260.0,
+    "PLAN_SQ": 112061.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "thdbs",
+    "REG_DT": "2026-06-10T16:11:44",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 360490.0,
+    "PLAN_SQ": 92018.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-05-22T18:27:04",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 360489.0,
+    "PLAN_SQ": 92536.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-05-22T18:25:48",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367163.0,
+    "PLAN_SQ": 112258.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "park.sh",
+    "REG_DT": "2026-06-16T14:10:51",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366597.0,
+    "PLAN_SQ": 108368.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "jiyoungchun0306",
+    "REG_DT": "2026-06-15T08:52:12",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367896.0,
+    "PLAN_SQ": 107292.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-06-18T11:12:38",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367898.0,
+    "PLAN_SQ": 102899.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-06-18T11:15:45",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365356.0,
+    "PLAN_SQ": 112400.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "thdbs",
+    "REG_DT": "2026-06-10T17:55:32",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366245.0,
+    "PLAN_SQ": 111854.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-06-12T11:35:17",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365201.0,
+    "PLAN_SQ": 101294.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-06-10T15:20:20",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 360381.0,
+    "PLAN_SQ": 100839.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-05-22T17:06:13",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365248.0,
+    "PLAN_SQ": 112231.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-06-10T15:57:21",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363742.0,
+    "PLAN_SQ": 111991.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "dsmko",
+    "REG_DT": "2026-06-05T08:13:20",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362580.0,
+    "PLAN_SQ": 110194.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "hsorry",
+    "REG_DT": "2026-06-01T11:07:13",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 335632.0,
+    "PLAN_SQ": 88965.0,
+    "CTGY_PBSH_CD": "80",
+    "REG_ID": "epq",
+    "REG_DT": "2026-03-05T08:25:26",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 359857.0,
+    "PLAN_SQ": 94897.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "nuer0124",
+    "REG_DT": "2026-05-22T08:17:57",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365301.0,
+    "PLAN_SQ": 112535.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "mim",
+    "REG_DT": "2026-06-10T16:52:22",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368028.0,
+    "PLAN_SQ": 109798.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-06-18T14:35:15",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368312.0,
+    "PLAN_SQ": 111638.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "haehyun",
+    "REG_DT": "2026-06-19T09:47:32",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368313.0,
+    "PLAN_SQ": 111638.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "haehyun",
+    "REG_DT": "2026-06-19T09:47:32",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363607.0,
+    "PLAN_SQ": 111971.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "siyoung0133",
+    "REG_DT": "2026-06-04T16:45:34",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363602.0,
+    "PLAN_SQ": 111986.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "siyoung0133",
+    "REG_DT": "2026-06-04T16:40:31",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367350.0,
+    "PLAN_SQ": 111855.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "by.choi",
+    "REG_DT": "2026-06-17T10:10:45",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 343286.0,
+    "PLAN_SQ": 104227.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-03-30T08:08:17",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366669.0,
+    "PLAN_SQ": 112476.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "jylee05",
+    "REG_DT": "2026-06-15T10:05:29",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366372.0,
+    "PLAN_SQ": 112427.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "jiyoungchun0306",
+    "REG_DT": "2026-06-12T15:45:25",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368770.0,
+    "PLAN_SQ": 110287.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "wlgus",
+    "REG_DT": "2026-06-22T07:58:15",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368771.0,
+    "PLAN_SQ": 109824.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "wlgus",
+    "REG_DT": "2026-06-22T07:58:29",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368775.0,
+    "PLAN_SQ": 107177.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "wlgus",
+    "REG_DT": "2026-06-22T07:59:52",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362353.0,
+    "PLAN_SQ": 102074.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-05-29T18:56:12",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368774.0,
+    "PLAN_SQ": 109276.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "wlgus",
+    "REG_DT": "2026-06-22T07:59:35",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363233.0,
+    "PLAN_SQ": 112294.0,
+    "CTGY_PBSH_CD": "70",
+    "REG_ID": "wlgus",
+    "REG_DT": "2026-06-04T08:52:44",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365116.0,
+    "PLAN_SQ": 112050.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "thdbs",
+    "REG_DT": "2026-06-10T13:18:26",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 360414.0,
+    "PLAN_SQ": 110135.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-05-22T17:36:42",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363076.0,
+    "PLAN_SQ": 109909.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "jiyoungchun0306",
+    "REG_DT": "2026-06-02T16:06:37",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 360491.0,
+    "PLAN_SQ": 92017.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-05-22T18:27:25",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365797.0,
+    "PLAN_SQ": 112014.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "db0867",
+    "REG_DT": "2026-06-11T15:10:49",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 360611.0,
+    "PLAN_SQ": 110992.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "yblee",
+    "REG_DT": "2026-05-25T12:13:04",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 361919.0,
+    "PLAN_SQ": 111617.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "daeun.jung",
+    "REG_DT": "2026-05-29T13:16:55",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 363756.0,
+    "PLAN_SQ": 112204.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "siyoung0133",
+    "REG_DT": "2026-06-05T09:11:39",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364277.0,
+    "PLAN_SQ": 112426.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "jiyoungchun0306",
+    "REG_DT": "2026-06-08T08:37:01",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 344445.0,
+    "PLAN_SQ": 91741.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "nuer0124",
+    "REG_DT": "2026-04-01T15:32:04",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 345631.0,
+    "PLAN_SQ": 111030.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "hsorry",
+    "REG_DT": "2026-04-03T18:46:16",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 361302.0,
+    "PLAN_SQ": 102610.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-05-27T18:50:03",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 361304.0,
+    "PLAN_SQ": 104854.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-05-27T18:54:55",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366666.0,
+    "PLAN_SQ": 104246.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "dltldhs731",
+    "REG_DT": "2026-06-15T10:04:21",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364525.0,
+    "PLAN_SQ": 111992.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-06-08T13:57:48",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364526.0,
+    "PLAN_SQ": 111992.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-06-08T13:57:48",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 361663.0,
+    "PLAN_SQ": 111961.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "jisu.choi01",
+    "REG_DT": "2026-05-28T17:34:55",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 361664.0,
+    "PLAN_SQ": 111961.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "jisu.choi01",
+    "REG_DT": "2026-05-28T17:34:55",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 350121.0,
+    "PLAN_SQ": 110761.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "haehyun",
+    "REG_DT": "2026-04-20T13:11:56",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 367345.0,
+    "PLAN_SQ": 104388.0,
+    "CTGY_PBSH_CD": "99",
+    "REG_ID": "epq",
+    "REG_DT": "2026-06-17T10:02:47",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368777.0,
+    "PLAN_SQ": 102976.0,
+    "CTGY_PBSH_CD": "90",
+    "REG_ID": "wlgus",
+    "REG_DT": "2026-06-22T08:00:32",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 364438.0,
+    "PLAN_SQ": 112307.0,
+    "CTGY_PBSH_CD": "70",
+    "REG_ID": "lily.yun",
+    "REG_DT": "2026-06-08T11:24:55",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 368985.0,
+    "PLAN_SQ": 112109.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "hsorry",
+    "REG_DT": "2026-06-22T11:28:09",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 360813.0,
+    "PLAN_SQ": 112277.0,
+    "CTGY_PBSH_CD": "30",
+    "REG_ID": "daeun.jung",
+    "REG_DT": "2026-05-26T14:09:12",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 369004.0,
+    "PLAN_SQ": 111043.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-06-22T11:35:55",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 362427.0,
+    "PLAN_SQ": 111764.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "jgom04",
+    "REG_DT": "2026-06-01T09:18:42",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366826.0,
+    "PLAN_SQ": 109940.0,
+    "CTGY_PBSH_CD": "10",
+    "REG_ID": "db0867",
+    "REG_DT": "2026-06-15T14:57:54",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 366827.0,
+    "PLAN_SQ": 109940.0,
+    "CTGY_PBSH_CD": "20",
+    "REG_ID": "db0867",
+    "REG_DT": "2026-06-15T14:57:54",
+    "UP_ID": "",
+    "UP_DT": ""
+  },
+  {
+    "PLAN_CTGY_PBSH_SEQ": 365819.0,
+    "PLAN_SQ": 112420.0,
+    "CTGY_PBSH_CD": "50",
+    "REG_ID": "jhchoi",
+    "REG_DT": "2026-06-11T15:28:12",
+    "UP_ID": "",
+    "UP_DT": ""
+  }
+]

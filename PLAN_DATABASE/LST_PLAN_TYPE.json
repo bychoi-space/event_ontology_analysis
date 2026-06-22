@@ -1,0 +1,3035 @@
+[
+  {
+    "PLAN_SQ": 78521.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2023-01-16T16:31:31",
+    "UP_ID": "epq",
+    "UP_DT": "2026-04-24T18:40:27"
+  },
+  {
+    "PLAN_SQ": 78159.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "nuer0124",
+    "REG_DT": "2023-01-06T14:16:34",
+    "UP_ID": "epq",
+    "UP_DT": "2026-03-31T14:11:35"
+  },
+  {
+    "PLAN_SQ": 100002.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "kty",
+    "REG_DT": "2024-11-27T10:22:45",
+    "UP_ID": "jylee05",
+    "UP_DT": "2026-06-22T09:13:53"
+  },
+  {
+    "PLAN_SQ": 100026.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2024-11-28T10:17:31",
+    "UP_ID": "jyna",
+    "UP_DT": "2026-06-22T10:27:54"
+  },
+  {
+    "PLAN_SQ": 100027.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2024-11-28T10:18:14",
+    "UP_ID": "jyna",
+    "UP_DT": "2026-06-22T10:31:58"
+  },
+  {
+    "PLAN_SQ": 100028.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2024-11-28T10:18:38",
+    "UP_ID": "jyna",
+    "UP_DT": "2026-06-22T10:20:15"
+  },
+  {
+    "PLAN_SQ": 100406.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jihyunkim",
+    "REG_DT": "2024-12-16T16:48:02",
+    "UP_ID": "hrhan",
+    "UP_DT": "2026-01-01T01:02:10"
+  },
+  {
+    "PLAN_SQ": 100029.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2024-11-28T10:19:04",
+    "UP_ID": "jyna",
+    "UP_DT": "2026-06-22T10:35:33"
+  },
+  {
+    "PLAN_SQ": 100031.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2024-11-28T10:19:58",
+    "UP_ID": "jyna",
+    "UP_DT": "2026-06-22T10:42:09"
+  },
+  {
+    "PLAN_SQ": 94505.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "charincom",
+    "REG_DT": "2024-04-24T11:00:17",
+    "UP_ID": "charincom",
+    "UP_DT": "2026-06-11T15:48:55"
+  },
+  {
+    "PLAN_SQ": 100030.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2024-11-28T10:19:31",
+    "UP_ID": "jyna",
+    "UP_DT": "2026-06-22T10:39:09"
+  },
+  {
+    "PLAN_SQ": 100032.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2024-11-28T10:20:23",
+    "UP_ID": "jyna",
+    "UP_DT": "2026-06-22T10:45:07"
+  },
+  {
+    "PLAN_SQ": 100033.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2024-11-28T10:20:51",
+    "UP_ID": "jyna",
+    "UP_DT": "2026-06-22T10:48:01"
+  },
+  {
+    "PLAN_SQ": 98853.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jihyunkim",
+    "REG_DT": "2024-10-31T19:03:20",
+    "UP_ID": "hrhan",
+    "UP_DT": "2026-01-01T01:03:03"
+  },
+  {
+    "PLAN_SQ": 100731.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jihyunkim",
+    "REG_DT": "2024-12-27T13:07:41",
+    "UP_ID": "hrhan",
+    "UP_DT": "2026-01-01T01:01:55"
+  },
+  {
+    "PLAN_SQ": 100839.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2025-01-06T09:35:49",
+    "UP_ID": "epq",
+    "UP_DT": "2026-05-22T17:06:13"
+  },
+  {
+    "PLAN_SQ": 101294.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2025-01-21T14:41:29",
+    "UP_ID": "epq",
+    "UP_DT": "2026-06-10T15:20:20"
+  },
+  {
+    "PLAN_SQ": 90830.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "lee-dueun",
+    "REG_DT": "2023-12-04T17:09:25",
+    "UP_ID": "wlgus",
+    "UP_DT": "2026-06-08T07:59:35"
+  },
+  {
+    "PLAN_SQ": 92536.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2024-02-06T11:09:51",
+    "UP_ID": "epq",
+    "UP_DT": "2026-05-22T18:25:48"
+  },
+  {
+    "PLAN_SQ": 91741.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "nuer0124",
+    "REG_DT": "2024-01-10T09:28:03",
+    "UP_ID": "nuer0124",
+    "UP_DT": "2026-04-01T15:32:04"
+  },
+  {
+    "PLAN_SQ": 93265.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "nuer0124",
+    "REG_DT": "2024-03-07T16:59:13",
+    "UP_ID": "nuer0124",
+    "UP_DT": "2026-05-22T08:22:36"
+  },
+  {
+    "PLAN_SQ": 92018.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2024-01-17T13:52:03",
+    "UP_ID": "epq",
+    "UP_DT": "2026-05-22T18:27:04"
+  },
+  {
+    "PLAN_SQ": 94897.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "nuer0124",
+    "REG_DT": "2024-05-13T13:52:43",
+    "UP_ID": "nuer0124",
+    "UP_DT": "2026-05-22T08:17:57"
+  },
+  {
+    "PLAN_SQ": 92537.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2024-02-06T11:12:06",
+    "UP_ID": "epq",
+    "UP_DT": "2026-04-09T11:37:25"
+  },
+  {
+    "PLAN_SQ": 94474.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "lee-dueun",
+    "REG_DT": "2024-04-23T09:54:25",
+    "UP_ID": "wlgus",
+    "UP_DT": "2026-06-22T08:01:49"
+  },
+  {
+    "PLAN_SQ": 88965.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2023-10-11T18:19:59",
+    "UP_ID": "epq",
+    "UP_DT": "2026-04-09T11:36:27"
+  },
+  {
+    "PLAN_SQ": 92975.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yr.kwon",
+    "REG_DT": "2024-02-26T09:29:03",
+    "UP_ID": "siyoung0133",
+    "UP_DT": "2026-05-29T16:49:06"
+  },
+  {
+    "PLAN_SQ": 92017.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2024-01-17T13:50:39",
+    "UP_ID": "epq",
+    "UP_DT": "2026-05-22T18:27:25"
+  },
+  {
+    "PLAN_SQ": 97213.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "sungjae.yu",
+    "REG_DT": "2024-08-20T15:18:03",
+    "UP_ID": "jinyoung98",
+    "UP_DT": "2026-05-27T16:03:55"
+  },
+  {
+    "PLAN_SQ": 97637.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jihyunkim",
+    "REG_DT": "2024-09-05T09:43:53",
+    "UP_ID": "hrhan",
+    "UP_DT": "2026-01-01T01:03:21"
+  },
+  {
+    "PLAN_SQ": 102073.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2025-02-26T08:18:04",
+    "UP_ID": "epq",
+    "UP_DT": "2026-03-26T17:34:42"
+  },
+  {
+    "PLAN_SQ": 110075.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "lee-dueun",
+    "REG_DT": "2026-02-10T16:42:21",
+    "UP_ID": "wlgus",
+    "UP_DT": "2026-06-08T07:55:57"
+  },
+  {
+    "PLAN_SQ": 110135.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-02-11T14:11:35",
+    "UP_ID": "yj-choi",
+    "UP_DT": "2026-05-22T17:36:42"
+  },
+  {
+    "PLAN_SQ": 110456.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-02-27T17:07:48",
+    "UP_ID": "yj-choi",
+    "UP_DT": "2026-06-12T10:45:55"
+  },
+  {
+    "PLAN_SQ": 111498.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jykim15",
+    "REG_DT": "2026-04-16T15:16:27",
+    "UP_ID": "kyu3843",
+    "UP_DT": "2026-05-19T17:57:44"
+  },
+  {
+    "PLAN_SQ": 110625.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "hsorry",
+    "REG_DT": "2026-03-10T11:09:33",
+    "UP_ID": "hsorry",
+    "UP_DT": "2026-03-20T18:46:14"
+  },
+  {
+    "PLAN_SQ": 110626.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "hsorry",
+    "REG_DT": "2026-03-10T11:10:56",
+    "UP_ID": "hsorry",
+    "UP_DT": "2026-03-20T16:54:35"
+  },
+  {
+    "PLAN_SQ": 110731.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "lee-dueun",
+    "REG_DT": "2026-03-13T15:00:53",
+    "UP_ID": "lee-dueun",
+    "UP_DT": "2026-06-18T15:26:04"
+  },
+  {
+    "PLAN_SQ": 112416.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jgom04",
+    "REG_DT": "2026-06-01T13:49:42",
+    "UP_ID": "jgom04",
+    "UP_DT": "2026-06-04T08:55:53"
+  },
+  {
+    "PLAN_SQ": 112543.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-06-09T14:21:28",
+    "UP_ID": "yj-choi",
+    "UP_DT": "2026-06-16T13:44:34"
+  },
+  {
+    "PLAN_SQ": 112605.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "wlgus",
+    "REG_DT": "2026-06-12T15:43:52",
+    "UP_ID": "lily.yun",
+    "UP_DT": "2026-06-12T16:19:17"
+  },
+  {
+    "PLAN_SQ": 102074.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2025-02-26T08:35:50",
+    "UP_ID": "epq",
+    "UP_DT": "2026-05-29T19:03:55"
+  },
+  {
+    "PLAN_SQ": 102610.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2025-03-21T13:49:57",
+    "UP_ID": "epq",
+    "UP_DT": "2026-05-27T18:50:03"
+  },
+  {
+    "PLAN_SQ": 109824.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "lee-dueun",
+    "REG_DT": "2026-02-02T17:34:58",
+    "UP_ID": "wlgus",
+    "UP_DT": "2026-06-22T09:50:07"
+  },
+  {
+    "PLAN_SQ": 109850.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "sungjae.yu",
+    "REG_DT": "2026-02-03T14:48:10",
+    "UP_ID": "jinyoung98",
+    "UP_DT": "2026-06-12T18:09:06"
+  },
+  {
+    "PLAN_SQ": 111939.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "park.sh",
+    "REG_DT": "2026-05-11T16:17:52",
+    "UP_ID": "park.sh",
+    "UP_DT": "2026-06-16T14:11:20"
+  },
+  {
+    "PLAN_SQ": 110687.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-03-12T10:22:46",
+    "UP_ID": "yj-choi",
+    "UP_DT": "2026-05-22T17:35:20"
+  },
+  {
+    "PLAN_SQ": 111081.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "ylkim",
+    "REG_DT": "2026-03-27T16:24:27",
+    "UP_ID": "ylkim",
+    "UP_DT": "2026-06-19T16:09:15"
+  },
+  {
+    "PLAN_SQ": 100004.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "kty",
+    "REG_DT": "2024-11-27T10:21:56",
+    "UP_ID": "kimbos",
+    "UP_DT": "2026-04-16T13:57:17"
+  },
+  {
+    "PLAN_SQ": 100005.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "kty",
+    "REG_DT": "2024-11-27T10:21:56",
+    "UP_ID": "yglee",
+    "UP_DT": "2026-04-29T08:42:19"
+  },
+  {
+    "PLAN_SQ": 100006.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "kty",
+    "REG_DT": "2024-11-27T10:21:56",
+    "UP_ID": "kylapark",
+    "UP_DT": "2025-07-30T17:27:08"
+  },
+  {
+    "PLAN_SQ": 110529.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "hsorry",
+    "REG_DT": "2026-03-05T14:23:33",
+    "UP_ID": "hsorry",
+    "UP_DT": "2026-05-19T13:43:08"
+  },
+  {
+    "PLAN_SQ": 112585.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-06-12T10:48:09",
+    "UP_ID": "yj-choi",
+    "UP_DT": "2026-06-22T10:29:37"
+  },
+  {
+    "PLAN_SQ": 102274.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2025-03-10T14:52:16",
+    "UP_ID": "epq",
+    "UP_DT": "2026-06-18T11:15:18"
+  },
+  {
+    "PLAN_SQ": 107177.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jiyoungchun0306",
+    "REG_DT": "2025-09-25T14:54:31",
+    "UP_ID": "jiyoungchun0306",
+    "UP_DT": "2026-06-22T09:05:00"
+  },
+  {
+    "PLAN_SQ": 109191.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2026-01-07T14:17:51",
+    "UP_ID": "epq",
+    "UP_DT": "2026-06-04T13:30:50"
+  },
+  {
+    "PLAN_SQ": 109291.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jiyoungchun0306",
+    "REG_DT": "2026-01-13T08:46:49",
+    "UP_ID": "jiyoungchun0306",
+    "UP_DT": "2026-06-22T09:04:00"
+  },
+  {
+    "PLAN_SQ": 111278.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-04-08T16:09:50",
+    "UP_ID": "yj-choi",
+    "UP_DT": "2026-06-10T16:03:33"
+  },
+  {
+    "PLAN_SQ": 112182.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "dsmko",
+    "REG_DT": "2026-05-19T11:35:05",
+    "UP_ID": "jinyoung98",
+    "UP_DT": "2026-06-01T14:26:38"
+  },
+  {
+    "PLAN_SQ": 112223.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jiyoungchun0306",
+    "REG_DT": "2026-05-21T14:42:24",
+    "UP_ID": "lee-dueun",
+    "UP_DT": "2026-06-02T15:31:29"
+  },
+  {
+    "PLAN_SQ": 104388.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2025-06-05T16:47:23",
+    "UP_ID": "epq",
+    "UP_DT": "2026-06-17T10:02:47"
+  },
+  {
+    "PLAN_SQ": 107292.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2025-10-02T13:20:23",
+    "UP_ID": "epq",
+    "UP_DT": "2026-06-18T11:12:38"
+  },
+  {
+    "PLAN_SQ": 112275.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "naseulll",
+    "REG_DT": "2026-05-26T11:08:57",
+    "UP_ID": "kyu3843",
+    "UP_DT": "2026-06-15T08:23:35"
+  },
+  {
+    "PLAN_SQ": 102365.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "kylapark",
+    "REG_DT": "2025-03-13T08:51:52",
+    "UP_ID": "kimbos",
+    "UP_DT": "2026-05-28T09:43:48"
+  },
+  {
+    "PLAN_SQ": 110662.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "sungjae.yu",
+    "REG_DT": "2026-03-11T13:17:57",
+    "UP_ID": "sungjae.yu",
+    "UP_DT": "2026-04-08T08:54:06"
+  },
+  {
+    "PLAN_SQ": 111365.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "choiyj",
+    "REG_DT": "2026-04-13T15:45:38",
+    "UP_ID": "siyoung0133",
+    "UP_DT": "2026-05-28T09:20:35"
+  },
+  {
+    "PLAN_SQ": 111887.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "sungjae.yu",
+    "REG_DT": "2026-05-07T16:31:38",
+    "UP_ID": "jinyoung98",
+    "UP_DT": "2026-05-15T17:31:30"
+  },
+  {
+    "PLAN_SQ": 111991.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "dsmko",
+    "REG_DT": "2026-05-13T17:38:31",
+    "UP_ID": "dsmko",
+    "UP_DT": "2026-06-05T08:13:20"
+  },
+  {
+    "PLAN_SQ": 112157.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jykim15",
+    "REG_DT": "2026-05-19T10:39:58",
+    "UP_ID": "kyu3843",
+    "UP_DT": "2026-05-22T10:47:51"
+  },
+  {
+    "PLAN_SQ": 112231.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-05-21T15:08:18",
+    "UP_ID": "yj-choi",
+    "UP_DT": "2026-06-10T15:57:21"
+  },
+  {
+    "PLAN_SQ": 112329.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "dsmko",
+    "REG_DT": "2026-05-27T10:24:43",
+    "UP_ID": "jinyoung98",
+    "UP_DT": "2026-06-08T13:41:33"
+  },
+  {
+    "PLAN_SQ": 112426.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jiyoungchun0306",
+    "REG_DT": "2026-06-02T09:04:06",
+    "UP_ID": "jiyoungchun0306",
+    "UP_DT": "2026-06-08T08:37:01"
+  },
+  {
+    "PLAN_SQ": 112427.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jiyoungchun0306",
+    "REG_DT": "2026-06-02T09:05:02",
+    "UP_ID": "lee-dueun",
+    "UP_DT": "2026-06-15T10:10:22"
+  },
+  {
+    "PLAN_SQ": 112505.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "naseulll",
+    "REG_DT": "2026-06-05T16:45:41",
+    "UP_ID": "kyu3843",
+    "UP_DT": "2026-06-12T17:59:42"
+  },
+  {
+    "PLAN_SQ": 108368.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jiyoungchun0306",
+    "REG_DT": "2025-11-26T08:42:06",
+    "UP_ID": "jiyoungchun0306",
+    "UP_DT": "2026-06-15T08:53:01"
+  },
+  {
+    "PLAN_SQ": 111034.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2026-03-25T16:07:56",
+    "UP_ID": "epq",
+    "UP_DT": "2026-04-29T18:10:33"
+  },
+  {
+    "PLAN_SQ": 112026.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "daeun.jung",
+    "REG_DT": "2026-05-14T15:11:07",
+    "UP_ID": "daeun.jung",
+    "UP_DT": "2026-06-05T11:16:16"
+  },
+  {
+    "PLAN_SQ": 103989.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "sungjae.yu",
+    "REG_DT": "2025-05-20T10:26:48",
+    "UP_ID": "jason-choi",
+    "UP_DT": "2026-06-19T16:30:03"
+  },
+  {
+    "PLAN_SQ": 111646.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-04-22T13:18:00",
+    "UP_ID": "yj-choi",
+    "UP_DT": "2026-06-10T10:23:47"
+  },
+  {
+    "PLAN_SQ": 112453.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-06-02T16:38:35",
+    "UP_ID": "yj-choi",
+    "UP_DT": "2026-06-04T16:33:18"
+  },
+  {
+    "PLAN_SQ": 112502.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yoodk0706",
+    "REG_DT": "2026-06-05T15:07:46",
+    "UP_ID": "yoodk0706",
+    "UP_DT": "2026-06-08T15:46:17"
+  },
+  {
+    "PLAN_SQ": 109577.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "lee-dueun",
+    "REG_DT": "2026-01-21T15:51:15",
+    "UP_ID": "lee-dueun",
+    "UP_DT": "2026-06-19T12:12:13"
+  },
+  {
+    "PLAN_SQ": 112556.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "choiyj",
+    "REG_DT": "2026-06-10T13:36:30",
+    "UP_ID": "parksoyeon",
+    "UP_DT": "2026-06-10T18:54:59"
+  },
+  {
+    "PLAN_SQ": 110787.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jisu.choi01",
+    "REG_DT": "2026-03-17T10:02:09",
+    "UP_ID": "jisu.choi01",
+    "UP_DT": "2026-05-28T17:13:33"
+  },
+  {
+    "PLAN_SQ": 111164.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-04-01T13:24:56",
+    "UP_ID": "yj-choi",
+    "UP_DT": "2026-05-22T17:34:15"
+  },
+  {
+    "PLAN_SQ": 104277.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jihyunkim",
+    "REG_DT": "2025-05-30T15:02:17",
+    "UP_ID": "kty",
+    "UP_DT": "2026-01-01T01:04:16"
+  },
+  {
+    "PLAN_SQ": 111679.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "daeun.jung",
+    "REG_DT": "2026-04-23T16:11:08",
+    "UP_ID": "daeun.jung",
+    "UP_DT": "2026-05-29T17:30:41"
+  },
+  {
+    "PLAN_SQ": 104854.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2025-06-25T08:28:02",
+    "UP_ID": "epq",
+    "UP_DT": "2026-05-27T18:54:55"
+  },
+  {
+    "PLAN_SQ": 105457.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "lee-dueun",
+    "REG_DT": "2025-07-21T17:18:02",
+    "UP_ID": "jiyoungchun0306",
+    "UP_DT": "2026-06-22T10:30:20"
+  },
+  {
+    "PLAN_SQ": 109909.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jiyoungchun0306",
+    "REG_DT": "2026-02-05T14:16:46",
+    "UP_ID": "jiyoungchun0306",
+    "UP_DT": "2026-06-04T16:44:40"
+  },
+  {
+    "PLAN_SQ": 111643.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "sungjae.yu",
+    "REG_DT": "2026-04-22T11:21:03",
+    "UP_ID": "sungjae.yu",
+    "UP_DT": "2026-06-04T11:24:49"
+  },
+  {
+    "PLAN_SQ": 112061.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "thdbs",
+    "REG_DT": "2026-05-15T16:31:44",
+    "UP_ID": "thdbs",
+    "UP_DT": "2026-06-12T15:58:29"
+  },
+  {
+    "PLAN_SQ": 112382.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "daeun.jung",
+    "REG_DT": "2026-05-29T13:20:57",
+    "UP_ID": "daeun.jung",
+    "UP_DT": "2026-06-12T10:59:53"
+  },
+  {
+    "PLAN_SQ": 112326.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "dsmko",
+    "REG_DT": "2026-05-27T10:20:43",
+    "UP_ID": "jinyoung98",
+    "UP_DT": "2026-06-16T09:47:10"
+  },
+  {
+    "PLAN_SQ": 112328.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "dsmko",
+    "REG_DT": "2026-05-27T10:22:59",
+    "UP_ID": "jinyoung98",
+    "UP_DT": "2026-06-08T13:42:01"
+  },
+  {
+    "PLAN_SQ": 109056.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2025-12-30T10:27:22",
+    "UP_ID": "yj-choi",
+    "UP_DT": "2026-06-18T09:47:46"
+  },
+  {
+    "PLAN_SQ": 111862.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-05-07T09:44:26",
+    "UP_ID": "yj-choi",
+    "UP_DT": "2026-05-12T09:43:10"
+  },
+  {
+    "PLAN_SQ": 112050.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "thdbs",
+    "REG_DT": "2026-05-15T13:14:24",
+    "UP_ID": "thdbs",
+    "UP_DT": "2026-06-10T13:18:26"
+  },
+  {
+    "PLAN_SQ": 112239.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "naseulll",
+    "REG_DT": "2026-05-21T15:33:14",
+    "UP_ID": "naseulll",
+    "UP_DT": "2026-06-05T13:27:07"
+  },
+  {
+    "PLAN_SQ": 103441.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2025-04-23T14:37:07",
+    "UP_ID": "epq",
+    "UP_DT": "2026-06-10T16:04:05"
+  },
+  {
+    "PLAN_SQ": 111305.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-04-09T14:06:28",
+    "UP_ID": "hs1231",
+    "UP_DT": "2026-06-18T14:05:46"
+  },
+  {
+    "PLAN_SQ": 112091.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "choiyj",
+    "REG_DT": "2026-05-18T11:11:27",
+    "UP_ID": "choiyj",
+    "UP_DT": "2026-05-29T19:59:21"
+  },
+  {
+    "PLAN_SQ": 112309.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "wlgus",
+    "REG_DT": "2026-05-26T16:32:49",
+    "UP_ID": "lily.yun",
+    "UP_DT": "2026-06-05T13:24:03"
+  },
+  {
+    "PLAN_SQ": 112500.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yoodk0706",
+    "REG_DT": "2026-06-05T14:34:40",
+    "UP_ID": "yoodk0706",
+    "UP_DT": "2026-06-11T10:03:13"
+  },
+  {
+    "PLAN_SQ": 106275.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "sungjae.yu",
+    "REG_DT": "2025-08-22T15:14:00",
+    "UP_ID": "jinyoung98",
+    "UP_DT": "2026-06-11T16:28:46"
+  },
+  {
+    "PLAN_SQ": 110930.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-03-23T09:39:13",
+    "UP_ID": "hs1231",
+    "UP_DT": "2026-06-18T14:05:24"
+  },
+  {
+    "PLAN_SQ": 111927.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-05-11T10:23:58",
+    "UP_ID": "yj-choi",
+    "UP_DT": "2026-06-10T10:21:24"
+  },
+  {
+    "PLAN_SQ": 111930.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jykim15",
+    "REG_DT": "2026-05-11T13:57:53",
+    "UP_ID": "jykim15",
+    "UP_DT": "2026-05-18T17:39:49"
+  },
+  {
+    "PLAN_SQ": 112125.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "lee-dueun",
+    "REG_DT": "2026-05-18T16:14:43",
+    "UP_ID": "lee-dueun",
+    "UP_DT": "2026-06-18T13:57:36"
+  },
+  {
+    "PLAN_SQ": 112276.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "ray",
+    "REG_DT": "2026-05-26T11:21:56",
+    "UP_ID": "jylee05",
+    "UP_DT": "2026-06-01T09:30:16"
+  },
+  {
+    "PLAN_SQ": 109763.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yoodk0706",
+    "REG_DT": "2026-01-29T09:45:36",
+    "UP_ID": "mim",
+    "UP_DT": "2026-04-30T16:22:00"
+  },
+  {
+    "PLAN_SQ": 111045.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-03-26T09:02:05",
+    "UP_ID": "yj-choi",
+    "UP_DT": "2026-05-22T17:34:30"
+  },
+  {
+    "PLAN_SQ": 104227.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2025-05-27T10:38:38",
+    "UP_ID": "epq",
+    "UP_DT": "2026-03-30T08:08:17"
+  },
+  {
+    "PLAN_SQ": 110425.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "naseulll",
+    "REG_DT": "2026-02-26T17:42:45",
+    "UP_ID": "haehyun",
+    "UP_DT": "2026-04-13T13:22:10"
+  },
+  {
+    "PLAN_SQ": 112420.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jhchoi",
+    "REG_DT": "2026-06-01T16:14:35",
+    "UP_ID": "jhchoi",
+    "UP_DT": "2026-06-11T15:28:12"
+  },
+  {
+    "PLAN_SQ": 108084.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2025-11-17T10:03:22",
+    "UP_ID": "epq",
+    "UP_DT": "2026-06-22T10:04:43"
+  },
+  {
+    "PLAN_SQ": 109279.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "lee-dueun",
+    "REG_DT": "2026-01-12T15:35:35",
+    "UP_ID": "wlgus",
+    "UP_DT": "2026-06-22T10:24:51"
+  },
+  {
+    "PLAN_SQ": 112144.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jiyoungchun0306",
+    "REG_DT": "2026-05-19T09:20:25",
+    "UP_ID": "wlgus",
+    "UP_DT": "2026-06-01T07:54:58"
+  },
+  {
+    "PLAN_SQ": 109798.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jevieun",
+    "REG_DT": "2026-01-30T16:54:28",
+    "UP_ID": "hs1231",
+    "UP_DT": "2026-06-18T14:35:15"
+  },
+  {
+    "PLAN_SQ": 110194.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "hsorry",
+    "REG_DT": "2026-02-12T16:00:14",
+    "UP_ID": "hsorry",
+    "UP_DT": "2026-06-01T11:07:13"
+  },
+  {
+    "PLAN_SQ": 110878.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "daeun.jung",
+    "REG_DT": "2026-03-19T15:17:22",
+    "UP_ID": "daeun.jung",
+    "UP_DT": "2026-06-12T11:00:08"
+  },
+  {
+    "PLAN_SQ": 110898.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "naseulll",
+    "REG_DT": "2026-03-20T10:34:57",
+    "UP_ID": "kyu3843",
+    "UP_DT": "2026-04-28T11:20:05"
+  },
+  {
+    "PLAN_SQ": 111196.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "sungjae.yu",
+    "REG_DT": "2026-04-03T10:28:14",
+    "UP_ID": "sungjae.yu",
+    "UP_DT": "2026-06-04T11:25:03"
+  },
+  {
+    "PLAN_SQ": 111764.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "hsorry",
+    "REG_DT": "2026-04-27T18:37:00",
+    "UP_ID": "jgom04",
+    "UP_DT": "2026-06-01T09:18:42"
+  },
+  {
+    "PLAN_SQ": 111962.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "choiyj",
+    "REG_DT": "2026-05-12T12:50:29",
+    "UP_ID": "jisu.choi01",
+    "UP_DT": "2026-06-05T16:38:02"
+  },
+  {
+    "PLAN_SQ": 112356.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-05-28T10:21:16",
+    "UP_ID": "yj-choi",
+    "UP_DT": "2026-06-22T10:52:02"
+  },
+  {
+    "PLAN_SQ": 111961.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "choiyj",
+    "REG_DT": "2026-05-12T12:49:27",
+    "UP_ID": "choiyj",
+    "UP_DT": "2026-05-29T19:51:09"
+  },
+  {
+    "PLAN_SQ": 112400.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "thdbs",
+    "REG_DT": "2026-05-29T14:52:34",
+    "UP_ID": "thdbs",
+    "UP_DT": "2026-06-10T17:55:32"
+  },
+  {
+    "PLAN_SQ": 101955.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "lee-dueun",
+    "REG_DT": "2025-02-20T15:10:53",
+    "UP_ID": "lee-dueun",
+    "UP_DT": "2026-06-18T15:28:43"
+  },
+  {
+    "PLAN_SQ": 110421.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yoodk0706",
+    "REG_DT": "2026-02-26T16:21:43",
+    "UP_ID": "mim",
+    "UP_DT": "2026-06-16T13:52:36"
+  },
+  {
+    "PLAN_SQ": 104307.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2025-06-02T14:05:25",
+    "UP_ID": "epq",
+    "UP_DT": "2026-05-27T16:27:45"
+  },
+  {
+    "PLAN_SQ": 104596.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "ylkim",
+    "REG_DT": "2025-06-17T10:33:46",
+    "UP_ID": "ylkim",
+    "UP_DT": "2026-06-12T10:48:42"
+  },
+  {
+    "PLAN_SQ": 109290.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jiyoungchun0306",
+    "REG_DT": "2026-01-13T08:33:46",
+    "UP_ID": "wlgus",
+    "UP_DT": "2026-06-22T08:00:58"
+  },
+  {
+    "PLAN_SQ": 102046.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jihyunkim",
+    "REG_DT": "2025-02-24T14:57:25",
+    "UP_ID": "hrhan",
+    "UP_DT": "2026-01-01T01:01:32"
+  },
+  {
+    "PLAN_SQ": 112417.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yblee",
+    "REG_DT": "2026-06-01T14:59:49",
+    "UP_ID": "yblee",
+    "UP_DT": "2026-06-11T10:44:10"
+  },
+  {
+    "PLAN_SQ": 102484.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "ylkim",
+    "REG_DT": "2025-03-17T16:08:54",
+    "UP_ID": "ylkim",
+    "UP_DT": "2026-06-12T10:49:22"
+  },
+  {
+    "PLAN_SQ": 110287.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "lee-dueun",
+    "REG_DT": "2026-02-23T10:44:13",
+    "UP_ID": "wlgus",
+    "UP_DT": "2026-06-22T07:58:15"
+  },
+  {
+    "PLAN_SQ": 112255.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "naseulll",
+    "REG_DT": "2026-05-22T10:42:57",
+    "UP_ID": "kyu3843",
+    "UP_DT": "2026-06-10T10:15:02"
+  },
+  {
+    "PLAN_SQ": 101528.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2025-02-10T09:25:42",
+    "UP_ID": "epq",
+    "UP_DT": "2026-06-10T15:37:28"
+  },
+  {
+    "PLAN_SQ": 110897.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yoodk0706",
+    "REG_DT": "2026-03-20T10:21:08",
+    "UP_ID": "yoodk0706",
+    "UP_DT": "2026-03-20T10:49:48"
+  },
+  {
+    "PLAN_SQ": 112258.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "park.sh",
+    "REG_DT": "2026-05-22T11:11:21",
+    "UP_ID": "park.sh",
+    "UP_DT": "2026-06-16T14:10:51"
+  },
+  {
+    "PLAN_SQ": 102976.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "lee-dueun",
+    "REG_DT": "2025-04-07T17:45:29",
+    "UP_ID": "wlgus",
+    "UP_DT": "2026-06-22T08:00:32"
+  },
+  {
+    "PLAN_SQ": 111668.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-04-23T14:04:26",
+    "UP_ID": "jinyoung98",
+    "UP_DT": "2026-06-04T18:00:17"
+  },
+  {
+    "PLAN_SQ": 112458.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yoodk0706",
+    "REG_DT": "2026-06-04T09:09:39",
+    "UP_ID": "yoodk0706",
+    "UP_DT": "2026-06-11T10:33:28"
+  },
+  {
+    "PLAN_SQ": 105722.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "sungjae.yu",
+    "REG_DT": "2025-08-01T16:25:18",
+    "UP_ID": "sungjae.yu",
+    "UP_DT": "2026-06-12T13:51:05"
+  },
+  {
+    "PLAN_SQ": 109726.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "ej22",
+    "REG_DT": "2026-01-27T10:22:29",
+    "UP_ID": "hsorry",
+    "UP_DT": "2026-06-05T16:30:21"
+  },
+  {
+    "PLAN_SQ": 109225.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jevieun",
+    "REG_DT": "2026-01-08T16:25:27",
+    "UP_ID": "hs1231",
+    "UP_DT": "2026-06-18T14:35:51"
+  },
+  {
+    "PLAN_SQ": 110593.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-03-09T14:20:15",
+    "UP_ID": "hs1231",
+    "UP_DT": "2026-06-18T14:05:11"
+  },
+  {
+    "PLAN_SQ": 111840.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-04-30T15:42:35",
+    "UP_ID": "hs1231",
+    "UP_DT": "2026-06-18T14:06:08"
+  },
+  {
+    "PLAN_SQ": 109089.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "ej22",
+    "REG_DT": "2026-01-05T11:47:55",
+    "UP_ID": "jgom04",
+    "UP_DT": "2026-06-05T16:16:04"
+  },
+  {
+    "PLAN_SQ": 105173.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "kylapark",
+    "REG_DT": "2025-07-14T10:27:00",
+    "UP_ID": "kimbos",
+    "UP_DT": "2026-01-27T15:15:36"
+  },
+  {
+    "PLAN_SQ": 105210.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "lee-dueun",
+    "REG_DT": "2025-07-15T10:34:34",
+    "UP_ID": "wlgus",
+    "UP_DT": "2026-06-01T10:37:20"
+  },
+  {
+    "PLAN_SQ": 108568.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jevieun",
+    "REG_DT": "2025-12-08T13:24:57",
+    "UP_ID": "hs1231",
+    "UP_DT": "2026-06-18T14:36:19"
+  },
+  {
+    "PLAN_SQ": 109511.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-01-19T17:46:43",
+    "UP_ID": "yj-choi",
+    "UP_DT": "2026-06-09T14:15:05"
+  },
+  {
+    "PLAN_SQ": 109908.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jhchoi",
+    "REG_DT": "2026-02-05T14:01:21",
+    "UP_ID": "jhchoi",
+    "UP_DT": "2026-06-19T11:29:57"
+  },
+  {
+    "PLAN_SQ": 111617.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "daeun.jung",
+    "REG_DT": "2026-04-21T16:55:36",
+    "UP_ID": "daeun.jung",
+    "UP_DT": "2026-05-29T13:16:55"
+  },
+  {
+    "PLAN_SQ": 111666.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "dsmko",
+    "REG_DT": "2026-04-23T11:24:03",
+    "UP_ID": "dsmko",
+    "UP_DT": "2026-06-12T08:42:13"
+  },
+  {
+    "PLAN_SQ": 112294.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "keepgoing",
+    "REG_DT": "2026-05-26T15:55:20",
+    "UP_ID": "wlgus",
+    "UP_DT": "2026-06-04T10:50:14"
+  },
+  {
+    "PLAN_SQ": 112295.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "keepgoing",
+    "REG_DT": "2026-05-26T15:56:19",
+    "UP_ID": "wlgus",
+    "UP_DT": "2026-06-04T08:52:16"
+  },
+  {
+    "PLAN_SQ": 110018.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jhchoi",
+    "REG_DT": "2026-02-09T16:57:32",
+    "UP_ID": "jhchoi",
+    "UP_DT": "2026-05-18T08:11:09"
+  },
+  {
+    "PLAN_SQ": 110823.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "lee-dueun",
+    "REG_DT": "2026-03-17T15:22:36",
+    "UP_ID": "wlgus",
+    "UP_DT": "2026-06-22T10:06:26"
+  },
+  {
+    "PLAN_SQ": 111978.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "sm.park",
+    "REG_DT": "2026-05-13T08:56:40",
+    "UP_ID": "dltldhs731",
+    "UP_DT": "2026-06-18T17:01:22"
+  },
+  {
+    "PLAN_SQ": 112084.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "kshsh0802",
+    "REG_DT": "2026-05-18T11:06:16",
+    "UP_ID": "kshsh0802",
+    "UP_DT": "2026-06-18T10:22:38"
+  },
+  {
+    "PLAN_SQ": 112097.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "choiyj",
+    "REG_DT": "2026-05-18T11:13:14",
+    "UP_ID": "jisu.choi01",
+    "UP_DT": "2026-06-05T16:37:13"
+  },
+  {
+    "PLAN_SQ": 112332.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "hsorry",
+    "REG_DT": "2026-05-27T11:18:53",
+    "UP_ID": "hsorry",
+    "UP_DT": "2026-06-08T14:05:37"
+  },
+  {
+    "PLAN_SQ": 102878.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jihyunkim",
+    "REG_DT": "2025-04-02T15:32:47",
+    "UP_ID": "hrhan",
+    "UP_DT": "2026-01-01T01:01:13"
+  },
+  {
+    "PLAN_SQ": 106181.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jiyoungchun0306",
+    "REG_DT": "2025-08-19T16:32:38",
+    "UP_ID": "wlgus",
+    "UP_DT": "2026-06-22T08:01:15"
+  },
+  {
+    "PLAN_SQ": 109742.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yye",
+    "REG_DT": "2026-01-27T16:44:19",
+    "UP_ID": "yye",
+    "UP_DT": "2026-05-18T16:12:16"
+  },
+  {
+    "PLAN_SQ": 110007.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-02-09T14:53:28",
+    "UP_ID": "yj-choi",
+    "UP_DT": "2026-05-22T17:37:42"
+  },
+  {
+    "PLAN_SQ": 111168.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-04-01T14:36:15",
+    "UP_ID": "hs1231",
+    "UP_DT": "2026-06-18T14:05:35"
+  },
+  {
+    "PLAN_SQ": 112010.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yye",
+    "REG_DT": "2026-05-14T13:21:16",
+    "UP_ID": "db0867",
+    "UP_DT": "2026-06-11T15:17:58"
+  },
+  {
+    "PLAN_SQ": 112173.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yoodk0706",
+    "REG_DT": "2026-05-19T11:04:17",
+    "UP_ID": "yoodk0706",
+    "UP_DT": "2026-06-17T15:17:38"
+  },
+  {
+    "PLAN_SQ": 111729.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yoodk0706",
+    "REG_DT": "2026-04-24T17:00:17",
+    "UP_ID": "mim",
+    "UP_DT": "2026-06-11T16:48:05"
+  },
+  {
+    "PLAN_SQ": 111731.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "naseulll",
+    "REG_DT": "2026-04-24T17:36:46",
+    "UP_ID": "naseulll",
+    "UP_DT": "2026-04-30T18:24:29"
+  },
+  {
+    "PLAN_SQ": 111855.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yglee",
+    "REG_DT": "2026-05-07T08:18:20",
+    "UP_ID": "by.choi",
+    "UP_DT": "2026-06-17T10:10:45"
+  },
+  {
+    "PLAN_SQ": 111992.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "sungjae.yu",
+    "REG_DT": "2026-05-14T08:56:29",
+    "UP_ID": "jinyoung98",
+    "UP_DT": "2026-06-08T13:57:48"
+  },
+  {
+    "PLAN_SQ": 112014.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yye",
+    "REG_DT": "2026-05-14T13:26:01",
+    "UP_ID": "db0867",
+    "UP_DT": "2026-06-11T15:10:49"
+  },
+  {
+    "PLAN_SQ": 112336.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jykim15",
+    "REG_DT": "2026-05-27T11:39:37",
+    "UP_ID": "kyu3843",
+    "UP_DT": "2026-06-12T14:57:45"
+  },
+  {
+    "PLAN_SQ": 102609.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2025-03-21T13:49:17",
+    "UP_ID": "epq",
+    "UP_DT": "2026-05-26T19:07:28"
+  },
+  {
+    "PLAN_SQ": 111290.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yoodk0706",
+    "REG_DT": "2026-04-09T09:25:52",
+    "UP_ID": "mim",
+    "UP_DT": "2026-06-17T17:29:41"
+  },
+  {
+    "PLAN_SQ": 111678.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "daeun.jung",
+    "REG_DT": "2026-04-23T16:08:24",
+    "UP_ID": "daeun.jung",
+    "UP_DT": "2026-05-19T11:24:34"
+  },
+  {
+    "PLAN_SQ": 111527.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "daeun.jung",
+    "REG_DT": "2026-04-20T11:03:16",
+    "UP_ID": "daeun.jung",
+    "UP_DT": "2026-05-14T15:17:23"
+  },
+  {
+    "PLAN_SQ": 111854.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jinyoung98",
+    "REG_DT": "2026-05-06T17:15:59",
+    "UP_ID": "jinyoung98",
+    "UP_DT": "2026-06-12T13:22:53"
+  },
+  {
+    "PLAN_SQ": 112083.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "kshsh0802",
+    "REG_DT": "2026-05-18T11:05:42",
+    "UP_ID": "db0867",
+    "UP_DT": "2026-06-11T15:14:16"
+  },
+  {
+    "PLAN_SQ": 112307.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "wlgus",
+    "REG_DT": "2026-05-26T16:18:46",
+    "UP_ID": "lily.yun",
+    "UP_DT": "2026-06-08T11:24:55"
+  },
+  {
+    "PLAN_SQ": 112334.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jykim15",
+    "REG_DT": "2026-05-27T11:38:27",
+    "UP_ID": "kyu3843",
+    "UP_DT": "2026-06-05T14:42:32"
+  },
+  {
+    "PLAN_SQ": 109276.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "lee-dueun",
+    "REG_DT": "2026-01-12T14:54:37",
+    "UP_ID": "wlgus",
+    "UP_DT": "2026-06-22T07:59:35"
+  },
+  {
+    "PLAN_SQ": 110307.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jhchoi",
+    "REG_DT": "2026-02-23T15:32:39",
+    "UP_ID": "jhchoi",
+    "UP_DT": "2026-06-10T11:25:32"
+  },
+  {
+    "PLAN_SQ": 111461.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yye",
+    "REG_DT": "2026-04-15T17:01:36",
+    "UP_ID": "db0867",
+    "UP_DT": "2026-06-11T14:59:04"
+  },
+  {
+    "PLAN_SQ": 111462.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yye",
+    "REG_DT": "2026-04-15T17:04:50",
+    "UP_ID": "db0867",
+    "UP_DT": "2026-06-11T14:59:09"
+  },
+  {
+    "PLAN_SQ": 111660.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "dsmko",
+    "REG_DT": "2026-04-23T08:17:56",
+    "UP_ID": "jinyoung98",
+    "UP_DT": "2026-06-16T09:48:27"
+  },
+  {
+    "PLAN_SQ": 105657.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2025-07-29T16:00:17",
+    "UP_ID": "epq",
+    "UP_DT": "2026-05-28T18:58:07"
+  },
+  {
+    "PLAN_SQ": 100007.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "kty",
+    "REG_DT": "2025-12-17T14:54:51",
+    "UP_ID": "kty",
+    "UP_DT": "2026-01-29T09:30:12"
+  },
+  {
+    "PLAN_SQ": 112476.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "ray",
+    "REG_DT": "2026-06-04T16:04:11",
+    "UP_ID": "jylee05",
+    "UP_DT": "2026-06-15T10:05:29"
+  },
+  {
+    "PLAN_SQ": 104908.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jihyunkim",
+    "REG_DT": "2025-06-27T14:52:32",
+    "UP_ID": "kty",
+    "UP_DT": "2026-01-01T01:03:18"
+  },
+  {
+    "PLAN_SQ": 107770.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jevieun",
+    "REG_DT": "2025-10-30T11:39:49",
+    "UP_ID": "hs1231",
+    "UP_DT": "2026-06-18T14:36:50"
+  },
+  {
+    "PLAN_SQ": 110992.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yblee",
+    "REG_DT": "2026-03-24T14:51:31",
+    "UP_ID": "yblee",
+    "UP_DT": "2026-05-25T12:13:04"
+  },
+  {
+    "PLAN_SQ": 112362.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-05-28T15:33:26",
+    "UP_ID": "yj-choi",
+    "UP_DT": "2026-06-01T11:46:07"
+  },
+  {
+    "PLAN_SQ": 104086.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2025-05-21T17:09:41",
+    "UP_ID": "epq",
+    "UP_DT": "2026-06-16T14:54:59"
+  },
+  {
+    "PLAN_SQ": 111496.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jykim15",
+    "REG_DT": "2026-04-16T15:15:09",
+    "UP_ID": "kyu3843",
+    "UP_DT": "2026-06-09T15:55:06"
+  },
+  {
+    "PLAN_SQ": 112060.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "thdbs",
+    "REG_DT": "2026-05-15T16:30:45",
+    "UP_ID": "thdbs",
+    "UP_DT": "2026-06-09T17:37:48"
+  },
+  {
+    "PLAN_SQ": 112535.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yoodk0706",
+    "REG_DT": "2026-06-09T09:47:35",
+    "UP_ID": "mim",
+    "UP_DT": "2026-06-10T16:52:22"
+  },
+  {
+    "PLAN_SQ": 101555.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2025-02-10T15:31:04",
+    "UP_ID": "epq",
+    "UP_DT": "2026-06-10T15:38:38"
+  },
+  {
+    "PLAN_SQ": 111996.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "sungjae.yu",
+    "REG_DT": "2026-05-14T08:58:05",
+    "UP_ID": "jinyoung98",
+    "UP_DT": "2026-06-22T10:34:36"
+  },
+  {
+    "PLAN_SQ": 112259.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "park.sh",
+    "REG_DT": "2026-05-22T11:11:57",
+    "UP_ID": "park.sh",
+    "UP_DT": "2026-06-16T14:11:15"
+  },
+  {
+    "PLAN_SQ": 112510.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jykim15",
+    "REG_DT": "2026-06-08T10:11:29",
+    "UP_ID": "kyu3843",
+    "UP_DT": "2026-06-10T14:11:59"
+  },
+  {
+    "PLAN_SQ": 110683.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jykim15",
+    "REG_DT": "2026-03-11T17:28:05",
+    "UP_ID": "kyu3843",
+    "UP_DT": "2026-05-11T10:50:27"
+  },
+  {
+    "PLAN_SQ": 111380.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-04-14T10:54:26",
+    "UP_ID": "yj-choi",
+    "UP_DT": "2026-05-21T11:43:18"
+  },
+  {
+    "PLAN_SQ": 111638.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "sungjae.yu",
+    "REG_DT": "2026-04-22T09:41:20",
+    "UP_ID": "haehyun",
+    "UP_DT": "2026-06-19T09:47:32"
+  },
+  {
+    "PLAN_SQ": 111687.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "thdbs",
+    "REG_DT": "2026-04-23T17:58:55",
+    "UP_ID": "thdbs",
+    "UP_DT": "2026-05-22T16:49:13"
+  },
+  {
+    "PLAN_SQ": 111688.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "thdbs",
+    "REG_DT": "2026-04-23T17:59:19",
+    "UP_ID": "thdbs",
+    "UP_DT": "2026-05-20T17:11:44"
+  },
+  {
+    "PLAN_SQ": 103584.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jihyunkim",
+    "REG_DT": "2025-04-29T15:21:41",
+    "UP_ID": "hrhan",
+    "UP_DT": "2026-01-01T01:00:42"
+  },
+  {
+    "PLAN_SQ": 109851.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "sungjae.yu",
+    "REG_DT": "2026-02-03T14:49:46",
+    "UP_ID": "jason-choi",
+    "UP_DT": "2026-06-10T16:18:36"
+  },
+  {
+    "PLAN_SQ": 111438.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "dsmko",
+    "REG_DT": "2026-04-15T10:59:37",
+    "UP_ID": "jinyoung98",
+    "UP_DT": "2026-06-22T11:36:27"
+  },
+  {
+    "PLAN_SQ": 111931.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "naseulll",
+    "REG_DT": "2026-05-11T14:07:19",
+    "UP_ID": "kyu3843",
+    "UP_DT": "2026-05-15T13:20:45"
+  },
+  {
+    "PLAN_SQ": 111987.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yj-choi",
+    "REG_DT": "2026-05-13T15:40:50",
+    "UP_ID": "yj-choi",
+    "UP_DT": "2026-06-18T18:09:49"
+  },
+  {
+    "PLAN_SQ": 112065.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "thdbs",
+    "REG_DT": "2026-05-15T16:40:06",
+    "UP_ID": "thdbs",
+    "UP_DT": "2026-06-12T10:48:43"
+  },
+  {
+    "PLAN_SQ": 112015.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yye",
+    "REG_DT": "2026-05-14T13:28:15",
+    "UP_ID": "db0867",
+    "UP_DT": "2026-06-11T15:03:40"
+  },
+  {
+    "PLAN_SQ": 112108.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "hsorry",
+    "REG_DT": "2026-05-18T14:31:40",
+    "UP_ID": "hsorry",
+    "UP_DT": "2026-06-01T10:02:33"
+  },
+  {
+    "PLAN_SQ": 112109.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "hsorry",
+    "REG_DT": "2026-05-18T14:32:39",
+    "UP_ID": "hsorry",
+    "UP_DT": "2026-06-22T11:28:09"
+  },
+  {
+    "PLAN_SQ": 111121.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "naseulll",
+    "REG_DT": "2026-03-30T17:28:00",
+    "UP_ID": "siyoung0133",
+    "UP_DT": "2026-05-07T10:24:11"
+  },
+  {
+    "PLAN_SQ": 112504.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "naseulll",
+    "REG_DT": "2026-06-05T16:44:21",
+    "UP_ID": "kyu3843",
+    "UP_DT": "2026-06-18T15:51:31"
+  },
+  {
+    "PLAN_SQ": 101403.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2025-02-03T16:34:43",
+    "UP_ID": "epq",
+    "UP_DT": "2026-05-22T17:05:49"
+  },
+  {
+    "PLAN_SQ": 101556.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2025-02-10T15:31:45",
+    "UP_ID": "epq",
+    "UP_DT": "2026-06-10T15:42:27"
+  },
+  {
+    "PLAN_SQ": 102899.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2025-04-03T13:39:09",
+    "UP_ID": "epq",
+    "UP_DT": "2026-06-18T11:15:45"
+  },
+  {
+    "PLAN_SQ": 105139.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jihyunkim",
+    "REG_DT": "2025-07-08T16:19:42",
+    "UP_ID": "kty",
+    "UP_DT": "2026-01-01T01:02:18"
+  },
+  {
+    "PLAN_SQ": 109536.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "lee-dueun",
+    "REG_DT": "2026-01-20T13:19:56",
+    "UP_ID": "lee-dueun",
+    "UP_DT": "2026-06-18T15:25:20"
+  },
+  {
+    "PLAN_SQ": 110870.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2026-03-19T08:47:43",
+    "UP_ID": "epq",
+    "UP_DT": "2026-05-27T20:02:41"
+  },
+  {
+    "PLAN_SQ": 112277.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "daeun.jung",
+    "REG_DT": "2026-05-26T11:28:47",
+    "UP_ID": "thdbs",
+    "UP_DT": "2026-05-27T18:16:44"
+  },
+  {
+    "PLAN_SQ": 112561.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jhchoi",
+    "REG_DT": "2026-06-10T14:51:25",
+    "UP_ID": "jhchoi",
+    "UP_DT": "2026-06-10T16:45:24"
+  },
+  {
+    "PLAN_SQ": 110410.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2026-02-26T08:46:01",
+    "UP_ID": "epq",
+    "UP_DT": "2026-05-29T13:36:07"
+  },
+  {
+    "PLAN_SQ": 111030.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "hsorry",
+    "REG_DT": "2026-03-25T13:53:02",
+    "UP_ID": "hsorry",
+    "UP_DT": "2026-04-03T18:46:16"
+  },
+  {
+    "PLAN_SQ": 111502.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jykim15",
+    "REG_DT": "2026-04-16T15:19:34",
+    "UP_ID": "kyu3843",
+    "UP_DT": "2026-05-22T10:49:04"
+  },
+  {
+    "PLAN_SQ": 111777.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "dsmko",
+    "REG_DT": "2026-04-28T10:17:08",
+    "UP_ID": "dsmko",
+    "UP_DT": "2026-06-16T11:06:07"
+  },
+  {
+    "PLAN_SQ": 111940.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "sungjae.yu",
+    "REG_DT": "2026-05-11T16:53:42",
+    "UP_ID": "jinyoung98",
+    "UP_DT": "2026-06-08T09:21:07"
+  },
+  {
+    "PLAN_SQ": 112110.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "hsorry",
+    "REG_DT": "2026-05-18T14:33:10",
+    "UP_ID": "hsorry",
+    "UP_DT": "2026-06-22T11:26:27"
+  },
+  {
+    "PLAN_SQ": 102433.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "epq",
+    "REG_DT": "2025-03-14T09:37:51",
+    "UP_ID": "kimhyemin",
+    "UP_DT": "2026-05-21T10:53:52"
+  },
+  {
+    "PLAN_SQ": 110441.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "hs1231",
+    "REG_DT": "2026-02-27T11:35:03",
+    "UP_ID": "hs1231",
+    "UP_DT": "2026-06-18T14:04:56"
+  },
+  {
+    "PLAN_SQ": 110963.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "lee-dueun",
+    "REG_DT": "2026-03-23T17:04:35",
+    "UP_ID": "wlgus",
+    "UP_DT": "2026-06-08T07:55:10"
+  },
+  {
+    "PLAN_SQ": 111370.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "yr.kwon",
+    "REG_DT": "2026-04-13T17:22:44",
+    "UP_ID": "yr.kwon",
+    "UP_DT": "2026-06-01T13:33:06"
+  },
+  {
+    "PLAN_SQ": 111505.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "naseulll",
+    "REG_DT": "2026-04-16T17:46:28",
+    "UP_ID": "kyu3843",
+    "UP_DT": "2026-04-28T11:21:35"
+  },
+  {
+    "PLAN_SQ": 112260.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "sungjae.yu",
+    "REG_DT": "2026-05-22T11:23:20",
+    "UP_ID": "jinyoung98",
+    "UP_DT": "2026-06-08T13:55:14"
+  },
+  {
+    "PLAN_SQ": 109470.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-01-19T13:28:27",
+    "UP_ID": "jyna",
+    "UP_DT": "2026-04-30T18:21:42"
+  },
+  {
+    "PLAN_SQ": 109471.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-01-19T13:29:22",
+    "UP_ID": "jyna",
+    "UP_DT": "2026-05-29T16:25:53"
+  },
+  {
+    "PLAN_SQ": 109472.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-01-19T13:30:05",
+    "UP_ID": "jyna",
+    "UP_DT": "2026-06-16T09:25:42"
+  },
+  {
+    "PLAN_SQ": 109473.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-01-19T13:30:36",
+    "UP_ID": "jyna",
+    "UP_DT": "2026-05-29T16:25:36"
+  },
+  {
+    "PLAN_SQ": 109474.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-01-19T13:31:05",
+    "UP_ID": "jyna",
+    "UP_DT": "2026-05-29T16:25:25"
+  },
+  {
+    "PLAN_SQ": 111084.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-03-27T17:15:45",
+    "UP_ID": "jyna",
+    "UP_DT": "2026-05-29T16:24:30"
+  },
+  {
+    "PLAN_SQ": 111565.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-04-20T16:03:39",
+    "UP_ID": "mhl",
+    "UP_DT": "2026-06-16T13:30:49"
+  },
+  {
+    "PLAN_SQ": 112367.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "chryu",
+    "REG_DT": "2026-05-29T09:08:10",
+    "UP_ID": "siyoung0133",
+    "UP_DT": "2026-06-15T10:37:52"
+  },
+  {
+    "PLAN_SQ": 112459.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "ej.kim",
+    "REG_DT": "2026-06-04T09:49:35",
+    "UP_ID": "ej.kim",
+    "UP_DT": "2026-06-11T09:32:49"
+  },
+  {
+    "PLAN_SQ": 109481.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-01-19T14:02:17",
+    "UP_ID": "jyna",
+    "UP_DT": "2026-05-29T16:24:53"
+  },
+  {
+    "PLAN_SQ": 109321.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "hjy1094",
+    "REG_DT": "2026-01-14T13:47:14",
+    "UP_ID": "wlgus",
+    "UP_DT": "2026-06-15T10:23:05"
+  },
+  {
+    "PLAN_SQ": 111845.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "chryu",
+    "REG_DT": "2026-05-06T11:01:03",
+    "UP_ID": "chryu",
+    "UP_DT": "2026-05-07T16:56:18"
+  },
+  {
+    "PLAN_SQ": 112353.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-05-28T09:17:56",
+    "UP_ID": "mhl",
+    "UP_DT": "2026-06-09T10:23:27"
+  },
+  {
+    "PLAN_SQ": 111450.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "dynelee",
+    "REG_DT": "2026-04-15T16:18:18",
+    "UP_ID": "dynelee",
+    "UP_DT": "2026-05-19T17:17:18"
+  },
+  {
+    "PLAN_SQ": 109689.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "charincom",
+    "REG_DT": "2026-01-26T10:22:16",
+    "UP_ID": "charincom",
+    "UP_DT": "2026-05-28T18:10:16"
+  },
+  {
+    "PLAN_SQ": 110812.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "dynelee",
+    "REG_DT": "2026-03-17T11:23:52",
+    "UP_ID": "dynelee",
+    "UP_DT": "2026-05-27T09:24:25"
+  },
+  {
+    "PLAN_SQ": 112269.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-05-22T17:52:01",
+    "UP_ID": "mhl",
+    "UP_DT": "2026-06-04T13:25:05"
+  },
+  {
+    "PLAN_SQ": 100070.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "kjeun",
+    "REG_DT": "2024-11-29T16:36:18",
+    "UP_ID": "hrhan",
+    "UP_DT": "2026-01-01T01:02:29"
+  },
+  {
+    "PLAN_SQ": 104876.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "inae.choi",
+    "REG_DT": "2025-06-25T14:23:24",
+    "UP_ID": "dltldhs731",
+    "UP_DT": "2026-06-04T16:26:42"
+  },
+  {
+    "PLAN_SQ": 112200.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "chryu",
+    "REG_DT": "2026-05-20T11:22:46",
+    "UP_ID": "kyu3843",
+    "UP_DT": "2026-06-16T13:27:43"
+  },
+  {
+    "PLAN_SQ": 111851.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-05-06T16:35:52",
+    "UP_ID": "mhl",
+    "UP_DT": "2026-06-04T13:30:28"
+  },
+  {
+    "PLAN_SQ": 108388.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "charincom",
+    "REG_DT": "2025-11-27T11:28:32",
+    "UP_ID": "charincom",
+    "UP_DT": "2026-05-28T18:11:29"
+  },
+  {
+    "PLAN_SQ": 110641.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "inae.choi",
+    "REG_DT": "2026-03-10T13:57:47",
+    "UP_ID": "dltldhs731",
+    "UP_DT": "2026-06-22T10:02:18"
+  },
+  {
+    "PLAN_SQ": 111421.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "ash9418",
+    "REG_DT": "2026-04-15T09:53:17",
+    "UP_ID": "dsmko",
+    "UP_DT": "2026-06-08T16:57:39"
+  },
+  {
+    "PLAN_SQ": 112038.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "parksoyeon",
+    "REG_DT": "2026-05-15T10:03:42",
+    "UP_ID": "parksoyeon",
+    "UP_DT": "2026-06-16T15:20:31"
+  },
+  {
+    "PLAN_SQ": 112199.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "chryu",
+    "REG_DT": "2026-05-20T11:22:05",
+    "UP_ID": "kyu3843",
+    "UP_DT": "2026-05-22T15:08:01"
+  },
+  {
+    "PLAN_SQ": 111307.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "chryu",
+    "REG_DT": "2026-04-09T14:35:55",
+    "UP_ID": "kyu3843",
+    "UP_DT": "2026-04-10T17:21:55"
+  },
+  {
+    "PLAN_SQ": 111658.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "charincom",
+    "REG_DT": "2026-04-22T17:41:19",
+    "UP_ID": "charincom",
+    "UP_DT": "2026-06-12T13:18:41"
+  },
+  {
+    "PLAN_SQ": 112290.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "h.hwayeon",
+    "REG_DT": "2026-05-26T15:00:09",
+    "UP_ID": "jylee05",
+    "UP_DT": "2026-06-12T17:44:15"
+  },
+  {
+    "PLAN_SQ": 112386.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "dynelee",
+    "REG_DT": "2026-05-29T13:29:53",
+    "UP_ID": "dynelee",
+    "UP_DT": "2026-06-08T09:05:22"
+  },
+  {
+    "PLAN_SQ": 102598.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "like1362",
+    "REG_DT": "2025-03-21T11:00:33",
+    "UP_ID": "hs1231",
+    "UP_DT": "2026-06-18T14:13:35"
+  },
+  {
+    "PLAN_SQ": 112170.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "kims045294",
+    "REG_DT": "2026-05-19T10:46:43",
+    "UP_ID": "kyu3843",
+    "UP_DT": "2026-06-22T11:22:16"
+  },
+  {
+    "PLAN_SQ": 111085.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-03-27T17:17:06",
+    "UP_ID": "jyna",
+    "UP_DT": "2026-05-29T16:24:15"
+  },
+  {
+    "PLAN_SQ": 112122.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-05-18T15:24:38",
+    "UP_ID": "mhl",
+    "UP_DT": "2026-06-13T00:56:16"
+  },
+  {
+    "PLAN_SQ": 110761.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "chryu",
+    "REG_DT": "2026-03-16T14:21:40",
+    "UP_ID": "chryu",
+    "UP_DT": "2026-06-15T10:40:51"
+  },
+  {
+    "PLAN_SQ": 112074.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "h.hwayeon",
+    "REG_DT": "2026-05-18T09:06:30",
+    "UP_ID": "jylee05",
+    "UP_DT": "2026-06-12T10:08:58"
+  },
+  {
+    "PLAN_SQ": 112076.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-05-18T09:55:20",
+    "UP_ID": "mhl",
+    "UP_DT": "2026-05-22T14:11:02"
+  },
+  {
+    "PLAN_SQ": 112204.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "dynelee",
+    "REG_DT": "2026-05-20T16:10:07",
+    "UP_ID": "dynelee",
+    "UP_DT": "2026-06-05T12:01:52"
+  },
+  {
+    "PLAN_SQ": 100001.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "kty",
+    "REG_DT": "2024-11-27T10:41:05",
+    "UP_ID": "kimbos",
+    "UP_DT": "2026-05-26T13:33:19"
+  },
+  {
+    "PLAN_SQ": 111406.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "ej.kim",
+    "REG_DT": "2026-04-14T16:42:26",
+    "UP_ID": "siyoung0133",
+    "UP_DT": "2026-05-08T10:15:50"
+  },
+  {
+    "PLAN_SQ": 111407.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "ej.kim",
+    "REG_DT": "2026-04-14T16:43:07",
+    "UP_ID": "ej.kim",
+    "UP_DT": "2026-05-29T13:14:15"
+  },
+  {
+    "PLAN_SQ": 112256.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-05-22T10:48:53",
+    "UP_ID": "mhl",
+    "UP_DT": "2026-06-13T01:06:08"
+  },
+  {
+    "PLAN_SQ": 104197.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "like1362",
+    "REG_DT": "2025-05-26T13:28:32",
+    "UP_ID": "kxxiu",
+    "UP_DT": "2025-06-11T14:36:39"
+  },
+  {
+    "PLAN_SQ": 104246.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "inae.choi",
+    "REG_DT": "2025-05-28T13:20:31",
+    "UP_ID": "dltldhs731",
+    "UP_DT": "2026-06-15T10:04:21"
+  },
+  {
+    "PLAN_SQ": 111733.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-04-27T09:00:27",
+    "UP_ID": "mhl",
+    "UP_DT": "2026-05-15T10:29:07"
+  },
+  {
+    "PLAN_SQ": 111902.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "ej.kim",
+    "REG_DT": "2026-05-08T11:31:09",
+    "UP_ID": "kyu3843",
+    "UP_DT": "2026-06-12T17:03:13"
+  },
+  {
+    "PLAN_SQ": 110762.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-03-16T14:30:28",
+    "UP_ID": "mhl",
+    "UP_DT": "2026-06-04T13:25:45"
+  },
+  {
+    "PLAN_SQ": 111043.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "ash9418",
+    "REG_DT": "2026-03-26T08:56:28",
+    "UP_ID": "jinyoung98",
+    "UP_DT": "2026-06-22T11:35:55"
+  },
+  {
+    "PLAN_SQ": 112096.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "dynelee",
+    "REG_DT": "2026-05-18T11:12:55",
+    "UP_ID": "dynelee",
+    "UP_DT": "2026-05-29T17:12:44"
+  },
+  {
+    "PLAN_SQ": 112058.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "kims045294",
+    "REG_DT": "2026-05-15T15:27:32",
+    "UP_ID": "kyu3843",
+    "UP_DT": "2026-06-11T14:32:38"
+  },
+  {
+    "PLAN_SQ": 110508.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "hjy1094",
+    "REG_DT": "2026-03-04T13:43:40",
+    "UP_ID": "slee0821",
+    "UP_DT": "2026-06-17T16:27:12"
+  },
+  {
+    "PLAN_SQ": 111806.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "ej.kim",
+    "REG_DT": "2026-04-29T09:54:31",
+    "UP_ID": "ej.kim",
+    "UP_DT": "2026-05-24T19:30:08"
+  },
+  {
+    "PLAN_SQ": 107681.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "charincom",
+    "REG_DT": "2025-10-24T17:25:25",
+    "UP_ID": "kty",
+    "UP_DT": "2026-01-01T00:59:05"
+  },
+  {
+    "PLAN_SQ": 112059.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "kims045294",
+    "REG_DT": "2026-05-15T15:29:23",
+    "UP_ID": "naseulll",
+    "UP_DT": "2026-06-05T15:23:26"
+  },
+  {
+    "PLAN_SQ": 112412.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-06-01T10:17:16",
+    "UP_ID": "mim",
+    "UP_DT": "2026-06-08T09:33:10"
+  },
+  {
+    "PLAN_SQ": 111937.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-05-11T16:04:42",
+    "UP_ID": "jyna",
+    "UP_DT": "2026-05-29T16:24:00"
+  },
+  {
+    "PLAN_SQ": 111938.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-05-11T16:09:37",
+    "UP_ID": "jyna",
+    "UP_DT": "2026-05-29T16:23:47"
+  },
+  {
+    "PLAN_SQ": 111971.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "ej.kim",
+    "REG_DT": "2026-05-12T18:12:08",
+    "UP_ID": "ej.kim",
+    "UP_DT": "2026-06-05T17:21:31"
+  },
+  {
+    "PLAN_SQ": 112152.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "ej.kim",
+    "REG_DT": "2026-05-19T09:58:36",
+    "UP_ID": "ej.kim",
+    "UP_DT": "2026-05-22T11:31:15"
+  },
+  {
+    "PLAN_SQ": 112249.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "parksoyeon",
+    "REG_DT": "2026-05-22T09:10:54",
+    "UP_ID": "siyoung0133",
+    "UP_DT": "2026-06-16T09:15:20"
+  },
+  {
+    "PLAN_SQ": 111674.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "chryu",
+    "REG_DT": "2026-04-23T15:09:11",
+    "UP_ID": "kyu3843",
+    "UP_DT": "2026-04-23T17:52:39"
+  },
+  {
+    "PLAN_SQ": 112046.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-05-15T10:47:09",
+    "UP_ID": "jyna",
+    "UP_DT": "2026-06-11T17:44:11"
+  },
+  {
+    "PLAN_SQ": 112048.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-05-15T10:57:42",
+    "UP_ID": "jyna",
+    "UP_DT": "2026-06-11T17:45:47"
+  },
+  {
+    "PLAN_SQ": 111172.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "charincom",
+    "REG_DT": "2026-04-02T09:04:16",
+    "UP_ID": "charincom",
+    "UP_DT": "2026-05-07T16:49:28"
+  },
+  {
+    "PLAN_SQ": 109940.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "h.hwayeon",
+    "REG_DT": "2026-02-06T13:18:34",
+    "UP_ID": "db0867",
+    "UP_DT": "2026-06-15T14:57:54"
+  },
+  {
+    "PLAN_SQ": 110646.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-03-10T16:29:47",
+    "UP_ID": "jyna",
+    "UP_DT": "2026-06-22T10:51:04"
+  },
+  {
+    "PLAN_SQ": 111405.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "ej.kim",
+    "REG_DT": "2026-04-14T16:41:35",
+    "UP_ID": "ej.kim",
+    "UP_DT": "2026-05-18T18:14:28"
+  },
+  {
+    "PLAN_SQ": 111408.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "ej.kim",
+    "REG_DT": "2026-04-14T16:45:51",
+    "UP_ID": "ej.kim",
+    "UP_DT": "2026-05-29T10:32:13"
+  },
+  {
+    "PLAN_SQ": 111292.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-04-09T09:50:57",
+    "UP_ID": "mhl",
+    "UP_DT": "2026-05-13T14:33:07"
+  },
+  {
+    "PLAN_SQ": 109475.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-01-19T13:31:39",
+    "UP_ID": "jyna",
+    "UP_DT": "2026-05-29T16:25:16"
+  },
+  {
+    "PLAN_SQ": 109476.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-01-19T13:32:16",
+    "UP_ID": "jyna",
+    "UP_DT": "2026-05-29T16:25:06"
+  },
+  {
+    "PLAN_SQ": 111426.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "ej.kim",
+    "REG_DT": "2026-04-15T10:11:11",
+    "UP_ID": "siyoung0133",
+    "UP_DT": "2026-05-22T10:01:09"
+  },
+  {
+    "PLAN_SQ": 111142.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "dynelee",
+    "REG_DT": "2026-03-31T10:17:11",
+    "UP_ID": "dynelee",
+    "UP_DT": "2026-06-10T10:47:32"
+  },
+  {
+    "PLAN_SQ": 112168.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "kims045294",
+    "REG_DT": "2026-05-19T10:43:55",
+    "UP_ID": "kyu3843",
+    "UP_DT": "2026-06-22T11:20:20"
+  },
+  {
+    "PLAN_SQ": 112248.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "parksoyeon",
+    "REG_DT": "2026-05-22T09:10:14",
+    "UP_ID": "parksoyeon",
+    "UP_DT": "2026-06-05T18:05:58"
+  },
+  {
+    "PLAN_SQ": 112251.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "parksoyeon",
+    "REG_DT": "2026-05-22T09:13:48",
+    "UP_ID": "parksoyeon",
+    "UP_DT": "2026-06-08T18:10:27"
+  },
+  {
+    "PLAN_SQ": 106403.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "charincom",
+    "REG_DT": "2025-08-28T10:44:51",
+    "UP_ID": "kty",
+    "UP_DT": "2026-01-01T01:01:41"
+  },
+  {
+    "PLAN_SQ": 110405.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "charincom",
+    "REG_DT": "2026-02-25T17:04:48",
+    "UP_ID": "charincom",
+    "UP_DT": "2026-05-28T18:11:19"
+  },
+  {
+    "PLAN_SQ": 111880.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "hjy1094",
+    "REG_DT": "2026-05-07T15:23:29",
+    "UP_ID": "naseulll",
+    "UP_DT": "2026-06-11T18:16:21"
+  },
+  {
+    "PLAN_SQ": 111917.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-05-08T15:23:06",
+    "UP_ID": "mim",
+    "UP_DT": "2026-05-29T15:16:53"
+  },
+  {
+    "PLAN_SQ": 111918.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-05-08T15:25:11",
+    "UP_ID": "mhl",
+    "UP_DT": "2026-06-13T01:06:42"
+  },
+  {
+    "PLAN_SQ": 103964.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "like1362",
+    "REG_DT": "2025-05-19T16:27:00",
+    "UP_ID": "hs1231",
+    "UP_DT": "2026-06-18T14:13:50"
+  },
+  {
+    "PLAN_SQ": 108912.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "charincom",
+    "REG_DT": "2025-12-18T16:24:24",
+    "UP_ID": "charincom",
+    "UP_DT": "2026-05-28T18:10:02"
+  },
+  {
+    "PLAN_SQ": 111625.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jykim15",
+    "REG_DT": "2026-04-21T18:44:35",
+    "UP_ID": "jykim15",
+    "UP_DT": "2026-06-05T13:20:31"
+  },
+  {
+    "PLAN_SQ": 111970.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "ej.kim",
+    "REG_DT": "2026-05-12T18:11:40",
+    "UP_ID": "ej.kim",
+    "UP_DT": "2026-06-12T17:45:12"
+  },
+  {
+    "PLAN_SQ": 112247.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "ej.kim",
+    "REG_DT": "2026-05-21T20:29:18",
+    "UP_ID": "ej.kim",
+    "UP_DT": "2026-06-12T10:59:47"
+  },
+  {
+    "PLAN_SQ": 112347.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "ej.kim",
+    "REG_DT": "2026-05-27T17:27:58",
+    "UP_ID": "ej.kim",
+    "UP_DT": "2026-06-01T10:40:15"
+  },
+  {
+    "PLAN_SQ": 109480.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-01-19T14:01:46",
+    "UP_ID": "gdo",
+    "UP_DT": "2026-05-11T12:10:09"
+  },
+  {
+    "PLAN_SQ": 109469.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-01-19T13:27:06",
+    "UP_ID": "jyna",
+    "UP_DT": "2026-06-16T14:00:11"
+  },
+  {
+    "PLAN_SQ": 110282.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "jyna",
+    "REG_DT": "2026-02-20T17:38:14",
+    "UP_ID": "jyna",
+    "UP_DT": "2026-06-16T14:51:04"
+  },
+  {
+    "PLAN_SQ": 111990.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-05-13T17:12:57",
+    "UP_ID": "mhl",
+    "UP_DT": "2026-05-18T17:51:44"
+  },
+  {
+    "PLAN_SQ": 107183.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "charincom",
+    "REG_DT": "2025-09-25T19:00:03",
+    "UP_ID": "kty",
+    "UP_DT": "2026-01-01T01:01:24"
+  },
+  {
+    "PLAN_SQ": 111032.0,
+    "PLAN_TYPE": "T",
+    "CORNER_TYPE": "N",
+    "REG_ID": "chryu",
+    "REG_DT": "2026-03-25T14:32:18",
+    "UP_ID": "yj-choi",
+    "UP_DT": "2026-03-30T16:13:43"
+  },
+  {
+    "PLAN_SQ": 111812.0,
+    "PLAN_TYPE": "A",
+    "CORNER_TYPE": "N",
+    "REG_ID": "ej.kim",
+    "REG_DT": "2026-04-29T16:24:46",
+    "UP_ID": "ej.kim",
+    "UP_DT": "2026-05-20T15:24:46"
+  },
+  {
+    "PLAN_SQ": 111986.0,
+    "PLAN_TYPE": "N",
+    "CORNER_TYPE": "N",
+    "REG_ID": "mhl",
+    "REG_DT": "2026-05-13T14:37:07",
+    "UP_ID": "mhl",
+    "UP_DT": "2026-06-08T10:06:38"
+  }
+]

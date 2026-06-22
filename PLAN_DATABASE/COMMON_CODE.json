@@ -1,0 +1,803 @@
+[
+  {
+    "TABLE": "LST_PLAN_SITE",
+    "COLUMNS": "SITE_CD",
+    "COMMON_CODE": "G085",
+    "CODE": "01",
+    "CODE_NM": "정상몰(웹)",
+    "CODE_DESC": "www.lfmall.co.kr",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_SITE",
+    "COLUMNS": "SITE_CD",
+    "COMMON_CODE": "G085",
+    "CODE": "02",
+    "CODE_NM": "이월몰(웹)",
+    "CODE_DESC": "outlet.lfmall.co.kr",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_SITE",
+    "COLUMNS": "SITE_CD",
+    "COMMON_CODE": "G085",
+    "CODE": "03",
+    "CODE_NM": "정상몰(모바일)",
+    "CODE_DESC": "m.lfmall.co.kr",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_SITE",
+    "COLUMNS": "SITE_CD",
+    "COMMON_CODE": "G085",
+    "CODE": "04",
+    "CODE_NM": "이월몰(모바일)",
+    "CODE_DESC": "m.outlet.lfmall.co.kr",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_SITE",
+    "COLUMNS": "SITE_CD",
+    "COMMON_CODE": "G085",
+    "CODE": "05",
+    "CODE_NM": "헤지스몰(웹)",
+    "CODE_DESC": "hazzys.lfmall.co.kr",
+    "USE_YN": "N"
+  },
+  {
+    "TABLE": "LST_PLAN_SITE",
+    "COLUMNS": "SITE_CD",
+    "COMMON_CODE": "G085",
+    "CODE": "06",
+    "CODE_NM": "헤지스몰(모바일)",
+    "CODE_DESC": "m.hazzys.lfmall.co.kr",
+    "USE_YN": "N"
+  },
+  {
+    "TABLE": "LST_PLAN_SITE",
+    "COLUMNS": "SITE_CD",
+    "COMMON_CODE": "G085",
+    "CODE": "07",
+    "CODE_NM": "라움에디션몰(웹)",
+    "CODE_DESC": "raumedition.lfmall.co.kr",
+    "USE_YN": "N"
+  },
+  {
+    "TABLE": "LST_PLAN_SITE",
+    "COLUMNS": "SITE_CD",
+    "COMMON_CODE": "G085",
+    "CODE": "08",
+    "CODE_NM": "라움에디션몰(모바일)",
+    "CODE_DESC": "m.raumedition.lfmall.co.kr",
+    "USE_YN": "N"
+  },
+  {
+    "TABLE": "LST_PLAN_SITE",
+    "COLUMNS": "SITE_CD",
+    "COMMON_CODE": "G085",
+    "CODE": "09",
+    "CODE_NM": "어라운드더코너몰(웹)",
+    "CODE_DESC": "aroundthecorner.lfmall.co.kr",
+    "USE_YN": "N"
+  },
+  {
+    "TABLE": "LST_PLAN_SITE",
+    "COLUMNS": "SITE_CD",
+    "COMMON_CODE": "G085",
+    "CODE": 10,
+    "CODE_NM": "어라운드더코너몰(모바일)",
+    "CODE_DESC": "m.aroundthecorner.lfmall.co.kr",
+    "USE_YN": "N"
+  },
+  {
+    "TABLE": "LST_PLAN_SITE",
+    "COLUMNS": "SITE_CD",
+    "COMMON_CODE": "G085",
+    "CODE": 11,
+    "CODE_NM": "ATC(웹)",
+    "CODE_DESC": "www.aroundthecorner.com",
+    "USE_YN": "N"
+  },
+  {
+    "TABLE": "LST_PLAN_SITE",
+    "COLUMNS": "SITE_CD",
+    "COMMON_CODE": "G085",
+    "CODE": 12,
+    "CODE_NM": "ATC(모바일)",
+    "CODE_DESC": "m.aroundthecorner.com",
+    "USE_YN": "N"
+  },
+  {
+    "TABLE": "LST_PLAN_CATEGORY",
+    "COLUMNS": "CATEGORY_CD",
+    "COMMON_CODE": "D035",
+    "CODE": 0,
+    "CODE_NM": "통합",
+    "CODE_DESC": "대카테고리",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CATEGORY",
+    "COLUMNS": "CATEGORY_CD",
+    "COMMON_CODE": "D035",
+    "CODE": 80002,
+    "CODE_NM": "골프",
+    "CODE_DESC": "대카테고리",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CATEGORY",
+    "COLUMNS": "CATEGORY_CD",
+    "COMMON_CODE": "D035",
+    "CODE": 80047,
+    "CODE_NM": "남성의류",
+    "CODE_DESC": "대카테고리",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CATEGORY",
+    "COLUMNS": "CATEGORY_CD",
+    "COMMON_CODE": "D035",
+    "CODE": 80155,
+    "CODE_NM": "명품",
+    "CODE_DESC": "대카테고리",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CATEGORY",
+    "COLUMNS": "CATEGORY_CD",
+    "COMMON_CODE": "D035",
+    "CODE": 80257,
+    "CODE_NM": "가방/잡화",
+    "CODE_DESC": "대카테고리",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CATEGORY",
+    "COLUMNS": "CATEGORY_CD",
+    "COMMON_CODE": "D035",
+    "CODE": 80342,
+    "CODE_NM": "화장품/미용",
+    "CODE_DESC": "대카테고리",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CATEGORY",
+    "COLUMNS": "CATEGORY_CD",
+    "COMMON_CODE": "D035",
+    "CODE": 80372,
+    "CODE_NM": "슈즈",
+    "CODE_DESC": "대카테고리",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CATEGORY",
+    "COLUMNS": "CATEGORY_CD",
+    "COMMON_CODE": "D035",
+    "CODE": 80400,
+    "CODE_NM": "스포츠/레져",
+    "CODE_DESC": "대카테고리",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CATEGORY",
+    "COLUMNS": "CATEGORY_CD",
+    "COMMON_CODE": "D035",
+    "CODE": 80451,
+    "CODE_NM": "여성의류",
+    "CODE_DESC": "대카테고리",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CATEGORY",
+    "COLUMNS": "CATEGORY_CD",
+    "COMMON_CODE": "D035",
+    "CODE": 80566,
+    "CODE_NM": "캠핑/아웃도어",
+    "CODE_DESC": "대카테고리",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CATEGORY",
+    "COLUMNS": "CATEGORY_CD",
+    "COMMON_CODE": "D035",
+    "CODE": 80622,
+    "CODE_NM": "키즈",
+    "CODE_DESC": "대카테고리",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CATEGORY",
+    "COLUMNS": "CATEGORY_CD",
+    "COMMON_CODE": "D035",
+    "CODE": 80741,
+    "CODE_NM": "키친/생활",
+    "CODE_DESC": "대카테고리",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CATEGORY",
+    "COLUMNS": "CATEGORY_CD",
+    "COMMON_CODE": "D035",
+    "CODE": 92036,
+    "CODE_NM": "중고명품",
+    "CODE_DESC": "대카테고리",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CATEGORY",
+    "COLUMNS": "CATEGORY_CD",
+    "COMMON_CODE": "D035",
+    "CODE": 92149,
+    "CODE_NM": "영스트리트의류",
+    "CODE_DESC": "대카테고리",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CATEGORY",
+    "COLUMNS": "CATEGORY_CD",
+    "COMMON_CODE": "D035",
+    "CODE": 92224,
+    "CODE_NM": "시계/쥬얼리",
+    "CODE_DESC": "대카테고리",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CATEGORY",
+    "COLUMNS": "CATEGORY_CD",
+    "COMMON_CODE": "D035",
+    "CODE": 92346,
+    "CODE_NM": "가전디지털",
+    "CODE_DESC": "대카테고리",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CATEGORY",
+    "COLUMNS": "CATEGORY_CD",
+    "COMMON_CODE": "D035",
+    "CODE": 92402,
+    "CODE_NM": "가구/홈데코",
+    "CODE_DESC": "대카테고리",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CTGY_PBSH",
+    "COLUMNS": "CTGY_PBSH_CD",
+    "COMMON_CODE": "G560",
+    "CODE": 10,
+    "CODE_NM": "여성의류",
+    "CODE_DESC": "기획전 카테고리 전문관 여성",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CTGY_PBSH",
+    "COLUMNS": "CTGY_PBSH_CD",
+    "COMMON_CODE": "G560",
+    "CODE": 20,
+    "CODE_NM": "남성의류",
+    "CODE_DESC": "기획전 카테고리 전문관 남성",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CTGY_PBSH",
+    "COLUMNS": "CTGY_PBSH_CD",
+    "COMMON_CODE": "G560",
+    "CODE": 30,
+    "CODE_NM": "잡화/슈즈",
+    "CODE_DESC": "기획전 카테고리 전문관 잡화/슈즈",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CTGY_PBSH",
+    "COLUMNS": "CTGY_PBSH_CD",
+    "COMMON_CODE": "G560",
+    "CODE": 40,
+    "CODE_NM": "명품",
+    "CODE_DESC": "기획전 카테고리 전문관 명품",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CTGY_PBSH",
+    "COLUMNS": "CTGY_PBSH_CD",
+    "COMMON_CODE": "G560",
+    "CODE": 50,
+    "CODE_NM": "골프/스포츠",
+    "CODE_DESC": "기획전 카테고리 전문관 골프/스포츠",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CTGY_PBSH",
+    "COLUMNS": "CTGY_PBSH_CD",
+    "COMMON_CODE": "G560",
+    "CODE": 60,
+    "CODE_NM": "뷰티",
+    "CODE_DESC": "기획전 카테고리 전문관 뷰티",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CTGY_PBSH",
+    "COLUMNS": "CTGY_PBSH_CD",
+    "COMMON_CODE": "G560",
+    "CODE": 70,
+    "CODE_NM": "리빙",
+    "CODE_DESC": "기획전 카테고리 전문관 리빙",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CTGY_PBSH",
+    "COLUMNS": "CTGY_PBSH_CD",
+    "COMMON_CODE": "G560",
+    "CODE": 80,
+    "CODE_NM": "여행",
+    "CODE_DESC": "기획전 카테고리 전문관 여행",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CTGY_PBSH",
+    "COLUMNS": "CTGY_PBSH_CD",
+    "COMMON_CODE": "G560",
+    "CODE": 90,
+    "CODE_NM": "키즈",
+    "CODE_DESC": "기획전 카테고리 전문관 키즈",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "LST_PLAN_CTGY_PBSH",
+    "COLUMNS": "CTGY_PBSH_CD",
+    "COMMON_CODE": "G560",
+    "CODE": 99,
+    "CODE_NM": "공통",
+    "CODE_DESC": "기획전 카테고리 전문관 필터 미생성 예외처리",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "CLBT_TYPE_CD",
+    "COMMON_CODE": "P900",
+    "CODE": "01",
+    "CODE_NM": "크로스 카테고리 복합 브랜드",
+    "CODE_DESC": "크로스 카테고리 복합 브랜드",
+    "USE_YN": null
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "CLBT_TYPE_CD",
+    "COMMON_CODE": "P900",
+    "CODE": "02",
+    "CODE_NM": "크로스 카테고리 단일 브랜드",
+    "CODE_DESC": "크로스 카테고리 단일 브랜드",
+    "USE_YN": null
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "CLBT_TYPE_CD",
+    "COMMON_CODE": "P900",
+    "CODE": "03",
+    "CODE_NM": "단일 카테고리 복합 브랜드",
+    "CODE_DESC": "단일 카테고리 복합 브랜드",
+    "USE_YN": null
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "CLBT_TYPE_CD",
+    "COMMON_CODE": "P900",
+    "CODE": "04",
+    "CODE_NM": "단일 카테고리 단일 브랜드",
+    "CODE_DESC": "단일 카테고리 단일 브랜드",
+    "USE_YN": null
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "ANLY_CTGY_CD",
+    "COMMON_CODE": "P901",
+    "CODE": 1,
+    "CODE_NM": "여성의류",
+    "CODE_DESC": "여성의류",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "ANLY_CTGY_CD",
+    "COMMON_CODE": "P901",
+    "CODE": 2,
+    "CODE_NM": "남성의류",
+    "CODE_DESC": "남성의류",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "ANLY_CTGY_CD",
+    "COMMON_CODE": "P901",
+    "CODE": 3,
+    "CODE_NM": "유니섹스 의류",
+    "CODE_DESC": "유니섹스 의류",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "ANLY_CTGY_CD",
+    "COMMON_CODE": "P901",
+    "CODE": 4,
+    "CODE_NM": "잡화",
+    "CODE_DESC": "잡화",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "ANLY_CTGY_CD",
+    "COMMON_CODE": "P901",
+    "CODE": 5,
+    "CODE_NM": "슈즈",
+    "CODE_DESC": "슈즈",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "ANLY_CTGY_CD",
+    "COMMON_CODE": "P901",
+    "CODE": 6,
+    "CODE_NM": "골프",
+    "CODE_DESC": "골프",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "ANLY_CTGY_CD",
+    "COMMON_CODE": "P901",
+    "CODE": 7,
+    "CODE_NM": "스포츠",
+    "CODE_DESC": "스포츠",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "ANLY_CTGY_CD",
+    "COMMON_CODE": "P901",
+    "CODE": 8,
+    "CODE_NM": "키즈",
+    "CODE_DESC": "키즈",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "ANLY_CTGY_CD",
+    "COMMON_CODE": "P901",
+    "CODE": 9,
+    "CODE_NM": "명품",
+    "CODE_DESC": "명품",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "ANLY_CTGY_CD",
+    "COMMON_CODE": "P901",
+    "CODE": 10,
+    "CODE_NM": "판매중개",
+    "CODE_DESC": "판매중개",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "ANLY_CTGY_CD",
+    "COMMON_CODE": "P901",
+    "CODE": 11,
+    "CODE_NM": "리빙",
+    "CODE_DESC": "리빙",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "ANLY_CTGY_CD",
+    "COMMON_CODE": "P901",
+    "CODE": 12,
+    "CODE_NM": "뷰티",
+    "CODE_DESC": "뷰티",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "ANLY_CTGY_CD",
+    "COMMON_CODE": "P901",
+    "CODE": 13,
+    "CODE_NM": "기타",
+    "CODE_DESC": "기타",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "ANLY_CTGY_CD",
+    "COMMON_CODE": "P901",
+    "CODE": 14,
+    "CODE_NM": "미정의",
+    "CODE_DESC": "미정의",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "EVN_TYPE_CD",
+    "COMMON_CODE": "P905",
+    "CODE": 1,
+    "CODE_NM": "할인형",
+    "CODE_DESC": "할인형",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "EVN_TYPE_CD",
+    "COMMON_CODE": "P905",
+    "CODE": 2,
+    "CODE_NM": "아이템",
+    "CODE_DESC": "아이템",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "EVN_TYPE_CD",
+    "COMMON_CODE": "P905",
+    "CODE": 3,
+    "CODE_NM": "시즌테마",
+    "CODE_DESC": "시즌테마",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "EVN_TYPE_CD",
+    "COMMON_CODE": "P905",
+    "CODE": 4,
+    "CODE_NM": "인큐베이팅",
+    "CODE_DESC": "인큐베이팅",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "EVN_TYPE_CD",
+    "COMMON_CODE": "P905",
+    "CODE": 5,
+    "CODE_NM": "마케팅 프로그램",
+    "CODE_DESC": "마케팅 프로그램",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "EVN_TYPE_CD",
+    "COMMON_CODE": "P905",
+    "CODE": 6,
+    "CODE_NM": "몰 브랜딩 컨텐츠",
+    "CODE_DESC": "몰 브랜딩 컨텐츠",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "EVN_TYPE_CD",
+    "COMMON_CODE": "P905",
+    "CODE": 7,
+    "CODE_NM": "영업지원 컨텐츠",
+    "CODE_DESC": "영업지원 컨텐츠",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "EVN_TYPE_CD",
+    "COMMON_CODE": "P905",
+    "CODE": 8,
+    "CODE_NM": "제휴사 회원 인증",
+    "CODE_DESC": "제휴사 회원 인증",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "EVN_SASN_CD",
+    "COMMON_CODE": "P906",
+    "CODE": 1,
+    "CODE_NM": "정시즌",
+    "CODE_DESC": "정시즌",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "EVN_SASN_CD",
+    "COMMON_CODE": "P906",
+    "CODE": 2,
+    "CODE_NM": "역시즌",
+    "CODE_DESC": "역시즌",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "EVN_SASN_CD",
+    "COMMON_CODE": "P906",
+    "CODE": 3,
+    "CODE_NM": "프리시즌 (얼리버드)",
+    "CODE_DESC": "프리시즌 (얼리버드)",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "EVN_SASN_CD",
+    "COMMON_CODE": "P906",
+    "CODE": 4,
+    "CODE_NM": "시즌리스",
+    "CODE_DESC": "시즌리스",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "EVN_SASN_CD",
+    "COMMON_CODE": "P906",
+    "CODE": 5,
+    "CODE_NM": "통합",
+    "CODE_DESC": "통합",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "DC_TYPE_CD",
+    "COMMON_CODE": "P907",
+    "CODE": 1,
+    "CODE_NM": "가격인하",
+    "CODE_DESC": "가격인하",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "DC_TYPE_CD",
+    "COMMON_CODE": "P907",
+    "CODE": 2,
+    "CODE_NM": "브랜드데이",
+    "CODE_DESC": "브랜드데이",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "DC_TYPE_CD",
+    "COMMON_CODE": "P907",
+    "CODE": 3,
+    "CODE_NM": "시즌오프",
+    "CODE_DESC": "시즌오프",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "DC_TYPE_CD",
+    "COMMON_CODE": "P907",
+    "CODE": 4,
+    "CODE_NM": "클리어런스",
+    "CODE_DESC": "클리어런스",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "DC_TYPE_CD",
+    "COMMON_CODE": "P907",
+    "CODE": 5,
+    "CODE_NM": "기타",
+    "CODE_DESC": "기타",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "DC_TYPE_CD",
+    "COMMON_CODE": "P907",
+    "CODE": 6,
+    "CODE_NM": "없음",
+    "CODE_DESC": "없음",
+    "USE_YN": "N"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "DC_TYPE_CD",
+    "COMMON_CODE": "P907",
+    "CODE": 7,
+    "CODE_NM": "없음",
+    "CODE_DESC": "없음",
+    "USE_YN": "N"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "DC_TYPE_CD",
+    "COMMON_CODE": "P907",
+    "CODE": 8,
+    "CODE_NM": "없음",
+    "CODE_DESC": "없음",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "BNFT_MTHD_CD",
+    "COMMON_CODE": "P909",
+    "CODE": 1,
+    "CODE_NM": "기획전 내 다운로드",
+    "CODE_DESC": "기획전 내 다운로드",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "BNFT_MTHD_CD",
+    "COMMON_CODE": "P909",
+    "CODE": 2,
+    "CODE_NM": "룰렛 또는 게임을 통한 다운로드",
+    "CODE_DESC": "룰렛 또는 게임을 통한 다운로드",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "BNFT_MTHD_CD",
+    "COMMON_CODE": "P909",
+    "CODE": 3,
+    "CODE_NM": "상품 자동 적용",
+    "CODE_DESC": "상품 자동 적용",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "BNFT_MTHD_CD",
+    "COMMON_CODE": "P909",
+    "CODE": 4,
+    "CODE_NM": "선지급",
+    "CODE_DESC": "고객에게 사전지급",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "BNFT_MTHD_CD",
+    "COMMON_CODE": "P909",
+    "CODE": 5,
+    "CODE_NM": "후지급",
+    "CODE_DESC": "기획전 종료 후 지급",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "BNFT_MTHD_CD",
+    "COMMON_CODE": "P909",
+    "CODE": 6,
+    "CODE_NM": "추첨형",
+    "CODE_DESC": "추첨형",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "BNFT_MTHD_CD",
+    "COMMON_CODE": "P909",
+    "CODE": 7,
+    "CODE_NM": "선착순",
+    "CODE_DESC": "선착순",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "BNFT_MTHD_CD",
+    "COMMON_CODE": "P909",
+    "CODE": 8,
+    "CODE_NM": "없음",
+    "CODE_DESC": "없음",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "BNFT_MTHD_CD",
+    "COMMON_CODE": "P909",
+    "CODE": 9,
+    "CODE_NM": "카드 청구할인",
+    "CODE_DESC": "카드 청구할인",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "BNFT_MTHD_CD",
+    "COMMON_CODE": "P909",
+    "CODE": 10,
+    "CODE_NM": "카드 즉시할인",
+    "CODE_DESC": "카드 즉시할인",
+    "USE_YN": "Y"
+  },
+  {
+    "TABLE": "TB_LFM12_PLAN_ATRT",
+    "COLUMNS": "BNFT_MTHD_CD",
+    "COMMON_CODE": "P909",
+    "CODE": 11,
+    "CODE_NM": "제휴사 혜택 제공",
+    "CODE_DESC": "제휴사 혜택 제공",
+    "USE_YN": "Y"
+  }
+]

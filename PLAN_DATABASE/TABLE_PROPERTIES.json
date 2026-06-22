@@ -1,0 +1,5962 @@
+[
+  {
+    "테이블명": "STB_CONTENTS",
+    "컬럼명": "CONTENTS_SQ",
+    "Comment": "컨텐츠일련번호(CONTENTS_SQ sequence)",
+    "#": 1,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_CONTENTS",
+    "컬럼명": "CATEGORY_CD",
+    "Comment": "설정대상카테고리코드",
+    "#": 2,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_CONTENTS",
+    "컬럼명": "IMG_PATH1",
+    "Comment": "이미지경로1",
+    "#": 3,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_CONTENTS",
+    "컬럼명": "IMG_PATH2",
+    "Comment": "이미지경로2",
+    "#": 4,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_CONTENTS",
+    "컬럼명": "IMG_PATH3",
+    "Comment": "이미지경로3",
+    "#": 5,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_CONTENTS",
+    "컬럼명": "STR_VAR1",
+    "Comment": "텍스트필드1",
+    "#": 6,
+    "Type": "VARCHAR2(4000)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_CONTENTS",
+    "컬럼명": "STR_VAR2",
+    "Comment": "텍스트필드2",
+    "#": 7,
+    "Type": "VARCHAR2(4000)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_CONTENTS",
+    "컬럼명": "STR_VAR3",
+    "Comment": "텍스트필드3",
+    "#": 8,
+    "Type": "VARCHAR2(4000)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_CONTENTS",
+    "컬럼명": "CONTENTS_TYPE",
+    "Comment": "컨텐츠타입(공통코드C340)",
+    "#": 9,
+    "Type": "VARCHAR2(6)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_CONTENTS",
+    "컬럼명": "CONTENTS_LOC",
+    "Comment": "컨텐츠위치코드(공통코드C331)",
+    "#": 10,
+    "Type": "VARCHAR2(40)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_CONTENTS",
+    "컬럼명": "PRIORITY",
+    "Comment": "우선순위",
+    "#": 11,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_CONTENTS",
+    "컬럼명": "USE_YN",
+    "Comment": "사용여부",
+    "#": 12,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'Y' "
+  },
+  {
+    "테이블명": "STB_CONTENTS",
+    "컬럼명": "REG_DT",
+    "Comment": "등록일시",
+    "#": 13,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "SYSDATE "
+  },
+  {
+    "테이블명": "STB_CONTENTS",
+    "컬럼명": "REG_ID",
+    "Comment": "등록자ID",
+    "#": 14,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_CONTENTS",
+    "컬럼명": "UP_DT",
+    "Comment": "최종수정일시",
+    "#": 15,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_CONTENTS",
+    "컬럼명": "UP_ID",
+    "Comment": "최종수정자ID",
+    "#": 16,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_CONTENTS",
+    "컬럼명": "REF_CONTENTS_SQ",
+    "Comment": "연관컨텐츠일련번호(브랜드그룹단위 동일 데이타 생성 시 참조)",
+    "#": 17,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_CONTENTS",
+    "컬럼명": "STR_VAR4",
+    "Comment": "텍스트필드4",
+    "#": 18,
+    "Type": "VARCHAR2(4000)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_CONTENTS",
+    "컬럼명": "IMG_PATH4",
+    "Comment": "이미지경로4",
+    "#": 19,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_CONTENTS",
+    "컬럼명": "IMG_GB",
+    "Comment": "이미지구분(L:로고이미지, B:화보이미지. 모바일에서만 사용)",
+    "#": 20,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_CONTENTS",
+    "컬럼명": "USE_LOC_GB",
+    "Comment": "사용처구분(C:카테고리, P:기획전)",
+    "#": 21,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'C'"
+  },
+  {
+    "테이블명": "STB_CONTENTS",
+    "컬럼명": "DISPLAY_STDT",
+    "Comment": "전시시작일시",
+    "#": 22,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_CONTENTS",
+    "컬럼명": "DISPLAY_EDDT",
+    "Comment": "전시종료일시",
+    "#": 23,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_CATEGORY_PROD",
+    "컬럼명": "CAT_GB",
+    "Comment": "카테고리구분(공통코드C319)",
+    "#": 1,
+    "Type": "VARCHAR2(40)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_CATEGORY_PROD",
+    "컬럼명": "TBRAND_CD",
+    "Comment": "대표브랜드코드(전시대표브랜드). 카테고리구분(TCAT_GB)이 \"20000:BY BRAND\"일 경우만 사용",
+    "#": 2,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "LST_CATEGORY_PROD",
+    "컬럼명": "CAT_CD",
+    "Comment": "카테고리코드(대카테고리, 중카테고리, 소카테고리, 세카테고리)",
+    "#": 3,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_CATEGORY_PROD",
+    "컬럼명": "PROD_CD",
+    "Comment": "상품코드/기획전번호(상품, 기획전)",
+    "#": 4,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_CATEGORY_PROD",
+    "컬럼명": "PRIORITY",
+    "Comment": "우선순위",
+    "#": 5,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 1
+  },
+  {
+    "테이블명": "LST_CATEGORY_PROD",
+    "컬럼명": "REG_ID",
+    "Comment": "등록자ID",
+    "#": 6,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_CATEGORY_PROD",
+    "컬럼명": "REG_DT",
+    "Comment": "등록일시",
+    "#": 7,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "SYSDATE "
+  },
+  {
+    "테이블명": "LST_CATEGORY_PROD",
+    "컬럼명": "UP_DT",
+    "Comment": "수정일시",
+    "#": 8,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_CATEGORY_4SRCH",
+    "컬럼명": "CAT_GB",
+    "Comment": "카테고리구분(C319)",
+    "#": 1,
+    "Type": "VARCHAR2(40)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_CATEGORY_4SRCH",
+    "컬럼명": "LEAF_CAT_CD",
+    "Comment": "단말카테고리코드",
+    "#": 2,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_CATEGORY_4SRCH",
+    "컬럼명": "CAT_TYPE",
+    "Comment": "카테고리유형(C320)",
+    "#": 3,
+    "Type": "VARCHAR2(40)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_CATEGORY_4SRCH",
+    "컬럼명": "USE_CAT_GB",
+    "Comment": "사용카테고리구분(C:공통카테고리,Y:자사카테고리,N:입점카테고리)",
+    "#": 4,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_CATEGORY_4SRCH",
+    "컬럼명": "TCAT_CD",
+    "Comment": "대카테고리코드",
+    "#": 5,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_CATEGORY_4SRCH",
+    "컬럼명": "TCAT_NM",
+    "Comment": "대카테고리명",
+    "#": 6,
+    "Type": "VARCHAR2(60)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_CATEGORY_4SRCH",
+    "컬럼명": "MCAT_CD",
+    "Comment": "중카테고리코드",
+    "#": 7,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_CATEGORY_4SRCH",
+    "컬럼명": "MCAT_NM",
+    "Comment": "중카테고리명",
+    "#": 8,
+    "Type": "VARCHAR2(60)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_CATEGORY_4SRCH",
+    "컬럼명": "SCAT_CD",
+    "Comment": "소카테고리코드",
+    "#": 9,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_CATEGORY_4SRCH",
+    "컬럼명": "SCAT_NM",
+    "Comment": "소카테고리명",
+    "#": 10,
+    "Type": "VARCHAR2(60)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_CATEGORY_4SRCH",
+    "컬럼명": "DCAT_CD",
+    "Comment": "세카테고리코드",
+    "#": 11,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_CATEGORY_4SRCH",
+    "컬럼명": "DCAT_NM",
+    "Comment": "세카테고리명",
+    "#": 12,
+    "Type": "VARCHAR2(60)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_CATEGORY_4SRCH",
+    "컬럼명": "FULL_CAT_CD",
+    "Comment": "FULL카테고리코드",
+    "#": 13,
+    "Type": "VARCHAR2(163)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_CATEGORY_4SRCH",
+    "컬럼명": "FULL_CAT_NM",
+    "Comment": "FULL카테고리명",
+    "#": 14,
+    "Type": "VARCHAR2(243)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_CATEGORY_4SRCH",
+    "컬럼명": "PRIORITY",
+    "Comment": "우선순위",
+    "#": 15,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_CATEGORY_4SRCH",
+    "컬럼명": "FORMAL_GB",
+    "Comment": "정상이월구분",
+    "#": 16,
+    "Type": "VARCHAR2(40)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_CATEGORY_4SRCH",
+    "컬럼명": "CONTENTS_LOC",
+    "Comment": "컨텐츠위치코드(공통코드C331)",
+    "#": 17,
+    "Type": "VARCHAR2(40)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_CATEGORY_4SRCH",
+    "컬럼명": "LINK_VAL",
+    "Comment": "링크값",
+    "#": 18,
+    "Type": "VARCHAR2(300)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_SITE",
+    "컬럼명": "PLAN_SQ",
+    "Comment": "기획전 번호",
+    "#": 1,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_SITE",
+    "컬럼명": "SITE_CD",
+    "Comment": "LF사이트 코드(G085)",
+    "#": 2,
+    "Type": "VARCHAR2(2)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_SITE",
+    "컬럼명": "USE_YN",
+    "Comment": "사용유무",
+    "#": 3,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_SITE",
+    "컬럼명": "REG_ID",
+    "Comment": "등록자ID",
+    "#": 4,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_SITE",
+    "컬럼명": "REG_DT",
+    "Comment": "등록일시",
+    "#": 5,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "SYSDATE"
+  },
+  {
+    "테이블명": "LST_PLAN_SITE",
+    "컬럼명": "UP_ID",
+    "Comment": "수정자ID",
+    "#": 6,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_SITE",
+    "컬럼명": "UP_DT",
+    "Comment": "수정일시",
+    "#": 7,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_CATEGORY",
+    "컬럼명": "PLAN_SQ",
+    "Comment": "기획전일련번호",
+    "#": 1,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_CATEGORY",
+    "컬럼명": "PLAN_CATE_SQ",
+    "Comment": "기획전카테고리일련번호",
+    "#": 2,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_CATEGORY",
+    "컬럼명": "CATEGORY_CD",
+    "Comment": "카테고리번호",
+    "#": 3,
+    "Type": "VARCHAR2(10)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_CATEGORY",
+    "컬럼명": "ATTR_C1",
+    "Comment": "문자예비_1",
+    "#": 4,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_CATEGORY",
+    "컬럼명": "ATTR_C2",
+    "Comment": "문자예비_2",
+    "#": 5,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_CATEGORY",
+    "컬럼명": "ATTR_N1",
+    "Comment": "숫자예비_1",
+    "#": 6,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_CATEGORY",
+    "컬럼명": "ATTR_N2",
+    "Comment": "숫자예비_2",
+    "#": 7,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_CATEGORY",
+    "컬럼명": "REG_ID",
+    "Comment": "등록자",
+    "#": 8,
+    "Type": "VARCHAR2(50)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_CATEGORY",
+    "컬럼명": "REG_DT",
+    "Comment": "등록일시",
+    "#": 9,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "SYSDATE"
+  },
+  {
+    "테이블명": "LST_PLAN_CATEGORY",
+    "컬럼명": "UP_ID",
+    "Comment": "수정자",
+    "#": 10,
+    "Type": "VARCHAR2(50)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_CATEGORY",
+    "컬럼명": "UP_DT",
+    "Comment": "수정일시",
+    "#": 11,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_CTGY_PBSH",
+    "컬럼명": "PLAN_CTGY_PBSH_SEQ",
+    "Comment": "기획전카테고리전문관일련번호(기획전카테고리전문관일련번호)",
+    "#": 1,
+    "Type": "NUMBER(22,0)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_CTGY_PBSH",
+    "컬럼명": "PLAN_SQ",
+    "Comment": "기획전번호(기획전번호)",
+    "#": 2,
+    "Type": "NUMBER(22,0)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_CTGY_PBSH",
+    "컬럼명": "CTGY_PBSH_CD",
+    "Comment": "카테고리전문관코드(카테고리전문관코드)",
+    "#": 3,
+    "Type": "VARCHAR2(10)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_CTGY_PBSH",
+    "컬럼명": "REG_ID",
+    "Comment": "등록자ID(등록자ID)",
+    "#": 4,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_CTGY_PBSH",
+    "컬럼명": "REG_DT",
+    "Comment": "등록일시(등록일시)",
+    "#": 5,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_CTGY_PBSH",
+    "컬럼명": "UP_ID",
+    "Comment": "수정자(수정자)",
+    "#": 6,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_CTGY_PBSH",
+    "컬럼명": "UP_DT",
+    "Comment": "수정일시(수정일시)",
+    "#": 7,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_TYPE",
+    "컬럼명": "PLAN_SQ",
+    "Comment": "기획전번호",
+    "#": 1,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_TYPE",
+    "컬럼명": "PLAN_TYPE",
+    "Comment": "기획전타입 ('D','딜 기획전','N','일반 기획전','A','NEW 템플릿 기획전','템플릿 기획전')",
+    "#": 2,
+    "Type": "VARCHAR2(10)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_TYPE",
+    "컬럼명": "CORNER_TYPE",
+    "Comment": "코너타입",
+    "#": 3,
+    "Type": "VARCHAR2(10)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_TYPE",
+    "컬럼명": "REG_ID",
+    "Comment": "등록자ID",
+    "#": 4,
+    "Type": "VARCHAR2(50)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_TYPE",
+    "컬럼명": "REG_DT",
+    "Comment": "등록일시",
+    "#": 5,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "SYSDATE"
+  },
+  {
+    "테이블명": "LST_PLAN_TYPE",
+    "컬럼명": "UP_ID",
+    "Comment": "수정자ID",
+    "#": 6,
+    "Type": "VARCHAR2(50)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_TYPE",
+    "컬럼명": "UP_DT",
+    "Comment": "수정일시",
+    "#": 7,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "TB_LFM12_PLAN_ATRT",
+    "컬럼명": "PLAN_SQ",
+    "Comment": "기획전번호",
+    "#": 1,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "TB_LFM12_PLAN_ATRT",
+    "컬럼명": "CLBT_TYPE_CD",
+    "Comment": "콜라보레이션유형코드",
+    "#": 2,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "TB_LFM12_PLAN_ATRT",
+    "컬럼명": "ANLY_CTGY_CD",
+    "Comment": "분석카테고리코드",
+    "#": 3,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "TB_LFM12_PLAN_ATRT",
+    "컬럼명": "BRAND_LVL_CD",
+    "Comment": "브랜드레벨코드",
+    "#": 4,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "TB_LFM12_PLAN_ATRT",
+    "컬럼명": "PROD_ATRT_CD",
+    "Comment": "상품속성코드",
+    "#": 5,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "TB_LFM12_PLAN_ATRT",
+    "컬럼명": "ONLN_PROD_ATRT_CD",
+    "Comment": "온라인상품속성코드",
+    "#": 6,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "TB_LFM12_PLAN_ATRT",
+    "컬럼명": "EVN_SIZE_CD",
+    "Comment": "행사사이즈코드",
+    "#": 7,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "TB_LFM12_PLAN_ATRT",
+    "컬럼명": "TRGT_BRAND_CD",
+    "Comment": "대상브랜드코드",
+    "#": 8,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "TB_LFM12_PLAN_ATRT",
+    "컬럼명": "EVN_TYPE_CD",
+    "Comment": "행사유형코드",
+    "#": 9,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "TB_LFM12_PLAN_ATRT",
+    "컬럼명": "EVN_SASN_CD",
+    "Comment": "행사시즌코드",
+    "#": 10,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "TB_LFM12_PLAN_ATRT",
+    "컬럼명": "DC_TYPE_CD",
+    "Comment": "할인유형코드",
+    "#": 11,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "TB_LFM12_PLAN_ATRT",
+    "컬럼명": "DC_RT_CD",
+    "Comment": "할인율코드",
+    "#": 12,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "TB_LFM12_PLAN_ATRT",
+    "컬럼명": "BNFT_MTHD_CD",
+    "Comment": "혜택방식코드",
+    "#": 13,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "TB_LFM12_PLAN_ATRT",
+    "컬럼명": "LWPR_RT_CD",
+    "Comment": "최저가율코드",
+    "#": 14,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "TB_LFM12_PLAN_ATRT",
+    "컬럼명": "CNTN_CMPS_CD",
+    "Comment": "컨텐츠구성코드",
+    "#": 15,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "TB_LFM12_PLAN_ATRT",
+    "컬럼명": "IMG_TYPE_CD",
+    "Comment": "이미지유형코드",
+    "#": 16,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "TB_LFM12_PLAN_ATRT",
+    "컬럼명": "OTHS_BNFT_TYPE_CD",
+    "Comment": "기타혜택유형코드",
+    "#": 17,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "TB_LFM12_PLAN_ATRT",
+    "컬럼명": "RGTR_ID",
+    "Comment": "등록자ID",
+    "#": 18,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "TB_LFM12_PLAN_ATRT",
+    "컬럼명": "RGSR_DT",
+    "Comment": "등록일시",
+    "#": 19,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "TB_LFM12_PLAN_ATRT",
+    "컬럼명": "UPPR_ID",
+    "Comment": "수정자ID",
+    "#": 20,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "TB_LFM12_PLAN_ATRT",
+    "컬럼명": "UPDA_DT",
+    "Comment": "수정일시",
+    "#": 21,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "PLAN_SQ",
+    "Comment": "기획전일련번호",
+    "#": 1,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "PLAN_NM",
+    "Comment": "기획전명",
+    "#": 2,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "PLAN_STDT",
+    "Comment": "시작일",
+    "#": 3,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "PLAN_EDDT",
+    "Comment": "종료일",
+    "#": 4,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "IMG_FILE",
+    "Comment": "이미지파일패스",
+    "#": 5,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "IMG_TITLE",
+    "Comment": "이미지타이틀",
+    "#": 6,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "IMG_LINK",
+    "Comment": "이미지링크",
+    "#": 7,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "SPLY_ORG_YN",
+    "Comment": "업체구성허용여부",
+    "#": 8,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "VALID_YN",
+    "Comment": "유효여부",
+    "#": 9,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "OPEN_YN",
+    "Comment": "오픈여부",
+    "#": 10,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "PRIORITY",
+    "Comment": "전시순서",
+    "#": 11,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "CATEGORY_CD",
+    "Comment": "카테고리코드",
+    "#": 12,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "WM_GB",
+    "Comment": "웹모바일구분",
+    "#": 13,
+    "Type": "VARCHAR2(2)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "REG_ID",
+    "Comment": "등록자ID",
+    "#": 14,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "REG_DT",
+    "Comment": "등록일시",
+    "#": 15,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "SYSDATE"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "UP_ID",
+    "Comment": "수정자ID",
+    "#": 16,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "UP_DT",
+    "Comment": "수정일시",
+    "#": 17,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "REPLY_EVENT_YN",
+    "Comment": "댓글이벤트여부",
+    "#": 18,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "REPLY_EVENT_LOC_GB",
+    "Comment": "댓글위치(U:상품리스트상단 D:상품리스트하단)",
+    "#": 19,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "REPLY_EVENT_IMGPATH",
+    "Comment": "댓글이미지",
+    "#": 20,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "BOARD_SQ",
+    "Comment": "공통게시판코드",
+    "#": 21,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "CATEDP_YN",
+    "Comment": "카테고리 전시여부 기본값 N",
+    "#": 22,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "PLAN_GB",
+    "Comment": "기획전구분(P: 기획전, M: MD PICK, S: STYLE&TREND)",
+    "#": 23,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'P'"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "DEV_URL",
+    "Comment": "기획전 개발 URL",
+    "#": 24,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "SUPPLY_ENTR_CD",
+    "Comment": "입점업체코드",
+    "#": 25,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "LIMIT_PROD_YN",
+    "Comment": "상품제한수 설정 Y/N",
+    "#": 26,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "PLAN_DTL_GB",
+    "Comment": "기획전 상세 구분(B:잭팟메인, S:잭팟서브)",
+    "#": 27,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "PLAN_TYPE",
+    "Comment": "기획전유형",
+    "#": 28,
+    "Type": "VARCHAR2(2)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "READ_CNT",
+    "Comment": "조회건수",
+    "#": 29,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "CONNER_OPEN_YN",
+    "Comment": "코너명 노출여부",
+    "#": 30,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'Y' "
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "PUBLICITY_TITLE",
+    "Comment": "홍보문구",
+    "#": 31,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "SUBPUBLICITY_TITLE",
+    "Comment": "서브홍보문구",
+    "#": 32,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "MOBILE_IMG_FILE",
+    "Comment": "모바일용이미지파일경로",
+    "#": 33,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "HOTDEAL_YN",
+    "Comment": "핫딜여부",
+    "#": 34,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "DP_FORMAL_GB",
+    "Comment": "기획전 전시 상품속성(00:전체 10:정상 20:이월)",
+    "#": 35,
+    "Type": "VARCHAR2(2)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'00'"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "CLOSED_PLAN_YN",
+    "Comment": "폐쇄(노출제한) 기획전 여부",
+    "#": 36,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "ATTR_C1",
+    "Comment": "REPLY_ABLE_YN;댓글 등록 가능 여부용, Y(기본) : 댓글 등록 가능, N: 댓글 등록 불가능(댓글 입력창 & 등록 버튼 미노출))",
+    "#": 37,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "ATTR_C2",
+    "Comment": "HOLIC_YN;홀릭인기획전여부(Y/N)",
+    "#": 38,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "ATTR_C3",
+    "Comment": "인스타그램 해쉬태그",
+    "#": 39,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "ATTR_C4",
+    "Comment": "CHAR예비필드4",
+    "#": 40,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "ATTR_C5",
+    "Comment": "CHAR예비필드5",
+    "#": 41,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "ATTR_N1",
+    "Comment": "기획전 조회 수(배치용, 한시적 사용)",
+    "#": 42,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "ATTR_N2",
+    "Comment": "NUMBER예비필드2",
+    "#": 43,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "ATTR_N3",
+    "Comment": "NUMBER예비필드3",
+    "#": 44,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "USE_GB",
+    "Comment": "활용구분 공통코드(D006)",
+    "#": 45,
+    "Type": "VARCHAR2(3)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "PLAN_TYPE_GB",
+    "Comment": "기획전 타입 구분 공통코드(D017)",
+    "#": 46,
+    "Type": "VARCHAR2(3)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "PLAN_TYPE_CD",
+    "Comment": "기획전 타입 구분 코드(브랜드단위 : SAP 브랜드 2자리, 카테고리 통합 :1Depth 단일선택, 아이템 단위:2Depth 중복선택)",
+    "#": 47,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "PLAN_PRODUCT_GB",
+    "Comment": "자사/입점(D015)",
+    "#": 48,
+    "Type": "VARCHAR2(3)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "SECRET_YN",
+    "Comment": "시크릿 여부(Y/N)",
+    "#": 49,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "USE_DETAIL",
+    "Comment": "상세용도 공통코드(D007)",
+    "#": 50,
+    "Type": "VARCHAR2(3)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "OFFER_TYPE",
+    "Comment": "오퍼 지급형태 공통코드(D018)",
+    "#": 51,
+    "Type": "VARCHAR2(3)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "OFFER_PERIOD",
+    "Comment": "오퍼 지급시기 공통코드(D019)",
+    "#": 52,
+    "Type": "VARCHAR2(3)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "APPLY_COUPON",
+    "Comment": "적용 상품코폰 입력(상품 쿠폰ID를 ,단위로 중복 입력 가능",
+    "#": 53,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "APPLY_PLUS_COUPON",
+    "Comment": "적용 플러스쿠폰 입력(플러스 쿠폰ID를 ,단위로 중복 입력 가능)",
+    "#": 54,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "APPLY_CART_COUPON",
+    "Comment": "적용 장바구니쿠폰 입력(장바구니 쿠폰ID를 ,단위로 중복 입력 가능)",
+    "#": 55,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "APPLY_EGM",
+    "Comment": "적용 EGM 입력(CMID를 ,단위로 중복 입력 가능)",
+    "#": 56,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "APPLY_GIFT",
+    "Comment": "사은품ID를 ,단위로 중복 입력 가능",
+    "#": 57,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "PRICE_DC_APPLY_YN",
+    "Comment": "가격할인 적용여부(Y/N)",
+    "#": 58,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "CATE_TYPE",
+    "Comment": "카테고리 타입",
+    "#": 59,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "BENEFIT_TPYE",
+    "Comment": "혜택타입 (ex. 쿠폰, EGM 등)",
+    "#": 60,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "CPN_OPT_TYPE",
+    "Comment": "쿠폰 타입(정률,정액)",
+    "#": 61,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "CPN_DISCOUNT_PER",
+    "Comment": "쿠폰할인률",
+    "#": 62,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "CPN_DISCOUNT_WON",
+    "Comment": "쿠폰할인액",
+    "#": 63,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "ACC_PER",
+    "Comment": "적립률",
+    "#": 64,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "SEARCH_YN",
+    "Comment": "검색허용여부",
+    "#": 65,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'Y'"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "SEARCH_IMGPATH",
+    "Comment": "검색노출배너이미지경로",
+    "#": 66,
+    "Type": "VARCHAR2(500)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "EVENTTAB_DISPLAY_YN",
+    "Comment": "이벤트탭 전시여부",
+    "#": 67,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "BRAND_GROUP_NM",
+    "Comment": "브랜드명",
+    "#": 68,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "BENEFIT_TEXT",
+    "Comment": "혜택문구",
+    "#": 69,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "DEAL_DC_APPLY_YN",
+    "Comment": "딜기획전 할인율 적용여부",
+    "#": 70,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'Y'"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "TILE_THUMBNAIL_YN",
+    "Comment": "타일배너 썸네일 사용여부",
+    "#": 71,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'Y'"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "TILE_PROD_CNT",
+    "Comment": "타일배너 상품갯수",
+    "#": 72,
+    "Type": "NUMBER(2,0)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "PDP_LANDING_YN",
+    "Comment": "상품상세랜딩 허용여부",
+    "#": 73,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "VIP_LNG_USE_YN",
+    "Comment": "VIP라운지사용여부(VIP 라운지 사용 여부(Y/N))",
+    "#": 74,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "THML_IMG_PATH_NM",
+    "Comment": "썸네일이미지경로명(썸네일이미지(메타태그 삽입용) 경로)",
+    "#": 75,
+    "Type": "VARCHAR2(500)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "ALL_EVN_YN",
+    "Comment": "전체행사여부(전관행사 여부(Y/N))",
+    "#": 76,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "ALL_EVN_CD",
+    "Comment": "전체행사코드(전관행사 종류 공통코드(P913))",
+    "#": 77,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "MNAG_BPU_CD",
+    "Comment": "주체BPU코드(관리BPU 공통코드(P914))",
+    "#": 78,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN",
+    "컬럼명": "EXHB_NO",
+    "Comment": "기획전번호(기획전번호)",
+    "#": 79,
+    "Type": "NUMBER(22,0)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_BNF_TGT_CON",
+    "컬럼명": "PLAN_SQ",
+    "Comment": "기획전번호",
+    "#": 1,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_BNF_TGT_CON",
+    "컬럼명": "TGT_PROD_GB",
+    "Comment": "대상상품구분(B:브랜드별 상품 대상, P:기획전 상품 대상, E:특정 상품 대상)",
+    "#": 2,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_BNF_TGT_CON",
+    "컬럼명": "ORD_STDT",
+    "Comment": "구매시작일시",
+    "#": 3,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_BNF_TGT_CON",
+    "컬럼명": "ORD_EDDT",
+    "Comment": "구매종료일시",
+    "#": 4,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_BNF_TGT_CON",
+    "컬럼명": "SALE_AMT",
+    "Comment": "구매금액(실결제금액)",
+    "#": 5,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_BNF_TGT_CON",
+    "컬럼명": "FF_EXCEPT_YN",
+    "Comment": "패션패밀리(FF)제외여부(Y:임직원 제외, N:임직원 포함)",
+    "#": 6,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "LST_PLAN_BNF_TGT_CON",
+    "컬럼명": "FA_EXCEPT_YN",
+    "Comment": "매장직원(FA)제외여부(Y:임직원 제외, N:임직원 포함)",
+    "#": 7,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "LST_PLAN_BNF_TGT_CON",
+    "컬럼명": "EXTRACT_DT",
+    "Comment": "추출시점",
+    "#": 8,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_BNF_TGT_CON",
+    "컬럼명": "MEM_ID_EXTRACT_YN",
+    "Comment": "고객ID 추출여부(Y:추출, N:추출제외)",
+    "#": 9,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "LST_PLAN_BNF_TGT_CON",
+    "컬럼명": "MEM_NM_EXTRACT_YN",
+    "Comment": "고객명 추출여부(Y:추출, N:추출제외)",
+    "#": 10,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "LST_PLAN_BNF_TGT_CON",
+    "컬럼명": "CONTACT_EXTRACT_YN",
+    "Comment": "연락처 추출여부(Y:추출, N:추출제외)",
+    "#": 11,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "LST_PLAN_BNF_TGT_CON",
+    "컬럼명": "ADDR_EXTRACT_YN",
+    "Comment": "주소 추출여부(Y:추출, N:추출제외)",
+    "#": 12,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "LST_PLAN_BNF_TGT_CON",
+    "컬럼명": "TOT_SALE_AMT_EXTRACT_YN",
+    "Comment": "기간내 대상상품 실결제금액 추출여부(Y:추출, N:추출제외)",
+    "#": 13,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "LST_PLAN_BNF_TGT_CON",
+    "컬럼명": "MATCH_DT_EXTRACT_YN",
+    "Comment": "결제완료시간 추출여부(Y:추출, N:추출제외)",
+    "#": 14,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "LST_PLAN_BNF_TGT_CON",
+    "컬럼명": "REG_ID",
+    "Comment": "등록자ID",
+    "#": 15,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_BNF_TGT_CON",
+    "컬럼명": "REG_DT",
+    "Comment": "등록일시",
+    "#": 16,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "SYSDATE"
+  },
+  {
+    "테이블명": "LST_PLAN_BNF_TGT_CON",
+    "컬럼명": "UP_ID",
+    "Comment": "수정자ID",
+    "#": 17,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_BNF_TGT_CON",
+    "컬럼명": "UP_DT",
+    "Comment": "수정일시",
+    "#": 18,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "SYSDATE"
+  },
+  {
+    "테이블명": "LST_PLAN_PROD",
+    "컬럼명": "PLAN_DTL_SQ",
+    "Comment": "기획전상세일련번호",
+    "#": 1,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_PROD",
+    "컬럼명": "PROD_CD",
+    "Comment": "상품코드",
+    "#": 2,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_PROD",
+    "컬럼명": "PRIORITY",
+    "Comment": "전시순서",
+    "#": 3,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_PROD",
+    "컬럼명": "REG_ID",
+    "Comment": "등록자ID",
+    "#": 4,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_PROD",
+    "컬럼명": "REG_DT",
+    "Comment": "등록일시",
+    "#": 5,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "SYSDATE"
+  },
+  {
+    "테이블명": "LST_PLAN_PROD",
+    "컬럼명": "UP_ID",
+    "Comment": "수정자ID",
+    "#": 6,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_PROD",
+    "컬럼명": "UP_DT",
+    "Comment": "수정일시",
+    "#": 7,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_PROD",
+    "컬럼명": "DEL_YN",
+    "Comment": "삭제여부",
+    "#": 8,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "LST_PLAN_PROD",
+    "컬럼명": "REMARKS",
+    "Comment": "비고",
+    "#": 9,
+    "Type": "VARCHAR2(400)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_PROD",
+    "컬럼명": "ATTR_C1",
+    "Comment": "CHAR예비필드1",
+    "#": 10,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_PROD",
+    "컬럼명": "ATTR_C2",
+    "Comment": "CHAR예비필드2",
+    "#": 11,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_PROD",
+    "컬럼명": "ATTR_C3",
+    "Comment": "CHAR예비필드3",
+    "#": 12,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_PROD",
+    "컬럼명": "ATTR_C4",
+    "Comment": "CHAR예비필드4",
+    "#": 13,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_PROD",
+    "컬럼명": "ATTR_C5",
+    "Comment": "CHAR예비필드5",
+    "#": 14,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_PROD",
+    "컬럼명": "ATTR_N1",
+    "Comment": "NUMBER예비필드1",
+    "#": 15,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_PROD",
+    "컬럼명": "ATTR_N2",
+    "Comment": "NUMBER예비필드2",
+    "#": 16,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_PROD",
+    "컬럼명": "ATTR_N3",
+    "Comment": "NUMBER예비필드3",
+    "#": 17,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_PROD",
+    "컬럼명": "TILE_DISPLAY_YN",
+    "Comment": "타일배너노출여부",
+    "#": 18,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "PLAN_SQ",
+    "Comment": "기획전일련번호",
+    "#": 1,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "PLAN_DTL_SQ",
+    "Comment": "기획전상세일련번호",
+    "#": 2,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "PLAN_DTL_STDT",
+    "Comment": "시작일",
+    "#": 3,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "PLAN_DTL_EDDT",
+    "Comment": "종료일",
+    "#": 4,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "STS_CD",
+    "Comment": "상태",
+    "#": 5,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'0'"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "CONNER_TYPE",
+    "Comment": "코너유형",
+    "#": 6,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'0'"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "CONNER_NM",
+    "Comment": "코너명",
+    "#": 7,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "SUPPLY_ENTR_CD",
+    "Comment": "담당업체코드",
+    "#": 8,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "LINK_TYPE",
+    "Comment": "링크유형",
+    "#": 9,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "LINK_URL",
+    "Comment": "링크값",
+    "#": 10,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "PRIORITY",
+    "Comment": "전시순서",
+    "#": 11,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "THUM_IMG_CNT",
+    "Comment": "상품리스트 썸네일 수",
+    "#": 12,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "REG_ID",
+    "Comment": "등록자ID",
+    "#": 13,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "REG_DT",
+    "Comment": "등록일시",
+    "#": 14,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "SYSDATE"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "UP_ID",
+    "Comment": "수정자ID",
+    "#": 15,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "UP_DT",
+    "Comment": "수정일시",
+    "#": 16,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "NOCHUL_GB",
+    "Comment": "노출구분",
+    "#": 17,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "ANGKER_NM",
+    "Comment": "앵커명",
+    "#": 18,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "CHOICE_BGCOLOR",
+    "Comment": "앵커 선택시 배경색상값",
+    "#": 19,
+    "Type": "VARCHAR2(10)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "CHOICE_TXTCOLOR",
+    "Comment": "앵커 선택시 텍스트색상값",
+    "#": 20,
+    "Type": "VARCHAR2(10)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "NOCHOICE_BGCOLOR",
+    "Comment": "앵커 미선택시 배경색상값",
+    "#": 21,
+    "Type": "VARCHAR2(10)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "NOCHOICE_TXTCOLOR",
+    "Comment": "앵커 미선택시 텍스트색상값",
+    "#": 22,
+    "Type": "VARCHAR2(10)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "WGVL_FIST_VAL",
+    "Comment": "가중치첫번째값(가중치첫번째값)",
+    "#": 23,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "WGVL_SCND_VAL",
+    "Comment": "가중치두번째값(가중치두번째값)",
+    "#": 24,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "WGVL_THRD_VAL",
+    "Comment": "가중치세번째값(가중치세번째값)",
+    "#": 25,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "ATRT_FIST_VAL",
+    "Comment": "속성첫번째값(속성첫번째값)",
+    "#": 26,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "ATRT_SCND_VAL",
+    "Comment": "속성두번째값(속성두번째값)",
+    "#": 27,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "ATRT_THRD_VAL",
+    "Comment": "속성세번째값(속성세번째값)",
+    "#": 28,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "CALT_FIST_VAL",
+    "Comment": "계산첫번째값(계산첫번째값)",
+    "#": 29,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "CALT_SCND_VAL",
+    "Comment": "계산두번째값(계산두번째값)",
+    "#": 30,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_DTL",
+    "컬럼명": "CALT_THRD_VAL",
+    "Comment": "계산세번째값(계산세번째값)",
+    "#": 31,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_COUPON",
+    "컬럼명": "PLAN_COUPON_SEQ",
+    "Comment": "PLAN_COUPON_SEQ_시퀀스",
+    "#": 1,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_COUPON",
+    "컬럼명": "PLAN_SQ",
+    "Comment": "기획전 번호",
+    "#": 2,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_COUPON",
+    "컬럼명": "COUPON_ID",
+    "Comment": "쿠폰번호 STB_COUPON_테이블",
+    "#": 3,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_COUPON",
+    "컬럼명": "ONCE_ISSUE_CNT",
+    "Comment": "발급시 지급 수량",
+    "#": 4,
+    "Type": "VARCHAR2(6)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'1'                "
+  },
+  {
+    "테이블명": "LST_PLAN_COUPON",
+    "컬럼명": "CHK_TODAY",
+    "Comment": "당일 발급 확인",
+    "#": 5,
+    "Type": "VARCHAR2(3)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'Y'                "
+  },
+  {
+    "테이블명": "LST_PLAN_COUPON",
+    "컬럼명": "USE_YN",
+    "Comment": "사용여부(Y/N)",
+    "#": 6,
+    "Type": "VARCHAR2(3)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'Y' \t\t\t\t"
+  },
+  {
+    "테이블명": "LST_PLAN_COUPON",
+    "컬럼명": "ATTR_C1",
+    "Comment": "예비 컬럼1",
+    "#": 7,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_COUPON",
+    "컬럼명": "ATTR_C2",
+    "Comment": "예비 컬럼2",
+    "#": 8,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_COUPON",
+    "컬럼명": "ATTR_C3",
+    "Comment": "예비 컬럼3",
+    "#": 9,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_COUPON",
+    "컬럼명": "ATTR_N1",
+    "Comment": "예비 컬럼4",
+    "#": 10,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_COUPON",
+    "컬럼명": "ATTR_N2",
+    "Comment": "예비 컬럼5",
+    "#": 11,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_COUPON",
+    "컬럼명": "REG_DT",
+    "Comment": "등록일자",
+    "#": 12,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "sysdate            "
+  },
+  {
+    "테이블명": "LST_PLAN_COUPON",
+    "컬럼명": "REG_ID",
+    "Comment": "등록자",
+    "#": 13,
+    "Type": "VARCHAR2(30)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PLAN_COUPON",
+    "컬럼명": "UP_DT",
+    "Comment": "수정일자",
+    "#": 14,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "sysdate            "
+  },
+  {
+    "테이블명": "LST_PLAN_COUPON",
+    "컬럼명": "UP_ID",
+    "Comment": "수정자",
+    "#": 15,
+    "Type": "VARCHAR2(30)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "BRAND_CD",
+    "Comment": "브랜드코드",
+    "#": 1,
+    "Type": "VARCHAR2(4)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "BRAND_NM",
+    "Comment": "브랜드명",
+    "#": 2,
+    "Type": "VARCHAR2(50)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "BRAND_ENM",
+    "Comment": "브랜드영문명",
+    "#": 3,
+    "Type": "VARCHAR2(50)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "BRAND_GROUP_NM",
+    "Comment": "브랜드그룹명",
+    "#": 4,
+    "Type": "VARCHAR2(50)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "PRIORITY",
+    "Comment": "우선순위",
+    "#": 5,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "REG_ID",
+    "Comment": "등록자ID",
+    "#": 6,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "REG_DT",
+    "Comment": "등록일시",
+    "#": 7,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "SYSDATE "
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "SUPPLY_ENTR_CD",
+    "Comment": "입점업체코드",
+    "#": 8,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "BRAND_IMG",
+    "Comment": "브랜드이미지. 사용 안 함",
+    "#": 9,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "BRAND_CATEGORY",
+    "Comment": "브랜드카테고리",
+    "#": 10,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "DELIVERY_FEE",
+    "Comment": "기본배송비",
+    "#": 11,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "MIN_ORD_AMT",
+    "Comment": "무료배송비최소구매금액",
+    "#": 12,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "DELIVERY_LOC_CD",
+    "Comment": "출고처코드",
+    "#": 13,
+    "Type": "VARCHAR2(10)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "TITLE_IMG1_PATH",
+    "Comment": "타이틀이미지경로1. 사용 안 함",
+    "#": 14,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "TITLE_IMG2_PATH",
+    "Comment": "타이틀이미지경로2. 사용 안 함",
+    "#": 15,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "TRANS_IMG1_PATH",
+    "Comment": "배송정책이미지경로. 사용 안 함",
+    "#": 16,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "SIZEIMG_CD",
+    "Comment": "사이즈조견표코드. 기본조건표일 경우 사이즈조견표코드 값",
+    "#": 17,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "CODITYPE_CD",
+    "Comment": "코디유형코드",
+    "#": 18,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "MGR_ID",
+    "Comment": "담당MD",
+    "#": 19,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "CAT_GB",
+    "Comment": "카테고리구분(공통코드C300)",
+    "#": 20,
+    "Type": "VARCHAR2(7)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "USE_YN",
+    "Comment": "사용여부(사용:Y)",
+    "#": 21,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'Y' "
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "FA_LGF_RATE",
+    "Comment": "패션패밀리할인율",
+    "#": 22,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "FA_LGF_NO_RATE",
+    "Comment": "패션패밀리일반결제할인율",
+    "#": 23,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "FA_TASA_RATE",
+    "Comment": "패션패밀리타사할인율",
+    "#": 24,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "SIN_LGF_RATE",
+    "Comment": "신한공무원할인율",
+    "#": 25,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "SIN_TASA_RATE",
+    "Comment": "신한공무원타사할인율",
+    "#": 26,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "SINT_LGF_RATE",
+    "Comment": "신한교직원할인율",
+    "#": 27,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "SINT_TASA_RATE",
+    "Comment": "신한교직원타사할인율",
+    "#": 28,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "FCAT_GB",
+    "Comment": "프론트용 카테고리 구분(C301)",
+    "#": 29,
+    "Type": "VARCHAR2(7)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "SELL_FEE_RATE",
+    "Comment": "판매수수료율",
+    "#": 30,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "TBRAND_CD",
+    "Comment": "대표브랜드코드(전시대표브랜드)",
+    "#": 31,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "HW_LGF_RATE",
+    "Comment": "한화그룹패밀리할인율",
+    "#": 32,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "HW_TASA_RATE",
+    "Comment": "한화그룹패밀리타사할인율",
+    "#": 33,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "KT_LGF_RATE",
+    "Comment": "KT패밀리할인율",
+    "#": 34,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "KT_TASA_RATE",
+    "Comment": "KT패밀리타사할인율",
+    "#": 35,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "SINF_LGF_RATE",
+    "Comment": "신한금융그룹 할인율",
+    "#": 36,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "SINF_TASA_RATE",
+    "Comment": "신한금율그룹 타사할인율",
+    "#": 37,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "HJ_LGF_RATE",
+    "Comment": "한진패밀리할인율",
+    "#": 38,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "HJ_TASA_RATE",
+    "Comment": "한진패밀리타사할인율",
+    "#": 39,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "OUTLET_BASE_DC_RATE",
+    "Comment": "아울렛기준할인율",
+    "#": 40,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "LOC_CD",
+    "Comment": "저장위치코드",
+    "#": 41,
+    "Type": "VARCHAR2(10)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "SAP_BRAND_CD",
+    "Comment": "SAP브랜드코드",
+    "#": 42,
+    "Type": "VARCHAR2(4)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "IMPORT_YN",
+    "Comment": "수입브랜드여부(Y.수입,N.국산)",
+    "#": 43,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "ATTR_C1",
+    "Comment": "SAP 브랜드 코드",
+    "#": 44,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "ATTR_C2",
+    "Comment": "사업계획 브랜드 코드",
+    "#": 45,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "ATTR_C3",
+    "Comment": "CHAR예비필드3",
+    "#": 46,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "ATTR_C4",
+    "Comment": "입점브랜드실적산출구분(공통코드:G745)",
+    "#": 47,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "ATTR_C5",
+    "Comment": "CHAR예비필드5",
+    "#": 48,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "ATTR_N1",
+    "Comment": "NUMBER예비필드1",
+    "#": 49,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "ATTR_N2",
+    "Comment": "NUMBER예비필드2",
+    "#": 50,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "ATTR_N3",
+    "Comment": "NUMBER예비필드3",
+    "#": 51,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "RETURN_DELIVERY_LOC_CD",
+    "Comment": "회수지코드",
+    "#": 52,
+    "Type": "VARCHAR2(10)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "RETURN_LOC_CD",
+    "Comment": "회수지저장위치코드",
+    "#": 53,
+    "Type": "VARCHAR2(10)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "KC_GB",
+    "Comment": "KC 구분",
+    "#": 54,
+    "Type": "VARCHAR2(2)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "UP_DT",
+    "Comment": "수정일시",
+    "#": 55,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "GIFT_WRAP_YN",
+    "Comment": "선물 포장 대상 여부",
+    "#": 56,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "JEJU_DELIVERY_FEE",
+    "Comment": "제주 배송비",
+    "#": 57,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "ISLAND_DELIVERY_FEE",
+    "Comment": "도서산간 배송비",
+    "#": 58,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "RTRN_DLCST",
+    "Comment": "반품배송비",
+    "#": 59,
+    "Type": "NUMBER(22,0)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "EXCH_DLCST",
+    "Comment": "교환배송비",
+    "#": 60,
+    "Type": "NUMBER(22,0)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "UPPR_ID",
+    "Comment": "수정자ID",
+    "#": 61,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_BRAND",
+    "컬럼명": "MKT_CPN_EXPT_YN",
+    "Comment": "마케팅쿠폰제외여부",
+    "#": 62,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "PROD_CD",
+    "Comment": "상품코드",
+    "#": 1,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "PROD_NM",
+    "Comment": "상품명",
+    "#": 2,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "PROD_SNM",
+    "Comment": "상품명검색용",
+    "#": 3,
+    "Type": "VARCHAR2(500)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "VOUCHER_YN",
+    "Comment": "상품권여부",
+    "#": 4,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "PROD_LGF_YN",
+    "Comment": "자체상품여부",
+    "#": 5,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "BRAND_CD",
+    "Comment": "브랜드코드",
+    "#": 6,
+    "Type": "VARCHAR2(4)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "ITEMKIND_CD",
+    "Comment": "품목코드",
+    "#": 7,
+    "Type": "VARCHAR2(5)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "STYLE_YY",
+    "Comment": "스타일년도",
+    "#": 8,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "SEASON_CD",
+    "Comment": "시즌코드(G201)",
+    "#": 9,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "SEQ_NO",
+    "Comment": "일련번호",
+    "#": 10,
+    "Type": "VARCHAR2(5)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "COLOR_CD",
+    "Comment": "색상코드",
+    "#": 11,
+    "Type": "VARCHAR2(2)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "SET_YN",
+    "Comment": "세트상품여부",
+    "#": 12,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "LIST_PRICE",
+    "Comment": "최초소비자가",
+    "#": 13,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "PROD_PRICE",
+    "Comment": "현재판매가",
+    "#": 14,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "DC_RATE",
+    "Comment": "할인율",
+    "#": 15,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "PRICE_CD",
+    "Comment": "가격대코드(공통코드G290)",
+    "#": 16,
+    "Type": "VARCHAR2(6)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "MATERIAL_DESC",
+    "Comment": "소재설명",
+    "#": 17,
+    "Type": "VARCHAR2(4000)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "RETURN_DESC",
+    "Comment": "배송반품교환설명",
+    "#": 18,
+    "Type": "VARCHAR2(4000)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "FMY_ONLY_YN",
+    "Comment": "임직원몰전용상품여부",
+    "#": 19,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "EXTDOWNLOAD_YN",
+    "Comment": "외부몰다운로드가능여부. 사용 안 함",
+    "#": 20,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "EXTDOWNLOAD_QTY",
+    "Comment": "외부물판매비율. 사용 안 함",
+    "#": 21,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "GRATITUDE_DESC",
+    "Comment": "사은품정보",
+    "#": 22,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "PROD_STS_CD",
+    "Comment": "상품상태코드(공통코드G210)",
+    "#": 23,
+    "Type": "VARCHAR2(6)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "ERROR_MSG",
+    "Comment": "오류메세지",
+    "#": 24,
+    "Type": "VARCHAR2(500)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "SOLDOUT_DISPLAY_YN",
+    "Comment": "품절시전시여부",
+    "#": 25,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "REG_ID",
+    "Comment": "등록자ID",
+    "#": 26,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "REG_DT",
+    "Comment": "등록일시",
+    "#": 27,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "SYSDATE "
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "UP_ID",
+    "Comment": "최종수정자ID",
+    "#": 28,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "UP_DT",
+    "Comment": "최종수정일시",
+    "#": 29,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "SYSDATE"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "SUPPLY_PROD_CD",
+    "Comment": "입점업체상품코드(원코드)",
+    "#": 30,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "PRICEUP_DT",
+    "Comment": "가격변경일시",
+    "#": 31,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "COLOR_1_CD",
+    "Comment": "색상코드1자리",
+    "#": 32,
+    "Type": "VARCHAR2(6)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "OLD_PRICE",
+    "Comment": "변경전가격",
+    "#": 33,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "DELIVERY_FEE",
+    "Comment": "기본배송비",
+    "#": 34,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "MIN_ORD_AMT",
+    "Comment": "무료배송비최소구매금액",
+    "#": 35,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "MD_ID",
+    "Comment": "담당MD",
+    "#": 36,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "LPOINT_RATE",
+    "Comment": "포인트적립율",
+    "#": 37,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "SPOINT_RATE",
+    "Comment": "적립금적립율",
+    "#": 38,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "SIZE_IMG_PATH",
+    "Comment": "사이즈조견표경로",
+    "#": 39,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "SELL_FEE_RATE",
+    "Comment": "판매수수료율",
+    "#": 40,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "CODI_CD",
+    "Comment": "코디유형코드",
+    "#": 41,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "FORMAL_GB",
+    "Comment": "정상이월구분(공통코드C120)",
+    "#": 42,
+    "Type": "VARCHAR2(6)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "CHANGE_ABLEYN",
+    "Comment": "교환가능여부",
+    "#": 43,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'Y' "
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "RETURN_ABLEYN",
+    "Comment": "반품가능여부",
+    "#": 44,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'Y' "
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "RETURN_FEE_FREE_YN",
+    "Comment": "반품배송료무료여부",
+    "#": 45,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "CHANGE_FEE_FREE_YN",
+    "Comment": "교환배송료무료여부",
+    "#": 46,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "PROD_TNM",
+    "Comment": "상품타이틀",
+    "#": 47,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "PROD_REMARKS",
+    "Comment": "상품비고",
+    "#": 48,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "PRE_LPOINT_USEGB",
+    "Comment": "선포인트할인가능여부",
+    "#": 49,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "PRICE_DP_YN",
+    "Comment": "가격표시여부",
+    "#": 50,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'Y' "
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "BRAND_GROUP_NM",
+    "Comment": "브랜드그룹명",
+    "#": 51,
+    "Type": "VARCHAR2(50)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "MIN_ORD_QTY",
+    "Comment": "최소주문수량",
+    "#": 52,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 1
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "MAX_ORD_QTY",
+    "Comment": "최대주문수량",
+    "#": 53,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 20
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "OPTION_SET_YN",
+    "Comment": "옵션설정여부",
+    "#": 54,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "ITEM_ORD_YN",
+    "Comment": "단품주문여부(Y:단품주문만 가능)",
+    "#": 55,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "FDELIVERY_YN",
+    "Comment": "해외배송여부(Y:해외배송상품)",
+    "#": 56,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "TONE_CD",
+    "Comment": "색상톤(공통코드C000)",
+    "#": 57,
+    "Type": "VARCHAR2(40)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "INTER_GB",
+    "Comment": "인터스포츠구분(인터스포츠:Y)",
+    "#": 58,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "PROD_TYPE",
+    "Comment": "상품유형(공통코드G200)",
+    "#": 59,
+    "Type": "VARCHAR2(40)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'10' "
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "ABLE_TIME_TEXT",
+    "Comment": "사용가능시간텍스트",
+    "#": 60,
+    "Type": "VARCHAR2(1000)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "AVAIL_DAYS",
+    "Comment": "유효일수(구매일로부터 30일)",
+    "#": 61,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "ABLE_SHOP_CD",
+    "Comment": "사용가능매장코드(오프라인매장)",
+    "#": 62,
+    "Type": "VARCHAR2(4)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "PDT_GB",
+    "Comment": "상품설명템플릿구분(0:사용안함, 1:템플릿1)",
+    "#": 63,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'0' "
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "SEX_TEXT",
+    "Comment": "성별텍스트",
+    "#": 64,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "SEASON_NM",
+    "Comment": "시즌명",
+    "#": 65,
+    "Type": "VARCHAR2(50)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "WARRANTY",
+    "Comment": "품질보증기간",
+    "#": 66,
+    "Type": "VARCHAR2(1000)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "INTEG_MEM_YN",
+    "Comment": "통합회원여부",
+    "#": 67,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "PROD_WEIGHT",
+    "Comment": "상품무게",
+    "#": 68,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "SHIPPING_YN",
+    "Comment": "해외배송상품여부",
+    "#": 69,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "SALES_POINT",
+    "Comment": "세일즈포인트",
+    "#": 70,
+    "Type": "VARCHAR2(4000)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "PROD_CONCEPT",
+    "Comment": "상품컨셉(라인정보)",
+    "#": 71,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "ACC_PRICE",
+    "Comment": "정산가(입점업체의 공급가)",
+    "#": 72,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "GS_YN",
+    "Comment": "구성품여부",
+    "#": 73,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "BUY_ABLEYN",
+    "Comment": "구매가능여부",
+    "#": 74,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'Y'"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "LPOINT_MRATE",
+    "Comment": "포인트적립율(모바일)",
+    "#": 75,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "SPOINT_MRATE",
+    "Comment": "적립금적립율(모바일)",
+    "#": 76,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "PRE_LPOINT_MUSEGB",
+    "Comment": "선포인트할인가능여부(모바일)",
+    "#": 77,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "PROD_SEX_GB",
+    "Comment": "상품성별구분(G222)",
+    "#": 78,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "ONLINE_PROD_GB",
+    "Comment": "온라인(E-BIZ)전용상품구분(G215)",
+    "#": 79,
+    "Type": "VARCHAR2(2)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'90'"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "POINT_RATE_LINK_YN",
+    "Comment": "적립율기간계인계여부",
+    "#": 80,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'Y'"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "OFFLINE_MEND_YN",
+    "Comment": "오프라인매장 수선가능 여부(미사용)",
+    "#": 81,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "SAP_ONLINE_PROD_GB",
+    "Comment": "SAP기준 온라인 전용상품(A.온라인전용,B.온라인이관,G.NULL)",
+    "#": 82,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "SAP_PROD_PRICE",
+    "Comment": "SAP판매가",
+    "#": 83,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "ATTR_C1",
+    "Comment": "기획랭킹",
+    "#": 84,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "ATTR_C2",
+    "Comment": "가득률등급(재고등급)",
+    "#": 85,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "ATTR_C3",
+    "Comment": "SAP 브랜드 코드",
+    "#": 86,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "ATTR_C4",
+    "Comment": "MD코멘트",
+    "#": 87,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "ATTR_C5",
+    "Comment": "CHAR예비필드5",
+    "#": 88,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "ATTR_N1",
+    "Comment": "NUMBER예비필드1",
+    "#": 89,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "ATTR_N2",
+    "Comment": "NUMBER예비필드2",
+    "#": 90,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "ATTR_N3",
+    "Comment": "NUMBER예비필드3",
+    "#": 91,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "MAPPING_SIZE_YN",
+    "Comment": "맵핑사이즈유무",
+    "#": 92,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "FIT_CD",
+    "Comment": "핏타입(G995)",
+    "#": 93,
+    "Type": "VARCHAR2(2)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "STANDARDCATEGORYID",
+    "Comment": "관리카테고리ID",
+    "#": 94,
+    "Type": "NUMBER(10,0)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "TIME_SPECIALPRICE_YN",
+    "Comment": "타임특가여부",
+    "#": 95,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "MARKETING_PHRASE",
+    "Comment": "마케팅문구",
+    "#": 96,
+    "Type": "VARCHAR2(4000)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "STATUS_GB",
+    "Comment": "상품상태구분(공통코드G952)",
+    "#": 97,
+    "Type": "VARCHAR2(2)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "DELIVERY_METHOD",
+    "Comment": "배송방법(공통코드G953)",
+    "#": 98,
+    "Type": "VARCHAR2(2)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "ORDER_MAKING_YN",
+    "Comment": "주문제작여부",
+    "#": 99,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "KC_GB",
+    "Comment": "KC인증구분",
+    "#": 100,
+    "Type": "VARCHAR2(2)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "SPECIALLINE_GB",
+    "Comment": "편집샵 전시구분(공통코드C363)",
+    "#": 101,
+    "Type": "VARCHAR2(2)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "DISPLAY_NO_YN",
+    "Comment": "전시 비노출 여부",
+    "#": 102,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "UNION_PAK_ABLEYN",
+    "Comment": "합포장가능여부",
+    "#": 103,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "SPECIAL_CONSIGN_PROD_YN",
+    "Comment": "특화위탁제품여부",
+    "#": 104,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "NAVER_CPN_USE_YN",
+    "Comment": "네이버 쿠폰 사용여부",
+    "#": 105,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "KC_CERTIFY_NO",
+    "Comment": "KC 인증번호",
+    "#": 106,
+    "Type": "VARCHAR2(50)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "IMPORTATION_GB",
+    "Comment": "제조수입구분(G956)",
+    "#": 107,
+    "Type": "VARCHAR2(2)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "CO_YN",
+    "Comment": "캐리오버(C/O)여부",
+    "#": 108,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "CO_PRE_PROD_CD",
+    "Comment": "C/O연결상품(전상품)",
+    "#": 109,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "CO_POST_PROD_CD",
+    "Comment": "C/O연결상품(후상품)",
+    "#": 110,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "CO_PROD_SIMTAN_SAIL_YN",
+    "Comment": "C/O연결상품 동시판매",
+    "#": 111,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "CO_BATCH",
+    "Comment": "C/O 배치여부",
+    "#": 112,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "STYLE_MARKETING_PHRASE",
+    "Comment": "스타일 마케팅 문구",
+    "#": 113,
+    "Type": "VARCHAR2(60)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "STATE_MARKETING_PHRASE",
+    "Comment": "상태 마케팅 문구",
+    "#": 114,
+    "Type": "VARCHAR2(60)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "MDP_ITEMKIND_CD",
+    "Comment": "MDP 세부 품목 코드",
+    "#": 115,
+    "Type": "VARCHAR2(3)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "MDP_ITEMKIND_NM",
+    "Comment": "MDP 세부 품목명",
+    "#": 116,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "FST_APRV_DT",
+    "Comment": "최초승인일시",
+    "#": 117,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "MKT_CPN_EXPT_YN",
+    "Comment": "마케팅쿠폰제외여부",
+    "#": 118,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "BM_ID",
+    "Comment": "담당BM(Brand Manager)",
+    "#": 119,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "ONLINE_BUY_GB",
+    "Comment": "온라인 바잉 구분(공통코드:G880)",
+    "#": 120,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "ORDER_SYSTEM_GB",
+    "Comment": "발주 시스템 구분(공통코드:G881)",
+    "#": 121,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "RFID_YN",
+    "Comment": "RFID 여부",
+    "#": 122,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "JEJU_DELIVERY_FEE",
+    "Comment": "제주 배송비",
+    "#": 123,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "ISLAND_DELIVERY_FEE",
+    "Comment": "도서산간 배송비",
+    "#": 124,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "ENTR_TYPE",
+    "Comment": "입점유형(공통코드 G191)",
+    "#": 125,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "POINT_SAVE_YN",
+    "Comment": "적립사용여부",
+    "#": 126,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'Y'"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "MKT_CATE_ID",
+    "Comment": "마케팅관리카테고리ID",
+    "#": 127,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "ORD_PERD_LMTT_YN",
+    "Comment": "주문기간제한여부",
+    "#": 128,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "ORD_LMTT_PERD_DD",
+    "Comment": "주문제한기간일",
+    "#": 129,
+    "Type": "NUMBER(3,0)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "PERD_ORD_PSBL_QTY",
+    "Comment": "기간주문가능수량",
+    "#": 130,
+    "Type": "NUMBER(12,0)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "RSRV_FIT_PSBL_YN",
+    "Comment": "예약피팅가능여부",
+    "#": 131,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "RTRN_DLCST",
+    "Comment": "반품배송비",
+    "#": 132,
+    "Type": "NUMBER(22,0)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "EXCH_DLCST",
+    "Comment": "교환배송비",
+    "#": 133,
+    "Type": "NUMBER(22,0)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "DLCST_PLCY_CD",
+    "Comment": "배송비정책코드",
+    "#": 134,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_PRODUCT",
+    "컬럼명": "ONLN_PROD_CD",
+    "Comment": "온라인상품코드",
+    "#": 135,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "ITEM_CD",
+    "Comment": "단품코드",
+    "#": 1,
+    "Type": "VARCHAR2(11)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "ITEM_NM",
+    "Comment": "단품명",
+    "#": 2,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "VOUCHER_YN",
+    "Comment": "상품권여부",
+    "#": 3,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "BRAND_CD",
+    "Comment": "브랜드코드",
+    "#": 4,
+    "Type": "VARCHAR2(4)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "ITEMKIND_CD",
+    "Comment": "품목코드",
+    "#": 5,
+    "Type": "VARCHAR2(5)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "STYLE_YY",
+    "Comment": "스타일년도",
+    "#": 6,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "SEASON_CD",
+    "Comment": "시즌코드",
+    "#": 7,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "SEQ_NO",
+    "Comment": "일련번호",
+    "#": 8,
+    "Type": "VARCHAR2(5)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "COLOR_CD",
+    "Comment": "색상코드",
+    "#": 9,
+    "Type": "VARCHAR2(2)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "COLOR_1_CD",
+    "Comment": "색상코드1자리",
+    "#": 10,
+    "Type": "VARCHAR2(6)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "MAKE_NM",
+    "Comment": "제조사명",
+    "#": 11,
+    "Type": "VARCHAR2(80)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "NATIVE_NM",
+    "Comment": "원산지명",
+    "#": 12,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "SUPPLY_ENTR_CD",
+    "Comment": "입점업체코드",
+    "#": 13,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "EBRAND_CD",
+    "Comment": "타브랜드코드",
+    "#": 14,
+    "Type": "VARCHAR2(2)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "EITEMKIND_CD",
+    "Comment": "타브랜드폼목코드",
+    "#": 15,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "EITEM_CD",
+    "Comment": "타브랜드단품코드",
+    "#": 16,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "EMODEL_NM",
+    "Comment": "타브랜드모델명",
+    "#": 17,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "LIST_PRICE",
+    "Comment": "최초소비자가",
+    "#": 18,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "PROD_PRICE",
+    "Comment": "현재판매가",
+    "#": 19,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "DC_RATE",
+    "Comment": "할인율",
+    "#": 20,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "STOCK_LINK_YN",
+    "Comment": "재고연계여부",
+    "#": 21,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'Y'"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "PRICE_LINK_YN",
+    "Comment": "가격연계여부",
+    "#": 22,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "MATERIAL_DESC",
+    "Comment": "소재설명",
+    "#": 23,
+    "Type": "VARCHAR2(4000)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "REG_ID",
+    "Comment": "등록자ID",
+    "#": 24,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "REG_DT",
+    "Comment": "등록일시",
+    "#": 25,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "SYSDATE "
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "UP_ID",
+    "Comment": "최종수정자ID",
+    "#": 26,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "UP_DT",
+    "Comment": "최종수정일시",
+    "#": 27,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "SYSDATE"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "ITEM_YY",
+    "Comment": "제품년도",
+    "#": 28,
+    "Type": "VARCHAR2(4)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "JPSS",
+    "Comment": "제품스타일",
+    "#": 29,
+    "Type": "VARCHAR2(10)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "PRICEUP_DT",
+    "Comment": "가격변경일시",
+    "#": 30,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "ORIGINAL_LINK_YN",
+    "Comment": "변경전재고연계여부",
+    "#": 31,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "FORMAL_GB",
+    "Comment": "정상이월구분(공통코드C120)",
+    "#": 32,
+    "Type": "VARCHAR2(6)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "TONE_CD",
+    "Comment": "색상톤(공통코드C000)",
+    "#": 33,
+    "Type": "VARCHAR2(40)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "WASH_METHOD",
+    "Comment": "세탁방법. 생산기획시스템으로부터 I/F",
+    "#": 34,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "MDP_RECEIVE_YN",
+    "Comment": "MDP수신여부",
+    "#": 35,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "MDP_DISPLAY_YN",
+    "Comment": "MDP 사이즈표기 Display 여부",
+    "#": 36,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'Y' "
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "CARE_COMMENT",
+    "Comment": "취급시주의사항",
+    "#": 37,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "ITEM_BRAND_CD",
+    "Comment": "ITEM_CD 앞 2자리",
+    "#": 38,
+    "Type": "VARCHAR2(2)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_ITEM",
+    "컬럼명": "RESERVE_YN",
+    "Comment": "예약판매 여부",
+    "#": 39,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "LST_PRODUCT_DTL",
+    "컬럼명": "PROD_CD",
+    "Comment": "상품코드",
+    "#": 1,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PRODUCT_DTL",
+    "컬럼명": "COD_YN",
+    "Comment": "착불여부",
+    "#": 2,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PRODUCT_DTL",
+    "컬럼명": "PROD_SPEC_CD",
+    "Comment": "상품 특성",
+    "#": 3,
+    "Type": "VARCHAR2(10)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PRODUCT_DTL",
+    "컬럼명": "ORDER_MAKING_RD",
+    "Comment": "제작 소요일",
+    "#": 4,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PRODUCT_DTL",
+    "컬럼명": "REG_ID",
+    "Comment": "등록자ID",
+    "#": 5,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PRODUCT_DTL",
+    "컬럼명": "REG_DT",
+    "Comment": "등록일시",
+    "#": 6,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PRODUCT_DTL",
+    "컬럼명": "UP_ID",
+    "Comment": "최종수정자ID",
+    "#": 7,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PRODUCT_DTL",
+    "컬럼명": "UP_DT",
+    "Comment": "최종수정일시",
+    "#": 8,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PRODUCT_DTL",
+    "컬럼명": "GIFT_WRAP_YN",
+    "Comment": "선물 포장 대상 여부",
+    "#": 9,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "LST_PRODUCT_DTL",
+    "컬럼명": "RECOM_AGE",
+    "Comment": "추천 연령",
+    "#": 10,
+    "Type": "VARCHAR2(50)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PRODUCT_DTL",
+    "컬럼명": "RESTOCK_SEND_YN",
+    "Comment": "재입고알림 전송 여부",
+    "#": 11,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PRODUCT_DTL",
+    "컬럼명": "HSTG_KYWR_VAL",
+    "Comment": "해시태그키워드값",
+    "#": 12,
+    "Type": "VARCHAR2(500)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PRODUCT_DTL",
+    "컬럼명": "AGRL_SRVC_YN",
+    "Comment": "증강현실서비스여부",
+    "#": 13,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PRODUCT_DTL",
+    "컬럼명": "RMWT_PROD_YN",
+    "Comment": "라움워치상품여부",
+    "#": 14,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PRODUCT_DTL",
+    "컬럼명": "MDL_CD",
+    "Comment": "모델코드",
+    "#": 15,
+    "Type": "VARCHAR2(40)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PRODUCT_DTL",
+    "컬럼명": "MDL_NM",
+    "Comment": "모델명",
+    "#": 16,
+    "Type": "VARCHAR2(200)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PRODUCT_DTL",
+    "컬럼명": "ONLN_EXUS_YN",
+    "Comment": "온라인전용여부",
+    "#": 17,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PRODUCT_DTL",
+    "컬럼명": "ESTM_PROD_TYPE_CD",
+    "Comment": "견적상품유형코드",
+    "#": 18,
+    "Type": "VARCHAR2(4)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'10'"
+  },
+  {
+    "테이블명": "LST_PRODUCT_DTL",
+    "컬럼명": "RSRV_SALE_GI_PRRN_DT",
+    "Comment": "예약판매출고예정일시",
+    "#": 19,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PRODUCT_DTL",
+    "컬럼명": "VCTN_APLT_YN",
+    "Comment": "휴가적용여부",
+    "#": 20,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "LST_PRODUCT_DTL",
+    "컬럼명": "TRGE_YN",
+    "Comment": "타겟여부",
+    "#": 21,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "COUPON_ID",
+    "Comment": "쿠폰ID",
+    "#": 1,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "COUPON_NM",
+    "Comment": "쿠폰명",
+    "#": 2,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "USABLE_MEMGRADE_CD",
+    "Comment": "사용가능회원구분코드(공통코드G100)",
+    "#": 3,
+    "Type": "VARCHAR2(6)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "USABLE_GRADE_CD",
+    "Comment": "사용가능회원등급코드(공통코드G110). 사용 안 함",
+    "#": 4,
+    "Type": "VARCHAR2(6)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "APPLY_TARGET_CD",
+    "Comment": "적용대상상품코드(공통코드G230)",
+    "#": 5,
+    "Type": "VARCHAR2(6)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "APPLY_TYPE_CD",
+    "Comment": "할인방식코드(공통코드G240)",
+    "#": 6,
+    "Type": "VARCHAR2(6)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "DC_RATE",
+    "Comment": "할인율. 할인방식코드가 \"20:할인율\"일 경우",
+    "#": 7,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "DC_AMT",
+    "Comment": "할인금액. 할인방식코드가 \"10:할인금액\"일 경우",
+    "#": 8,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "MIN_PROD_PRICE",
+    "Comment": "적용최소판매가",
+    "#": 9,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "MAX_DC_RATE",
+    "Comment": "최고할인율",
+    "#": 10,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "MAX_DC_AMT",
+    "Comment": "최대할인금액",
+    "#": 11,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "DURATION_GB",
+    "Comment": "유효기간구분(D;일, P:기간)",
+    "#": 12,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "DURATION_VALUE",
+    "Comment": "유효기간일수. 유효기간구분이 \"D:일\"인 경우",
+    "#": 13,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "DURATION_STDT",
+    "Comment": "유효기간_시작일시. 유효기간구분이 \"P:기간\"인 경우",
+    "#": 14,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "DURATION_EDDT",
+    "Comment": "유효기간_종료일시. 유효기간구분이 \"P:기간\"인 경우",
+    "#": 15,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "LIMIT_DOWNLOAD_YN",
+    "Comment": "다운로드제한여부(Y.1개만,N.2개이상)",
+    "#": 16,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "LIMIT_QTY_YN",
+    "Comment": "구매제한여부",
+    "#": 17,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "LIMIT_TOT_QTY",
+    "Comment": "발행제한수량",
+    "#": 18,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "REG_DEPART",
+    "Comment": "등록부서",
+    "#": 19,
+    "Type": "VARCHAR2(50)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "COUPON_DESC",
+    "Comment": "쿠폰설명",
+    "#": 20,
+    "Type": "VARCHAR2(2000)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "SUPPLY_ENTR_CD",
+    "Comment": "입점업체코드. 사용 안 함. 입점업체부담율(STB_COUPON_SUPPLY) 테이블로 사용",
+    "#": 21,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "ENTR_RATE",
+    "Comment": "업체부담율. 사용 안 함. 입점업체부담율(STB_COUPON_SUPPLY) 테이블로 사용",
+    "#": 22,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "REG_ID",
+    "Comment": "등록자ID",
+    "#": 23,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "REG_DT",
+    "Comment": "등록일시",
+    "#": 24,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "SYSDATE "
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "UP_ID",
+    "Comment": "최종수정자ID",
+    "#": 25,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "UP_DT",
+    "Comment": "최종수정일시",
+    "#": 26,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "SYSDATE"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "COUPON_DOWN_YN",
+    "Comment": "쿠폰다운로드가능여부(쿠폰번호등록가능여부)",
+    "#": 27,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'Y' "
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "COUPON_DOWN_STDT",
+    "Comment": "쿠폰다운로드시작일시",
+    "#": 28,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "COUPON_DOWN_ENDT",
+    "Comment": "쿠폰다운로드종료일시",
+    "#": 29,
+    "Type": "DATE",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "COPUON_DOWN_TYPE",
+    "Comment": "쿠폰다운로드유형(1:썸씽엘스, 2:입점업체)",
+    "#": 30,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "COUPON_REF_ID",
+    "Comment": "사용자쿠폰등록번호. 오프라인에서 발급한 쿠폰번호. 오프라인에서 발급된 쿠폰번호를 사용자가 수령 후 입력 시 해당 쿠폰을 발급",
+    "#": 31,
+    "Type": "VARCHAR2(20)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "DISPLAY_YN",
+    "Comment": "상품상세노출여부 (Y:일반쿠폰, N:고객쿠폰)",
+    "#": 32,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'Y' "
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "RE_ISSUE_GB",
+    "Comment": "재발급구분(반품/환불로 인한 재발급 구분. 리스트 조회 시 조회 안 함). 사용 안 함",
+    "#": 33,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "M_USE_ABLEYN",
+    "Comment": "모바일사용가능여부",
+    "#": 34,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'N' "
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "DC_MRATE",
+    "Comment": "모바일할인율(모바일사용가능여부 값이 \"Y\"이면서 할인방식코드가 \"20:할인율\"인 경우)",
+    "#": 35,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "DC_MAMT",
+    "Comment": "모바일할인금액(모바일사용가능여부 값이 \"Y\"이면서 할인방식코드가 \"10:할인금액\"인 경우)",
+    "#": 36,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "BRAND_CD",
+    "Comment": "브래드코드(브랜드쿠폰생성시)",
+    "#": 37,
+    "Type": "VARCHAR2(4)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "CTYPE",
+    "Comment": "쿠폰타입(P:상품,S:업체,B:브랜드)",
+    "#": 38,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'P'"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "CARD_CD",
+    "Comment": "카드코드",
+    "#": 39,
+    "Type": "VARCHAR2(2)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "INTER_USE_YN",
+    "Comment": "유입사용여부",
+    "#": 40,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'Y'"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "FORMAL_GB",
+    "Comment": "정상이월구분",
+    "#": 41,
+    "Type": "VARCHAR2(6)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "BUNDLE_GB",
+    "Comment": "수량금액구분",
+    "#": 42,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "BUNDLE_AMT",
+    "Comment": "수량금액",
+    "#": 43,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "BUNDLE_LIMIT_QTY",
+    "Comment": "묶음쿠폰 상품구매제한수량",
+    "#": 44,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "SOCIAL_YN",
+    "Comment": "소셜사용여부",
+    "#": 45,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "'N'"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "LIMIT_PROD_DC_RATE",
+    "Comment": "제한상품할인율(입력 값 이상 할인율 상품은 쿠폰적용대상에서 제외)",
+    "#": 46,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": 0
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "ATTR_C1",
+    "Comment": "쿠폰상태 (00:미승인, 10:승인, NULL:기존쿠폰)",
+    "#": 47,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "ATTR_C2",
+    "Comment": "쿠폰버전 (COUPON2016:2016쿠폰정책변경후 쿠폰)",
+    "#": 48,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "ATTR_C3",
+    "Comment": "슈퍼쿠폰여부(Y/N)",
+    "#": 49,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "ATTR_C4",
+    "Comment": "CHAR예비필드4",
+    "#": 50,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "ATTR_C5",
+    "Comment": "CHAR예비필드5",
+    "#": 51,
+    "Type": "VARCHAR2(100)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "ATTR_N1",
+    "Comment": "인당발급매수(ISSUE_CNT_PP)",
+    "#": 52,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "ATTR_N2",
+    "Comment": "NUMBER예비필드2",
+    "#": 53,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "ATTR_N3",
+    "Comment": "NUMBER예비필드3",
+    "#": 54,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "REUSEABLE_YN",
+    "Comment": "쿠폰 재사용여부(하나의 쿠폰으로 한주문 내 여러상품에 적용가능)",
+    "#": 55,
+    "Type": "VARCHAR2(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "APPLY_PROD_TYPE",
+    "Comment": "적용상품구분 (00:전체, 10:자사, 20:입점)",
+    "#": 56,
+    "Type": "VARCHAR2(2)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "PRODUCT_CD",
+    "Comment": "대상상품구분 (00:전체, 10:STB_COUPON_PROD 특정대상)",
+    "#": 57,
+    "Type": "VARCHAR2(2)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "LINKSITE_CD",
+    "Comment": "대상제휴사이트구분 (00:전체, 10:LST_COUPON_LINKSITE 특정대상)",
+    "#": 58,
+    "Type": "VARCHAR2(2)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "ITEMKIND_CD",
+    "Comment": "대상품목구분 (00:전체, 10:LST_COUPON_ITEMKIND 특정대상)",
+    "#": 59,
+    "Type": "VARCHAR2(2)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "SEASON_CD",
+    "Comment": "대상시즌구분 (00:전체, 10:LST_COUPON_SEASON 특정대상)",
+    "#": 60,
+    "Type": "VARCHAR2(2)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "LIMIT_SALE_START_RATE",
+    "Comment": "적용대상시작판가율",
+    "#": 61,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "LIMIT_SALE_END_RATE",
+    "Comment": "적용대상종료판가율",
+    "#": 62,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "DAY_LIMIT_QTY",
+    "Comment": "1일 최대발급수량 (0:무제한,1,2,3)",
+    "#": 63,
+    "Type": "NUMBER(2,0)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "WITHIN_LIMIT_QTY",
+    "Comment": "기간내 최대발급수량 (0:무제한,1,2,3)",
+    "#": 64,
+    "Type": "NUMBER(2,0)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "COUPON_INTEG_YN",
+    "Comment": "쿠폰통합대상여부",
+    "#": 65,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "COUPON_INTEG_TYPE",
+    "Comment": "쿠폰통합유형",
+    "#": 66,
+    "Type": "VARCHAR2(2)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "TARGET_TYPE",
+    "Comment": "타게팅방법 공통코드(D005)",
+    "#": 67,
+    "Type": "VARCHAR2(3)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "USE_GB",
+    "Comment": "활용구분 공통코드(D006)",
+    "#": 68,
+    "Type": "VARCHAR2(3)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "USE_DETAIL",
+    "Comment": "상세용도 공통코드(D007)",
+    "#": 69,
+    "Type": "VARCHAR2(3)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "RANGE_RATE",
+    "Comment": "할인율구간 공통코드(D008)",
+    "#": 70,
+    "Type": "VARCHAR2(3)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "TARGET",
+    "Comment": "타게팅대상(A01:타켓고객, A02:모든고객)",
+    "#": 71,
+    "Type": "VARCHAR2(3)",
+    "Type Mod": "[NULL]",
+    "Not Null": true,
+    "디폴트": "'A01' "
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "CPBK_EPSR_YN",
+    "Comment": "쿠폰북노출여부",
+    "#": 72,
+    "Type": "CHAR(1)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "DCMT_NO",
+    "Comment": "결재문서번호",
+    "#": 73,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "EXHB_NO",
+    "Comment": "기획전번호",
+    "#": 74,
+    "Type": "NUMBER(22,0)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "USE_LIMIT_QTY",
+    "Comment": "사용제한수량",
+    "#": 75,
+    "Type": "NUMBER",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  },
+  {
+    "테이블명": "STB_COUPON",
+    "컬럼명": "QTY_LMTT_TYPE",
+    "Comment": "수량제한유형",
+    "#": 76,
+    "Type": "VARCHAR2(10)",
+    "Type Mod": "[NULL]",
+    "Not Null": false,
+    "디폴트": "[NULL]"
+  }
+]
